@@ -58,33 +58,6 @@ export default function VocabGame({ setView, BASE_PATH }) {
     loadVocab();
   }, [jlptLevel, step, BASE_PATH]);
 
-  // Internal next question logic
-  const nextQuestionInternal = (fullData, currentRemaining) => {
-    if (currentRemaining.length === 0) {
-      endGame(questionCounter, correctCount);
-      return;
-    }
-
-    const randomIndex = Math.floor(Math.random() * currentRemaining.length);
-    const vocab = currentRemaining[randomIndex];
-    const correct = vocab.english;
-
-    const answers = new Set([correct]);
-
-    while (answers.size < 4) {
-      const rand = fullData[Math.floor(Math.random() * fullData.length)];
-      if (rand.english && rand.english !== correct) {
-        answers.add(rand.english);
-      }
-    }
-
-    setChoices(shuffle([...answers]));
-    setCurrentVocab(vocab);
-    setRemainingVocab((prev) => prev.filter((_, i) => i !== randomIndex));
-
-    setShowAnswer(false);
-    setSelected(null);
-  };
 
   // AUDIO
   useEffect(() => {
@@ -139,14 +112,14 @@ export default function VocabGame({ setView, BASE_PATH }) {
 
     while (answers.size < 4) {
       const rand = fullData[Math.floor(Math.random() * fullData.length)];
-      answers.add(rand.english);
+      if (rand.english && rand.english !== correct) {
+        answers.add(rand.english);
+      }
     }
 
     setChoices(shuffle([...answers]));
     setCurrentVocab(vocab);
-    setRemainingVocab((prev) =>
-      prev.filter((_, i) => i !== randomIndex)
-    );
+    setRemainingVocab((prev) => prev.filter((_, i) => i !== randomIndex));
 
     setShowAnswer(false);
     setSelected(null);
