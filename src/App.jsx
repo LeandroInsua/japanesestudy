@@ -87,7 +87,7 @@ const kanaGroups = {
 
 
   const BASE_PATH = window.location.hostname.includes("github.io")
-    ? "/leosjapanesewebsite/"
+    ? "/japanesestudy/"
     : "./";
 
   const [selectedHiragana, setSelectedHiragana] = useState([]);
