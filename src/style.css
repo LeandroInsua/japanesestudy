@@ -1,0 +1,424 @@
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    background-color: rgb(206, 202, 202);
+    font-size: 62.5%;
+}
+
+* {
+    /* adding a border to a box it includes the width of the border  in the calculated size
+    so adding border doesn't increase the final size of the box*/
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* slightly less harsh than black */
+}
+
+
+h1 {
+    font-size: 5.4rem;
+    color: #56a5eb;
+    font-weight: 500;
+}
+
+h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    border-bottom: 1rem solid #333;
+    margin-bottom: 1rem;
+}
+
+/* HUD */
+#hud {
+    position: absolute;
+    z-index: 2;
+    background-color:lightgray;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+.sub-hud {
+    font-size: 2rem;
+    justify-items: center;
+    padding: 1rem 2rem 0;
+}
+
+.hidden-container{
+    display: none;
+}
+
+#login-text{
+    margin-right: 1rem;
+}
+
+.login-form input{
+    height: 20px;
+    border-radius: 10%;
+}
+
+.login-form {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 3rem;
+}
+
+label{
+    font-size: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.remember-me{
+    padding-right: 2rem;
+}
+
+#remember-me{
+    width: 20px;
+    justify-items: left;
+}
+
+#login-btn{
+    font-size: 2rem;
+}
+
+a{
+    font-size: 1.5rem;
+}
+
+/* UTILITIES */
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
+.main-container > * {
+    width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center input {
+    margin: 0;
+    width: auto;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.completion-bar {
+    height: 1rem;
+    width: 100px;
+    border: 0.2rem solid #56a5eb;
+}
+
+.completion-bar-fill {
+    background-color: #eb567b;
+    width: 100px;
+}
+
+.sub-container a {
+    margin: 1rem;
+    height: 4.5rem;
+    width: 10rem;
+}
+
+.progress-bar {
+    position: absolute;
+    translate: -1rem -3.2rem;
+    background-color: rgb(0, 110, 255);
+    opacity: 0.3;
+    height: 4.4rem;
+    /* width: 10rem; */
+    z-index: 2;
+}
+
+
+#kanji-level, 
+#vocab-level,
+#steps {
+    display: none;
+}
+
+
+/* Buttons */
+.btn, .back-btn {
+    font-size: 1.8rem;
+    width: 20rem;
+    padding: 1rem;
+    text-align: center;
+    border: .1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #56a5eb;
+    background: white;
+}
+
+
+.btn:hover, .back-btn {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.2rem) translateX(-0.2rem);
+    transition: transform 300ms;    
+}
+
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.back-btn {
+    margin-top: 2rem;
+}
+
+.config-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    margin: 10px 0;
+    padding: 5px;
+    background: #f8f9fa;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.config-group label {
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.config-radio{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.error-msg {
+    font-size: 2rem;
+    color: #d32f2f;
+    font-weight: bold;
+    grid-column: -1 / 1
+}
+
+
+ruby rt {
+  font-size: 0.6em;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+
+/* ENDSCREEN */
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+
+#overlay.open {
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* MODAL */
+.modal {
+    position: fixed;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+    min-width: 500px;
+    max-height: 400px;
+    justify-content:space-around;
+    background: rgb(224, 200, 200);
+    border: 0.5rem solid rgb(90, 170, 240, 0.25);
+    border-radius: 10%;
+    overflow: scroll;
+}
+
+.modal.open{
+    opacity: 1;
+    z-index: 10;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    border-bottom: 0.5rem solid black;
+}
+
+.close-modal {
+    width: 3rem;
+    border: 0;
+    height: 3rem;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.close-modal:hover {
+    cursor: pointer;
+}
+
+.modal-body {
+    font-size: 2.5rem;
+}
+
+
+/* KANA */
+
+.kana-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 85vh;
+  overflow-y: auto;
+  padding-top: 2rem;
+}
+
+.kana-wrapper {
+  max-width: 900px;
+  width: 100%;
+}
+
+.kana-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.kana-panel {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.kana-row {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid hsl(0, 0%, 0%);
+  cursor: pointer;
+}
+
+.kana-row:last-child {
+  border-bottom: none;
+}
+
+.kana-row label {
+  align-items: center;
+  cursor: pointer;
+}
+
+.kana-row input[type="checkbox"] {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.kana-text {
+  font-size: 2rem;
+  justify-self: center;
+}
+
+.kana-dropdown {
+  margin-top: 8px;
+}
+
+.kana-dropdown summary {
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 6px 0;
+}
+
+.kana-row.nested {
+  padding-left: 20px;
+}
+
+.quick-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.quick-actions button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .kana-columns {
+    grid-template-columns: 1fr;
+  }
+}
