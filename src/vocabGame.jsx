@@ -33,12 +33,14 @@ export default function VocabGame({ setView, BASE_PATH }) {
 
         const data = await res.json();
 
-        const levelData = data.units?.[`Unit ${step}`] 
-                       || data.levels?.[`Level ${step}`] 
-                       || [];
+        // FIXED: Match your actual JSON key format "unit 1", "unit 2", etc.
+        const unitKey = `unit ${step}`;
+        const levelData = data.units?.[unitKey] || [];
+
+        console.log(`Looking for unit: "${unitKey}" | Found ${levelData.length} items`);
 
         if (levelData.length === 0) {
-          console.error("No vocab data found for this level/step");
+          console.error(`No data found for ${unitKey}`);
           return;
         }
 
@@ -46,10 +48,11 @@ export default function VocabGame({ setView, BASE_PATH }) {
         setRemainingVocab([...levelData]);
         setTotalQuestions(levelData.length);
 
-        // Start first question AFTER state is set
+        // Start first question
         setTimeout(() => {
           nextQuestionInternal(levelData, [...levelData]);
         }, 100);
+
       } catch (error) {
         console.error("Failed to load vocab data:", error);
       }
