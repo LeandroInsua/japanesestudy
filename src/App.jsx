@@ -86,8 +86,6 @@ const kanaGroups = {
   ]
   };
 
-
-
   const [selectedHiragana, setSelectedHiragana] = useState([]);
   const [selectedKatakana, setSelectedKatakana] = useState([]);
 
@@ -133,31 +131,37 @@ const kanaGroups = {
 
   const [kanaPool, setKanaPool] = useState([]);
   const buildKanaPool = () => {
-    const allGroups = [
-      ...kanaGroups.hiragana,
-      ...kanaGroups.hiraganaAlt,
-      ...kanaGroups.katakana,
-      ...kanaGroups.katakanaAlt
+    const selectedGroups = [
+      ...kanaGroups.hiragana.filter(group =>
+        selectedHiragana.includes(group.id)
+      ),
+
+      ...kanaGroups.hiraganaAlt.filter(group =>
+        selectedHiragana.includes(group.id)
+      ),
+
+      ...kanaGroups.katakana.filter(group =>
+        selectedKatakana.includes(group.id)
+      ),
+
+      ...kanaGroups.katakanaAlt.filter(group =>
+        selectedKatakana.includes(group.id)
+      ),
     ];
 
-    return allGroups
-      .filter(group =>
-        selectedHiragana.includes(group.id) ||
-        selectedKatakana.includes(group.id)
-      )
-      .flatMap(group => {
-        const kanaArray = group.label.includes(" ")
-          ? group.label.split(" ")        // for きゃ きゅ きょ
-          : group.label.split("");       // for あいうえお
+    return selectedGroups.flatMap(group => {
+      const kanaArray = group.label.includes(" ")
+        ? group.label.split(" ")
+        : group.label.split("");
 
-        const romajiArray = group.romaji.split(" ");
+      const romajiArray = group.romaji.split(" ");
 
-        return kanaArray.map((kana, i) => ({
-          kana,
-          romaji: romajiArray[i]
-        }));
-      });
-  };
+      return kanaArray.map((kana, i) => ({
+        kana,
+        romaji: romajiArray[i],
+      }));
+    });
+};
 
   const startKanaGame = (mode) => {
     const pool = buildKanaPool();
