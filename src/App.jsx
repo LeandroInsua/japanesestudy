@@ -256,7 +256,10 @@ const kanaGroups = {
                       checked={selectedHiragana.includes(group.id)}
                       readOnly
                     />
-                    <span className="kana-text">{group.romaji}</span>
+                    <span className="kana-text">
+                      <span className="default-text">{group.romaji}</span>
+                      <span className="hover-text">{group.label}</span>
+                    </span>
                   </div>
                 ))}
 
@@ -275,7 +278,10 @@ const kanaGroups = {
                         checked={selectedHiragana.includes(group.id)}
                         readOnly
                       />
-                      <span className="kana-text">{group.romaji}</span>
+                      <span className="kana-text">
+                        <span className="default-text">{group.romaji}</span>
+                        <span className="hover-text">{group.label}</span>
+                      </span>
                     </div>
                   ))}
                 </details>
@@ -302,7 +308,10 @@ const kanaGroups = {
                         checked={selectedKatakana.includes(group.id)}
                       />
                     </label>
-                    <span className="kana-text">{group.romaji}</span>
+                    <span className="kana-text">
+                      <span className="default-text">{group.romaji}</span>
+                      <span className="hover-text">{group.label}</span>
+                    </span>
                   </div>
                 ))}
 
@@ -320,7 +329,10 @@ const kanaGroups = {
                         checked={selectedKatakana.includes(group.id)}
                         readOnly
                       />
-                      <span className="kana-text">{group.romaji}</span>
+                      <span className="kana-text">
+                        <span className="default-text">{group.romaji}</span>
+                        <span className="hover-text">{group.label}</span>
+                      </span>
                     </div>
                   ))}
                 </details>
