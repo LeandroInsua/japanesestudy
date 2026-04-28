@@ -519,6 +519,13 @@ const kanaGroups = {
         )}
 
         {/* GAME */}
+        {view === "kanaGame" && (
+          <KanaGame
+            mode={gameMode}
+            kanaPool={kanaPool}
+            onExit={() => setView("kana")}
+          />
+        )}
         {view === "game" && gameMode === "kanji" && (
           <KanjiGame 
             key="kanji" 
@@ -532,16 +539,8 @@ const kanaGroups = {
             setView={setView} 
             BASE_PATH={BASE_PATH} 
           />)}
+          
       </div>
-      
-      {view === "kanaGame" && (
-        <KanaGame
-          mode={gameMode}
-          kanaPool={kanaPool}
-          onExit={() => setView("kana")}
-        />
-      )}
-
       <div id="overlay"></div>
     </>
   );
