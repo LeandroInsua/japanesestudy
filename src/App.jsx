@@ -16,6 +16,7 @@ export default function App() {
   const [questionType, setQuestionType] = useState("kanji");
   const [answerType, setAnswerType] = useState("reading");
   
+  const BASE_PATH = import.meta.env.BASE_URL;
   
 
   // Kana Groups Data
@@ -86,7 +87,6 @@ const kanaGroups = {
   };
 
 
-  const BASE_PATH = import.meta.env.BASE_URL;
 
   const [selectedHiragana, setSelectedHiragana] = useState([]);
   const [selectedKatakana, setSelectedKatakana] = useState([]);
@@ -162,7 +162,6 @@ const kanaGroups = {
   const startKanaGame = (mode) => {
     const pool = buildKanaPool();
     if (pool.length === 0) return;
-    console.log(pool); // keep this for debugging
 
     setKanaPool(pool);
     setGameMode(mode);
