@@ -28,7 +28,18 @@ export default function KanjiGame({ setView, BASE_PATH }) {
   useEffect(() => {
     const loadKanji = async () => {
       try {
-        const res = await fetch(`${BASE_PATH}Data/kanji_data_N${jlptLevel}.json`);
+        // Make sure BASE_PATH always ends with '/'
+        const base = BASE_PATH.endsWith('/') ? BASE_PATH : BASE_PATH + '/';
+        const url = `${base}Data/kanji_data_N${jlptLevel}.json`;
+        
+        console.log("Fetching kanji from:", url);   // ← Helpful for debugging
+
+        const res = await fetch(url);
+        
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+
         const data = await res.json();
 
         const levelData = data.levels[`Level ${step}`] || [];
@@ -37,7 +48,6 @@ export default function KanjiGame({ setView, BASE_PATH }) {
         setRemainingKanji([...levelData]);
         setTotalQuestions(levelData.length);
 
-        // Start first question
         setTimeout(() => nextQuestionInternal(levelData, [...levelData]), 10);
       } catch (error) {
         console.error("Failed to load kanji data:", error);

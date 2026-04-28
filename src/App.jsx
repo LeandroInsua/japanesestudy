@@ -86,9 +86,7 @@ const kanaGroups = {
   };
 
 
-  const BASE_PATH = window.location.hostname.includes("github.io")
-    ? "/japanesestudy/"
-    : "./";
+  const BASE_PATH = import.meta.env.BASE_URL;
 
   const [selectedHiragana, setSelectedHiragana] = useState([]);
   const [selectedKatakana, setSelectedKatakana] = useState([]);
@@ -357,14 +355,6 @@ const kanaGroups = {
           </div>
         )}
 
-        {view === "kanaGame" && (
-            <KanaGame
-              mode={gameMode}
-              kanaPool={kanaPool}
-              onExit={() => setView("kana")}
-            />
-          )}
-
         {/* KANJI LEVEL */}
         {view === "kanji" && (
           <div className="flex-center flex-column">
@@ -535,11 +525,23 @@ const kanaGroups = {
             key="kanji" 
             setView={setView} 
             BASE_PATH={BASE_PATH} 
-          />
-        )}
+          />)}
 
-        {view === "game" && gameMode === "vocab" && (<VocabGame key="vocab" setView={setView} BASE_PATH={BASE_PATH} />)}
+        {view === "game" && gameMode === "vocab" && (
+          <VocabGame 
+            key="vocab" 
+            setView={setView} 
+            BASE_PATH={BASE_PATH} 
+          />)}
       </div>
+      
+      {view === "kanaGame" && (
+        <KanaGame
+          mode={gameMode}
+          kanaPool={kanaPool}
+          onExit={() => setView("kana")}
+        />
+      )}
 
       <div id="overlay"></div>
     </>

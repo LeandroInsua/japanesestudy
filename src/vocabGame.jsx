@@ -18,29 +18,35 @@ export default function VocabGame({ setView, BASE_PATH }) {
 
   // LOAD DATA
   useEffect(() => {
-    const loadVocab = async () => {
+    const loadKanji = async () => {
       try {
-        const res = await fetch(`${BASE_PATH}Data/Vocab_data_N${jlptLevel}.json`);
+        // Make sure BASE_PATH always ends with '/'
+        const base = BASE_PATH.endsWith('/') ? BASE_PATH : BASE_PATH + '/';
+        const url = `${base}Data/kanji_data_N${jlptLevel}.json`;
+        
+        console.log("Fetching kanji from:", url);   // ← Helpful for debugging
+
+        const res = await fetch(url);
+        
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+
         const data = await res.json();
 
-        const levelKey = Object.keys(data.units).find(
-          (key) => key.toLowerCase() === `unit ${step}`
-        );
+        const levelData = data.levels[`Level ${step}`] || [];
 
-        const levelData = data.units[levelKey] || [];
-        
-        setVocabData(levelData);
-        setRemainingVocab([...levelData]); // copy to avoid mutation issues
+        setKanjiData(levelData);
+        setRemainingKanji([...levelData]);
         setTotalQuestions(levelData.length);
-        
-        // Start first question after state updates
-        setTimeout(() => nextQuestionInternal(levelData, levelData), 10);
+
+        setTimeout(() => nextQuestionInternal(levelData, [...levelData]), 10);
       } catch (error) {
-        console.error("Failed to load vocab data:", error);
+        console.error("Failed to load kanji data:", error);
       }
     };
 
-    loadVocab();
+    loadKanji();
   }, [jlptLevel, step, BASE_PATH]);
 
   // AUDIO
