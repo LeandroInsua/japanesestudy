@@ -28,28 +28,63 @@ export default function VocabGame({ setView, BASE_PATH }) {
         const res = await fetch(url);
         
         if (!res.ok) {
-          throw new Error(`HTTP error! status: ${res.status} - ${res.statusText}`);
+          throw new Error(`HTTP error! status: ${res.status}`);
         }
 
         const data = await res.json();
 
-        // Adjust according to your actual JSON structure
-        const levelData = data.units?.[`Unit ${step}`] || data.levels?.[`Level ${step}`] || [];
+        const levelData = data.units?.[`Unit ${step}`] 
+                       || data.levels?.[`Level ${step}`] 
+                       || [];
+
+        if (levelData.length === 0) {
+          console.error("No vocab data found for this level/step");
+          return;
+        }
 
         setVocabData(levelData);
         setRemainingVocab([...levelData]);
         setTotalQuestions(levelData.length);
 
-        // Start the first question
-        setTimeout(() => nextQuestionInternal(levelData, [...levelData]), 50);
+        // Start first question AFTER state is set
+        setTimeout(() => {
+          nextQuestionInternal(levelData, [...levelData]);
+        }, 100);
       } catch (error) {
         console.error("Failed to load vocab data:", error);
-        alert("Failed to load vocabulary data. Check console for details.");
       }
     };
 
     loadVocab();
   }, [jlptLevel, step, BASE_PATH]);
+
+  // Internal next question logic
+  const nextQuestionInternal = (fullData, currentRemaining) => {
+    if (currentRemaining.length === 0) {
+      endGame(questionCounter, correctCount);
+      return;
+    }
+
+    const randomIndex = Math.floor(Math.random() * currentRemaining.length);
+    const vocab = currentRemaining[randomIndex];
+    const correct = vocab.english;
+
+    const answers = new Set([correct]);
+
+    while (answers.size < 4) {
+      const rand = fullData[Math.floor(Math.random() * fullData.length)];
+      if (rand.english && rand.english !== correct) {
+        answers.add(rand.english);
+      }
+    }
+
+    setChoices(shuffle([...answers]));
+    setCurrentVocab(vocab);
+    setRemainingVocab((prev) => prev.filter((_, i) => i !== randomIndex));
+
+    setShowAnswer(false);
+    setSelected(null);
+  };
 
   // AUDIO
   useEffect(() => {
