@@ -53,7 +53,7 @@ export default function VocabGame({ setView, BASE_PATH }) {
 
   // AUDIO
   useEffect(() => {
-    const audioPath = `${BASE_PATH}audio/correct.wav`;
+    const audioPath = `${BASE_PATH}Audio/correct.wav`;
     console.log("Loading audio from:", audioPath);
     
     correctAudio.current = new Audio(audioPath);

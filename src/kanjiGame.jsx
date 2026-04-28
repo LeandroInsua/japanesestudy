@@ -32,7 +32,7 @@ export default function KanjiGame({ setView, BASE_PATH }) {
         const base = BASE_PATH.endsWith('/') ? BASE_PATH : BASE_PATH + '/';
         const url = `${base}Data/kanji_data_N${jlptLevel}.json`;
         
-        console.log("Fetching kanji from:", url);   // ← Helpful for debugging
+        console.log("Fetching kanji from:", url);
 
         const res = await fetch(url);
         
@@ -59,7 +59,7 @@ export default function KanjiGame({ setView, BASE_PATH }) {
 
   // AUDIO
   useEffect(() => {
-    const audioPath = `${BASE_PATH}audio/correct.wav`;
+    const audioPath = `${BASE_PATH}Audio/correct.wav`;
     console.log("Loading audio from:", audioPath);
     
     correctAudio.current = new Audio(audioPath);
