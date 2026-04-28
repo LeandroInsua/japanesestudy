@@ -20,7 +20,7 @@ export default function VocabGame({ setView, BASE_PATH }) {
   useEffect(() => {
     const loadVocab = async () => {
       try {
-        const res = await fetch(`${BASE_PATH}public/Data/Vocab_data_N${jlptLevel}.json`);
+        const res = await fetch(`${BASE_PATH}Data/Vocab_data_N${jlptLevel}.json`);
         const data = await res.json();
 
         const levelKey = Object.keys(data.units).find(
@@ -45,7 +45,7 @@ export default function VocabGame({ setView, BASE_PATH }) {
 
   // AUDIO
   useEffect(() => {
-    correctAudio.current = new Audio(`${BASE_PATH}public/audio/correct.wav`);
+    correctAudio.current = new Audio(`${BASE_PATH}audio/correct.wav`);
     return () => {
       if (correctAudio.current) correctAudio.current.pause();
     };

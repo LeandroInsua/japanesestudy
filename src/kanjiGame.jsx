@@ -28,7 +28,7 @@ export default function KanjiGame({ setView, BASE_PATH }) {
   useEffect(() => {
     const loadKanji = async () => {
       try {
-        const res = await fetch(`${BASE_PATH}public/Data/kanji_data_N${jlptLevel}.json`);
+        const res = await fetch(`${BASE_PATH}Data/kanji_data_N${jlptLevel}.json`);
         const data = await res.json();
 
         const levelData = data.levels[`Level ${step}`] || [];
@@ -49,7 +49,7 @@ export default function KanjiGame({ setView, BASE_PATH }) {
 
   // AUDIO
   useEffect(() => {
-    correctAudio.current = new Audio(`${BASE_PATH}public/audio/correct.wav`);
+    correctAudio.current = new Audio(`${BASE_PATH}audio/correct.wav`);
     return () => {
       if (correctAudio.current) correctAudio.current.pause();
     };
