@@ -59,7 +59,11 @@ export default function KanjiGame({ setView, BASE_PATH }) {
 
   // AUDIO
   useEffect(() => {
-    correctAudio.current = new Audio(`${BASE_PATH}audio/correct.wav`);
+    const audioPath = `${BASE_PATH}audio/correct.wav`;
+    console.log("Loading audio from:", audioPath);
+    
+    correctAudio.current = new Audio(audioPath);
+    
     return () => {
       if (correctAudio.current) correctAudio.current.pause();
     };

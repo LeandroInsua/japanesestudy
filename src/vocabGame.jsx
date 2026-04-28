@@ -17,41 +17,47 @@ export default function VocabGame({ setView, BASE_PATH }) {
   const correctAudio = useRef(null);
 
   // LOAD DATA
-  useEffect(() => {
-    const loadKanji = async () => {
+   useEffect(() => {
+    const loadVocab = async () => {
       try {
-        // Make sure BASE_PATH always ends with '/'
         const base = BASE_PATH.endsWith('/') ? BASE_PATH : BASE_PATH + '/';
-        const url = `${base}Data/kanji_data_N${jlptLevel}.json`;
+        const url = `${base}Data/Vocab_data_N${jlptLevel}.json`;
         
-        console.log("Fetching kanji from:", url);   // ← Helpful for debugging
+        console.log("Fetching vocab from:", url);
 
         const res = await fetch(url);
         
         if (!res.ok) {
-          throw new Error(`HTTP error! status: ${res.status}`);
+          throw new Error(`HTTP error! status: ${res.status} - ${res.statusText}`);
         }
 
         const data = await res.json();
 
-        const levelData = data.levels[`Level ${step}`] || [];
+        // Adjust according to your actual JSON structure
+        const levelData = data.units?.[`Unit ${step}`] || data.levels?.[`Level ${step}`] || [];
 
-        setKanjiData(levelData);
-        setRemainingKanji([...levelData]);
+        setVocabData(levelData);
+        setRemainingVocab([...levelData]);
         setTotalQuestions(levelData.length);
 
-        setTimeout(() => nextQuestionInternal(levelData, [...levelData]), 10);
+        // Start the first question
+        setTimeout(() => nextQuestionInternal(levelData, [...levelData]), 50);
       } catch (error) {
-        console.error("Failed to load kanji data:", error);
+        console.error("Failed to load vocab data:", error);
+        alert("Failed to load vocabulary data. Check console for details.");
       }
     };
 
-    loadKanji();
+    loadVocab();
   }, [jlptLevel, step, BASE_PATH]);
 
   // AUDIO
   useEffect(() => {
-    correctAudio.current = new Audio(`${BASE_PATH}audio/correct.wav`);
+    const audioPath = `${BASE_PATH}audio/correct.wav`;
+    console.log("Loading audio from:", audioPath);
+    
+    correctAudio.current = new Audio(audioPath);
+    
     return () => {
       if (correctAudio.current) correctAudio.current.pause();
     };
