@@ -103,23 +103,35 @@ export default function ConjugationGame({conjugationPool, mode, onExit,BASE_PATH
     const correct = verb[type];
 
     if (mode === "multiple") {
-    const allForms = Object.entries(verb)
-        .filter(([key, value]) => {
-        return (
-            key !== "verb" &&
-            key !== currentType &&
-            typeof value === "string" &&
-            value.trim() !== ""
-        );
-        })
-        .map(([_, value]) => value);
+    
+    const excludedKeys = [
+      "verb",
+      "verb_kana",
+      "verb_furigana",
+    ];
 
-    const wrong = allForms
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 3);
+    const allForms = Object.entries(verb)
+      .filter(([key, value]) => {
+        return (
+          !excludedKeys.includes(key) &&
+          !key.endsWith("_kana") &&
+          key !== currentType &&
+          typeof value === "string" &&
+          value.trim() !== ""
+        );
+      })
+      .map(([_, value]) => value);
+
+    const uniqueForms = [...new Set(allForms)]
+      .filter((value) => value !== correct);
+
+    const wrong = uniqueForms
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 3);
 
     setChoices(
-        [correct, ...wrong].sort(() => Math.random() - 0.5)
+      [correct, ...wrong].sort(() => Math.random() - 0.5)
+
     );
     }
 
