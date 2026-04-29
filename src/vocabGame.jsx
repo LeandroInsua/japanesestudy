@@ -247,7 +247,7 @@ export default function VocabGame({ setView, BASE_PATH }) {
         </div>
       </div>
 
-      <button className="btn" onClick={() => setView("home")}>
+      <button className="back-btn" onClick={() => setView("home")}>
         Back
       </button>
     </div>
