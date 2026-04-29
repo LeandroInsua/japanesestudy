@@ -170,11 +170,12 @@ export default function ConjugationGame({conjugationPool, mode, onExit,BASE_PATH
 
   return (
     <div className="flex-center flex-column">
-      <h1>Conjugation Game</h1>
-
-      <div className="hud">
+      <div className="conjugation-hud">
         <span>Score: {score}</span>
+        <h1>Conjugation Game</h1>
       </div>
+
+      
 
       <div className="question-card">
         <h2 dangerouslySetInnerHTML={{__html: current.verb_furigana || current.verb,}}/>
