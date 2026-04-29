@@ -6,6 +6,8 @@ import KanaSelect from "./kanaSelect.jsx";
 import KanaGame from "./kanaGame.jsx"
 import KanjiGame from "./kanjiGame.jsx";
 import VocabGame from "./vocabGame.jsx";
+import ConjugationSelect from "./conjugationSelect.jsx";
+import ConjugationGame from "./conjugationGame.jsx";
 
 export default function App() {
   const [view, setView] = useState("home");
@@ -13,6 +15,7 @@ export default function App() {
   const [title, setTitle] = useState("Choose sublevel");
   const [gameMode, setGameMode] = useState(null);
   const [kanaPool, setKanaPool] = useState([]);
+  const [conjugationPool, setConjugationPool] = useState([]);
 
   // New state for Kanji Game configuration
   const [questionType, setQuestionType] = useState("kanji");
@@ -74,6 +77,10 @@ export default function App() {
 
             <div className="btn" onClick={() => setView("vocab")}>
               Vocabulary
+            </div>
+
+            <div className="btn" onClick={() => setView("conjugation")}>
+              Conjugation
             </div>
 
             <a className="btn" href="#">
@@ -221,6 +228,15 @@ export default function App() {
           </div>
         )}
 
+        {/* CONJUGATION */}
+        {view === "conjugation" && (
+          <ConjugationSelect
+            setView={setView}
+            setConjugationPool={setConjugationPool}
+            setGameMode={setGameMode}
+          />
+        )}
+
         {/* STEPS */}
         {view === "steps" && (
           <div className="flex-center flex-column">
@@ -274,6 +290,16 @@ export default function App() {
             setView={setView} 
             BASE_PATH={BASE_PATH} 
           />)}
+
+          {view === "conjugationGame" && (
+          <ConjugationGame
+            conjugationPool={conjugationPool}
+            mode={gameMode}
+            onExit={() => setView("conjugation")}
+            BASE_PATH={BASE_PATH}
+          />
+        )}
+        
           
       </div>
       <div id="overlay"></div>

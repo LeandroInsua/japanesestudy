@@ -237,3 +237,99 @@
 .choice-btn.wrong {
   background-color: #f44336;
 }
+
+/* CONJUGATION */
+
+.conjugation-screen {
+    height: 85vh;
+    overflow-y: auto;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 2rem 0 4rem;
+}
+
+.conjugation-wrapper {
+    width: 100%;
+    max-width: 1100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 2rem;
+}
+
+/* GROUP LAYOUT */
+
+.conjugation-groups {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+    gap: 1.5rem;
+}
+
+/* GROUP CARD */
+
+.conjugation-group {
+    background: white;
+
+    border: 1px solid #d9d9d9;
+    border-radius: 12px;
+
+    padding: 1.25rem;
+
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+/* TITLE */
+
+.conjugation-group h3 {
+    font-size: 1.8rem;
+
+    color: #56a5eb;
+
+    margin-bottom: 1rem;
+
+    border-bottom: 1px solid #e5e5e5;
+
+    padding-bottom: 0.5rem;
+}
+
+/* CHECKBOX LIST */
+
+.conjugation-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+/* ITEM */
+
+.conjugation-item {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    gap: 0.8rem;
+
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.conjugation-item input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* MODE SECTION */
+
+.conjugation-wrapper .config-section {
+    width: 100%;
+    max-width: 700px;
+}
