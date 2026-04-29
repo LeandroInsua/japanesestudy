@@ -3,7 +3,7 @@
   display: grid;
   height: 70vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr 1fr auto;
   text-align: center;
   align-items: first baseline;
 }
