@@ -253,61 +253,38 @@
 .conjugation-wrapper {
     width: 100%;
     max-width: 1100px;
-
-    display: flex;
-    flex-direction: column;
     align-items: center;
-
-    gap: 2rem;
 }
-
-/* GROUP LAYOUT */
 
 .conjugation-groups {
     width: 100%;
-
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-
+    grid-template-columns: repeat(3, minmax(240px, 1fr));
     gap: 1.5rem;
 }
 
-/* GROUP CARD */
-
 .conjugation-group {
-    background: white;
-
-    border: 1px solid #d9d9d9;
-    border-radius: 12px;
-
-    padding: 1.25rem;
-
-    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  
+  background: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
 }
-
-/* TITLE */
 
 .conjugation-group h3 {
-    font-size: 1.8rem;
-
-    color: #56a5eb;
-
-    margin-bottom: 1rem;
-
-    border-bottom: 1px solid #e5e5e5;
-
-    padding-bottom: 0.5rem;
+  font-size: 1.8rem;
+  color: #56a5eb;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0.5rem;
 }
-
-/* CHECKBOX LIST */
 
 .conjugation-grid {
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
 }
-
-/* ITEM */
 
 .conjugation-item {
     display: flex;
@@ -327,9 +304,36 @@
     cursor: pointer;
 }
 
-/* MODE SECTION */
-
-.conjugation-wrapper .config-section {
+.conjugation-wrapper {
     width: 100%;
     max-width: 700px;
+}
+
+.conj-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.conj-info-btn {
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  border: 0.2rem solid #56a5eb;
+  background: white;
+  color: #56a5eb;
+  font-weight: bold;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.conj-modal {
+  max-width: 800px;
+}
+
+.conj-modal p {
+  font-size: 1.8rem;
+  margin: 0.4rem 0;
+  line-height: 1.4;
 }

@@ -78,6 +78,18 @@ export default function ConjugationGame({conjugationPool, mode, onExit,BASE_PATH
 
   const randomItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
+  const isAnswerCorrect = (answer, type) => {
+    const normalizedInput = answer.trim();
+
+    const kanjiAnswer = current[type]?.trim();
+    const kanaAnswer = current[`${type}_kana`]?.trim();
+
+    return (
+      normalizedInput === kanjiAnswer ||
+      normalizedInput === kanaAnswer
+    );
+  };
+
   const nextQuestion = () => {
     const verb = randomItem(data);
     const type = randomItem(conjugationPool);
@@ -119,12 +131,13 @@ export default function ConjugationGame({conjugationPool, mode, onExit,BASE_PATH
     if (answered) return;
 
     const correct = current[currentType];
+  const correctKana = current[`${currentType}_kana`];
 
-    setAnswered(true);
-    setCorrectAnswer(correct);
-    setSelectedAnswer(answer);
+  setAnswered(true);
+  setCorrectAnswer(correct);
+  setSelectedAnswer(answer);
 
-    const isCorrect = answer.trim() === correct.trim();
+  const isCorrect = isAnswerCorrect(answer, currentType);
 
     if (isCorrect) {
       setScore((s) => s + 1);
@@ -140,7 +153,9 @@ export default function ConjugationGame({conjugationPool, mode, onExit,BASE_PATH
       }
     } else {
         if (mode === "typing") {
-        setFeedback(`Wrong! Correct answer: ${correct}`);
+        setFeedback(
+          `Wrong! Correct answer: ${correct} (${correctKana})`
+        );
         }
     }
     };
@@ -162,7 +177,7 @@ export default function ConjugationGame({conjugationPool, mode, onExit,BASE_PATH
       </div>
 
       <div className="question-card">
-        <h2>{current.verb}</h2>
+        <h2 dangerouslySetInnerHTML={{__html: current.verb_furigana || current.verb,}}/>
 
         <h3>
           Convert to: <strong>{currentType.replaceAll("_", " ")}</strong>
