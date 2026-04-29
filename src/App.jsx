@@ -274,6 +274,7 @@ export default function App() {
           <KanaGame
             mode={gameMode}
             kanaPool={kanaPool}
+            BASE_PATH={BASE_PATH}
             onExit={() => setView("kana")}
           />
         )}

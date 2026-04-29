@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-export default function KanaGame({ mode, kanaPool, onExit }) {
+export default function KanaGame({ mode, kanaPool, onExit, BASE_PATH }) {
     const [currentKana, setCurrentKana] = useState(null);
     const [choices, setChoices] = useState([]);
     const [input, setInput] = useState("");
@@ -12,6 +12,7 @@ export default function KanaGame({ mode, kanaPool, onExit }) {
     const [waitingNext, setWaitingNext] = useState(false);
     const nextButtonRef = useRef(null);    
     const inputRef = useRef(null);
+    const correctSound = useRef(new Audio(`${BASE_PATH}Audio/correct.wav`));
     
   // 🔁 Get random kana (no repeats)
   const getRandomKana = () => {
@@ -63,6 +64,8 @@ export default function KanaGame({ mode, kanaPool, onExit }) {
   if (isCorrect) {
       setScore(prev => prev + 1);
       setFeedback("✅ Correct!");
+      correctSound.current.currentTime = 0;
+      correctSound.current.play();
   } else {
       setLives(prev => prev - 1);
       setFeedback(`❌ Correct: ${currentKana.romaji}`);

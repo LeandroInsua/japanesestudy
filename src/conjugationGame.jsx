@@ -1,11 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-export default function ConjugationGame({
-  conjugationPool,
-  mode,
-  onExit,
-  BASE_PATH,
-}) {
+export default function ConjugationGame({conjugationPool, mode, onExit,BASE_PATH,}) {
     const [data, setData] = useState([]);
     const [current, setCurrent] = useState(null);
     const [currentType, setCurrentType] = useState("");
@@ -17,7 +12,9 @@ export default function ConjugationGame({
     const [correctAnswer, setCorrectAnswer] = useState(null);
     const [answered, setAnswered] = useState(false);
     const inputRef = useRef(null);
+    const correctSound = useRef(null);
 
+    /* EFFECTS */
   useEffect(() => {
     loadData();
   }, []);
@@ -28,40 +25,46 @@ export default function ConjugationGame({
 
   useEffect(() => {
     const handleKeyDown = (e) => {
-        if (e.key === "Enter") {
-        if (answered) {
-            nextQuestion();
-            return;
-        }
+      if (e.key === "Enter") {
+      if (answered) {
+          nextQuestion();
+          return;
+      }
 
-        if (mode === "typing") {
-            submit(input);
-            return;
-        }
-        }
+      if (mode === "typing") {
+          submit(input);
+          return;
+      }
+      }
 
-        if (mode !== "multiple") return;
-        if (answered) return;
+      if (mode !== "multiple") return;
+      if (answered) return;
 
-        const index = Number(e.key) - 1;
+      const index = Number(e.key) - 1;
 
-        if (index >= 0 && index < choices.length) {
-        submit(choices[index]);
-        }
-    };
+      if (index >= 0 && index < choices.length) {
+      submit(choices[index]);
+      }
+  };
 
-    window.addEventListener("keydown", handleKeyDown);
+  window.addEventListener("keydown", handleKeyDown);
 
-    return () => {
-        window.removeEventListener("keydown", handleKeyDown);
-    };
-    }, [choices, mode, answered, input, current]);
+  return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+  };
+  }, [choices, mode, answered, input, current]);
 
-    useEffect(() => {
-        if (mode === "typing" && inputRef.current) {
-            inputRef.current.focus();
-        }
-    }, [current, mode]);
+  useEffect(() => {
+      if (mode === "typing" && inputRef.current) {
+          inputRef.current.focus();
+      }
+  }, [current, mode]);
+
+  useEffect(() => {
+    correctSound.current = new Audio(
+      `${BASE_PATH}Audio/correct.wav`
+    );
+  }, [BASE_PATH]);
 
   const loadData = async () => {
     try {
@@ -124,11 +127,17 @@ export default function ConjugationGame({
     const isCorrect = answer.trim() === correct.trim();
 
     if (isCorrect) {
-        setScore((s) => s + 1);
+      setScore((s) => s + 1);
 
-        if (mode === "typing") {
+      if (correctSound.current) {
+        correctSound.current.pause();
+        correctSound.current.currentTime = 0;
+        correctSound.current.play().catch(() => {});
+      }
+
+      if (mode === "typing") {
         setFeedback("Correct!");
-        }
+      }
     } else {
         if (mode === "typing") {
         setFeedback(`Wrong! Correct answer: ${correct}`);
@@ -155,9 +164,9 @@ export default function ConjugationGame({
       <div className="question-card">
         <h2>{current.verb}</h2>
 
-        <p>
+        <h3>
           Convert to: <strong>{currentType.replaceAll("_", " ")}</strong>
-        </p>
+        </h3>
       </div>
 
       {mode === "multiple" ? (
@@ -191,7 +200,7 @@ export default function ConjugationGame({
         })}
         </div>
       ) : (
-        <div className="typing-container">
+        <>
         <input
             ref={inputRef}
             type="text"
@@ -200,20 +209,19 @@ export default function ConjugationGame({
             className="typing-input"
         />
         {mode === "typing" && feedback && (
-        <p className="typing-feedback">
+        <h3 className="typing-feedback">
             {feedback}
-        </p>
+        </h3>
         )}
 
           <button className="btn" onClick={() => submit(input)}>
             Submit
           </button>
-        </div>
+        </>
       )}
 
       {answered && (
         <>
-          <p>{feedback}</p>
 
           <button className="btn" onClick={nextQuestion}>
             Next
@@ -221,7 +229,7 @@ export default function ConjugationGame({
         </>
       )}
 
-      <button className="btn" onClick={onExit}>
+      <button className="back-btn" onClick={onExit}>
         Back
       </button>
     </div>
