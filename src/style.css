@@ -123,8 +123,8 @@ a{
 .flex-column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    height: 85vh;
 }
 
 .flex-center input {
@@ -182,6 +182,7 @@ a{
     font-size: 1.8rem;
     width: 20rem;
     padding: 1rem;
+    margin: 0 1rem;
     text-align: center;
     border: .1rem solid #56a5eb;
     margin-bottom: 1rem;
@@ -325,7 +326,6 @@ input {
 
 
 /* KANA */
-
 .kana-screen {
   display: flex;
   flex-direction: column;
@@ -336,14 +336,20 @@ input {
 }
 
 .kana-wrapper {
-  max-width: 900px;
-  width: 100%;
+    max-width: 900px;
+    width: 100%;
+  }
+
+.game-choice{
+    grid-column: 1 / -1;
+    justify-self: center;
 }
 
 .kana-columns {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 0 20px;
 }
 
 .kana-panel {

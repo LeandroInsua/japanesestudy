@@ -161,6 +161,29 @@ export default function KanaSelect({
       <div className="kana-wrapper">
         <h1>Choose the Kana to practice</h1>
             <div className="kana-columns">
+              <div className="game-choice">
+                <button
+                  className="btn"
+                  onClick={() => handleStart("multiple")}
+                  disabled={
+                  selectedHiragana.length === 0 &&
+                  selectedKatakana.length === 0
+                  }
+              >
+                  Multiple Choice
+              </button>
+
+              <button
+                  className="btn"
+                  onClick={() => handleStart("typing")}
+                  disabled={
+                  selectedHiragana.length === 0 &&
+                  selectedKatakana.length === 0
+                  }
+              >
+                  Typing
+              </button>
+            </div>
 
             {/* HIRAGANA */}
             <div className="kana-panel">
@@ -269,27 +292,7 @@ export default function KanaSelect({
             </div>
 
             <div className="button-group">
-            <button
-                className="btn start-btn"
-                onClick={() => handleStart("multiple")}
-                disabled={
-                selectedHiragana.length === 0 &&
-                selectedKatakana.length === 0
-                }
-            >
-                Multiple Choice
-            </button>
-
-            <button
-                className="btn start-btn"
-                onClick={() => handleStart("typing")}
-                disabled={
-                selectedHiragana.length === 0 &&
-                selectedKatakana.length === 0
-                }
-            >
-                Typing
-            </button>
+            
 
             <button className="btn" onClick={() => setView("home")}>
                 Back

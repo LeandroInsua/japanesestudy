@@ -243,10 +243,8 @@
 .conjugation-screen {
     height: 85vh;
     overflow-y: auto;
-
     display: flex;
     justify-content: center;
-
     padding: 2rem 0 4rem;
 }
 
@@ -264,7 +262,6 @@
 }
 
 .conjugation-group {
-  
   background: white;
   border: 1px solid #d9d9d9;
   border-radius: 12px;
