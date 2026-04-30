@@ -8,6 +8,7 @@ import KanjiGame from "./kanjiGame.jsx";
 import VocabGame from "./vocabGame.jsx";
 import ConjugationSelect from "./conjugationSelect.jsx";
 import ConjugationGame from "./conjugationGame.jsx";
+import ConjugationWheel from "./conjugationWheel.jsx";
 
 export default function App() {
   const [view, setView] = useState("home");
@@ -81,6 +82,10 @@ export default function App() {
 
             <div className="btn" onClick={() => setView("conjugation")}>
               Conjugation
+            </div>
+
+            <div className="btn" onClick={() => setView("conjugationWheel")}>
+              Conjugation Wheel
             </div>
 
             <a className="btn" href="#">
@@ -298,6 +303,16 @@ export default function App() {
             mode={gameMode}
             onExit={() => setView("conjugation")}
             BASE_PATH={BASE_PATH}
+          />
+        )}
+
+        {view === "conjugationWheel" && (
+          <ConjugationWheel
+            conjugationPool={conjugationPool}
+            mode={gameMode}
+            onExit={() => setView("conjugationWheel")}
+            BASE_PATH={BASE_PATH}
+            onExit={() => setView("home")}
           />
         )}
         
