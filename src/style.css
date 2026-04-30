@@ -123,8 +123,8 @@ a{
 .flex-column {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 85vh;
 }
 
 .flex-center input {
@@ -326,6 +326,7 @@ input {
 
 
 /* KANA */
+
 .kana-screen {
   display: flex;
   flex-direction: column;
