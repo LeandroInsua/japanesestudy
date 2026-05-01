@@ -9,8 +9,8 @@ import VocabGame from "./vocabGame.jsx";
 import ConjugationSelect from "./conjugationSelect.jsx";
 import ConjugationGame from "./conjugationGame.jsx";
 import ConjugationWheel from "./conjugationWheel.jsx";
-/* import GrammarSelect from "./grammarSelect.jsx";
- */
+import GrammarSelect from "./grammarSelect.jsx";
+
 export default function App() {
   const [view, setView] = useState("home");
   const [steps, setSteps] = useState([]);
@@ -81,9 +81,9 @@ export default function App() {
               Vocabulary
             </div>
 
-            {/* <div className="btn" onClick={() => setView("grammar")}>
+            <div className="btn" disabled onClick={() => setView("grammar")}>
               Grammar
-            </div> */}
+            </div>
 
             <div className="btn" onClick={() => setView("conjugation")}>
               Conjugation
@@ -302,12 +302,12 @@ export default function App() {
             BASE_PATH={BASE_PATH} 
           />)}
 
-          {/* {view === "grammar" && (
+          {view === "grammar" && (
             <GrammarSelect
               BASE_PATH={BASE_PATH}
               onExit={() => setView("home")}
             />
-          )} */}
+          )}
 
           {view === "conjugationGame" && (
           <ConjugationGame
