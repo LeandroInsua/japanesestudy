@@ -8,7 +8,8 @@ import KanjiGame from "./kanjiGame.jsx";
 import VocabGame from "./vocabGame.jsx";
 import ConjugationSelect from "./conjugationSelect.jsx";
 import ConjugationGame from "./conjugationGame.jsx";
-import ConjugationWheel from "./conjugationWheel.jsx";
+/* import ConjugationWheel from "./conjugationWheel.jsx";
+import GrammarSelect from "./grammarSelect.jsx"; */
 
 export default function App() {
   const [view, setView] = useState("home");
@@ -79,6 +80,10 @@ export default function App() {
             <div className="btn" onClick={() => setView("vocab")}>
               Vocabulary
             </div>
+
+            {/* <div className="btn" onClick={() => setView("grammar")}>
+              Grammar
+            </div> */}
 
             <div className="btn" onClick={() => setView("conjugation")}>
               Conjugation
@@ -297,20 +302,26 @@ export default function App() {
             BASE_PATH={BASE_PATH} 
           />)}
 
-          {view === "conjugationGame" && (
+          {view === "grammar" && (
+            <GrammarSelect
+              BASE_PATH={BASE_PATH}
+              onExit={() => setView("home")}
+            />
+          )}
+
+          {/* {view === "conjugationGame" && (
           <ConjugationGame
             conjugationPool={conjugationPool}
             mode={gameMode}
             onExit={() => setView("conjugation")}
             BASE_PATH={BASE_PATH}
           />
-        )}
+        )} */}
 
         {view === "conjugationWheel" && (
           <ConjugationWheel
             conjugationPool={conjugationPool}
             mode={gameMode}
-            onExit={() => setView("conjugationWheel")}
             BASE_PATH={BASE_PATH}
             onExit={() => setView("home")}
           />

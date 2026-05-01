@@ -98,6 +98,52 @@ export default function KanaGame({ mode, kanaPool, onExit, BASE_PATH }) {
     }
   }, [currentKana, mode]);
 
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      // ENTER → next question
+      if (
+        e.key === "Enter" &&
+        waitingNext
+      ) {
+        handleNext();
+        return;
+      }
+
+      if (
+        mode !== "multiple" ||
+        isLocked
+      ) {
+        return;
+      }
+
+      const index = Number(e.key) - 1;
+
+      if (
+        index >= 0 &&
+        index < choices.length
+      ) {
+        handleChoice(choices[index]);
+      }
+    };
+
+    window.addEventListener(
+      "keydown",
+      handleKeyDown
+    );
+
+    return () => {
+      window.removeEventListener(
+        "keydown",
+        handleKeyDown
+      );
+    };
+  }, [
+    choices,
+    mode,
+    isLocked,
+    waitingNext,
+  ]);
+
   // 🟦 Multiple choice click
   const handleChoice = (choice) => {
     if (isLocked) return;
@@ -153,25 +199,38 @@ export default function KanaGame({ mode, kanaPool, onExit, BASE_PATH }) {
           <>
             <div className="choices">
               {choices.map((choice, index) => {
-                let className = "choice-btn";
+                let className = "choice-container";
 
                 if (isLocked) {
-                  if (choice.romaji === currentKana.romaji) {
+                  if (
+                    choice.romaji ===
+                    currentKana.romaji
+                  ) {
                     className += " correct";
-                  } else if (choice.romaji === selectedChoice) {
+                  } else if (
+                    choice.romaji ===
+                    selectedChoice
+                  ) {
                     className += " wrong";
                   }
                 }
 
                 return (
-                  <button
+                  <div
                     key={index}
-                    type="button"
                     className={className}
-                    onClick={() => handleChoice(choice)}
+                    onClick={() =>
+                      handleChoice(choice)
+                    }
                   >
-                    {choice.romaji}
-                  </button>
+                    <p className="choice-prefix">
+                      {index + 1}
+                    </p>
+
+                    <p className="choice-text">
+                      {choice.romaji}
+                    </p>
+                  </div>
                 );
               })}
             </div>

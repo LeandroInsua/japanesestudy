@@ -121,10 +121,12 @@ a{
 }
 
 .flex-column {
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .flex-center input {

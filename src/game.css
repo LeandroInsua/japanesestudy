@@ -84,6 +84,7 @@
     display: grid;
     grid-template-columns: 1fr 5fr;
     align-items: center;
+    text-align: center;
     font-size: 3.5rem;
     border: 0.1rem solid rgba(86, 165, 235, 0.25);
     background-color: rgb(243, 210, 128);
@@ -189,7 +190,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 50vh;
+    height: auto;
     max-width: 500px;
     overflow-y: auto;
     height: 70vh;
@@ -337,6 +338,7 @@
   margin: 1rem;
 }
 
+
 /* CONJUGATION WHEEL */
 .conjugation-lockup {
   display: flex;
@@ -345,34 +347,35 @@
   gap: 1rem;
 }
 
+.conjugation-wheel h1 {
+  text-align: center;
+  text-justify:distribute-all-lines;
+}
+
 .wheel-top-bar {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   align-items: flex-start;
   justify-content: center;
+  align-items: center;
   margin-bottom: 2rem;
 }
 
 .verb-stem {
   display: flex;
-  flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  margin-right: -6px;
-  z-index: 2;
-}
-
-.stem-kanji {
   font-size: 4rem;
   line-height: 1;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin: 0 -0.5rem 5rem 0;
+  z-index: 2;
 }
 
-
 .slot-wheel {
-  width: auto;
+  width: 37rem;
   height: 400px;
+  padding-left: 1rem;
   overflow: hidden;
   border-radius: 28px;
   border: 3px solid #444;
@@ -431,7 +434,7 @@
 
 .wheel-search-container {
   position: relative;
-  width: 320px;
+  width: autos;
 }
 
 .wheel-dropdown {
@@ -463,4 +466,144 @@
 
 .wheel-dropdown-item:hover {
   background: #777;
+}
+
+.formality-toggle {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.formality-btn {
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #2b2b2b;
+    color: white;
+    transition: 0.2s;
+    font-size: 2rem;
+}
+
+.formality-btn:hover {
+    transform: scale(1.05);
+}
+
+.active-formality {
+    background: #4f8cff;
+}
+
+/* GRAMMAR GAME */
+
+
+.grammar-groups-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  width: auto;
+}
+
+.grammar-group {
+  background-color: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.grammar-group-header {
+  display: flex;
+  font-size: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.small-btn{
+  font-size: 2rem;
+}
+
+.grammar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.grammar-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.grammar-game-buttons {
+  height: 80px;
+}
+
+.grammar-game {
+  gap: 20px;
+  padding: 20px;
+}
+
+.grammar-stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.grammar-question-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.grammar-question {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.grammar-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.grammar-choice-btn {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.choice-prefix {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.correct {
+  border: 2px solid limegreen;
+}
+
+.wrong {
+  border: 2px solid crimson;
+}
+
+.grammar-explanation-box {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.game-over-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }

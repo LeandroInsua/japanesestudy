@@ -24,6 +24,8 @@ export default function KanjiGame({ setView, BASE_PATH }) {
   const step = Number(localStorage.getItem("step"));
   const correctAudio = useRef(null);
 
+
+  /* EFFECTS */
   // LOAD DATA
   useEffect(() => {
     const loadKanji = async () => {
