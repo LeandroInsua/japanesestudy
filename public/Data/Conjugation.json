@@ -4005,26 +4005,32 @@
         "polite": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させます", "full": "諦めさせます", "kana": "あきらめさせます", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせます", "translation": "make/let give up" }
       },
       "causative_negative": { "label": "Causative Negative", "order": 20, "grammar": "causative-negative",
-        "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させない", "full": "諦めさせない", "kana": "あきらめさせない", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせない" }
+        "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させない", "full": "諦めさせない", "kana": "あきらめさせない", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせない" },
+        "polite": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させません", "full": "諦めさせません", "kana": "あきらめさせません", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせません", "translation": "not make/let give up" }
       },
       "causative_past": { "label": "Causative Past", "order": 21, "grammar": "causative-past",
-        "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させた", "full": "諦めさせた", "kana": "あきらめさせた", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせた" }
+        "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させた", "full": "諦めさせた", "kana": "あきらめさせた", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせた" },
+        "polite": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させました", "full": "諦めさせました", "kana": "あきらめさせました", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせました", "translation": "made/let give up" }
       },
       "causative_past_negative": { "label": "Causative Past Negative", "order": 22, "grammar": "causative-past-negative",
-        "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させなかった", "full": "諦めさせなかった", "kana": "あきらめさせなかった", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせなかった" }
+        "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させなかった", "full": "諦めさせなかった", "kana": "あきらめさせなかった", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせなかった" },
+        "polite": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させませんでした", "full": "諦めさせませんでした", "kana": "あきらめさせませんでした", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせませんでした", "translation": "did not make/let give up" }
       },
       "passive_causative": { "label": "Causative Passive", "order": 23, "grammar": "causative-passive",
         "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させられる", "full": "諦めさせられる", "kana": "あきらめさせられる", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせられる" },
         "polite": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させられます", "full": "諦めさせられます", "kana": "あきらめさせられます", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせられます", "translation": "be made to give up" }
       },
       "passive_causative_negative": { "label": "Causative Passive Negative", "order": 24, "grammar": "causative-passive-negative",
-        "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させられない", "full": "諦めさせられない", "kana": "あきらめさせられない", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせられない" }
+        "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させられない", "full": "諦めさせられない", "kana": "あきらめさせられない", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせられない" },
+        "polite": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させられません", "full": "諦めさせられません", "kana": "あきらめさせられません", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせられません", "translation": "not be made to give up" }
       },
       "passive_causative_past": { "label": "Causative Passive Past", "order": 25, "grammar": "causative-passive-past",
-        "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させられた", "full": "諦めさせられた", "kana": "あきらめさせられた", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせられた" }
+        "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させられた", "full": "諦めさせられた", "kana": "あきらめさせられた", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせられた" },
+        "polite": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させられました", "full": "諦めさせられました", "kana": "あきらめさせられました", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせられました", "translation": "was made to give up" }
       },
       "passive_causative_past_negative": { "label": "Causative Passive Past Negative", "order": 26, "grammar": "causative-passive-past-negative",
-        "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させられなかった", "full": "諦めさせられなかった", "kana": "あきらめさせられなかった", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせられなかった" }
+        "plain": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させられなかった", "full": "諦めさせられなかった", "kana": "あきらめさせられなかった", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせられなかった" },
+        "polite": { "root": "<ruby>諦<rt>あきら</rt></ruby>", "middle": "め", "ending": "させられませんでした", "full": "諦めさせられませんでした", "kana": "あきらめさせられませんでした", "full_furigana": "<ruby>諦<rt>あきら</rt></ruby>めさせられませんでした", "translation": "was not made to give up" }
       }
     }
   },
@@ -4112,26 +4118,32 @@
         "polite": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せます", "full": "辿らせます", "kana": "たどらせます", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせます", "translation": "make/let follow" }
       },
       "causative_negative": { "label": "Causative Negative", "order": 20, "grammar": "causative-negative",
-        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せない", "full": "辿らせない", "kana": "たどらせない", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせない" }
+        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せない", "full": "辿らせない", "kana": "たどらせない", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせない" },
+        "polite": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せません", "full": "辿らせません", "kana": "たどらせません", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせません" }
       },
       "causative_past": { "label": "Causative Past", "order": 21, "grammar": "causative-past",
-        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せた", "full": "辿らせた", "kana": "たどらせた", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせた" }
+        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せた", "full": "辿らせた", "kana": "たどらせた", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせた" },
+        "polite": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せました", "full": "辿らせました", "kana": "たどらせました", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせました" }
       },
       "causative_past_negative": { "label": "Causative Past Negative", "order": 22, "grammar": "causative-past-negative",
-        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せなかった", "full": "辿らせなかった", "kana": "たどらせなかった", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせなかった" }
+        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せなかった", "full": "辿らせなかった", "kana": "たどらせなかった", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせなかった" },
+        "polite": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せませんでした", "full": "辿らせませんでした", "kana": "たどらせませんでした", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせませんでした" }
       },
       "passive_causative": { "label": "Causative Passive", "order": 23, "grammar": "causative-passive",
         "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せられる", "full": "辿らせられる", "kana": "たどらせられる", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせられる" },
         "polite": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せられます", "full": "辿らせられます", "kana": "たどらせられます", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせられます", "translation": "be made to follow" }
       },
       "passive_causative_negative": { "label": "Causative Passive Negative", "order": 24, "grammar": "causative-passive-negative",
-        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せられない", "full": "辿らせられない", "kana": "たどらせられない", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせられない" }
+        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せられない", "full": "辿らせられない", "kana": "たどらせられない", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせられない" },
+        "polite": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せられません", "full": "辿らせられません", "kana": "たどらせられません", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせられません" }
       },
       "passive_causative_past": { "label": "Causative Passive Past", "order": 25, "grammar": "causative-passive-past",
-        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せられた", "full": "辿らせられた", "kana": "たどらせられた", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせられた" }
+        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せられた", "full": "辿らせられた", "kana": "たどらせられた", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせられた" },
+        "polite": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せられました", "full": "辿らせられました", "kana": "たどらせられました", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせられました" }
       },
       "passive_causative_past_negative": { "label": "Causative Passive Past Negative", "order": 26, "grammar": "causative-passive-past-negative",
-        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せられなかった", "full": "辿らせられなかった", "kana": "たどらせられなかった", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせられなかった" }
+        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せられなかった", "full": "辿らせられなかった", "kana": "たどらせられなかった", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせられなかった" },
+        "polite": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "ら", "ending": "せられませんでした", "full": "辿らせられませんでした", "kana": "たどらせられませんでした", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>らせられませんでした" }
       }
     }
   }

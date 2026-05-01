@@ -8,9 +8,9 @@ import KanjiGame from "./kanjiGame.jsx";
 import VocabGame from "./vocabGame.jsx";
 import ConjugationSelect from "./conjugationSelect.jsx";
 import ConjugationGame from "./conjugationGame.jsx";
-/* import ConjugationWheel from "./conjugationWheel.jsx";
-import GrammarSelect from "./grammarSelect.jsx"; */
-
+import ConjugationWheel from "./conjugationWheel.jsx";
+/* import GrammarSelect from "./grammarSelect.jsx";
+ */
 export default function App() {
   const [view, setView] = useState("home");
   const [steps, setSteps] = useState([]);
@@ -302,21 +302,21 @@ export default function App() {
             BASE_PATH={BASE_PATH} 
           />)}
 
-          {view === "grammar" && (
+          {/* {view === "grammar" && (
             <GrammarSelect
               BASE_PATH={BASE_PATH}
               onExit={() => setView("home")}
             />
-          )}
+          )} */}
 
-          {/* {view === "conjugationGame" && (
+          {view === "conjugationGame" && (
           <ConjugationGame
             conjugationPool={conjugationPool}
             mode={gameMode}
             onExit={() => setView("conjugation")}
             BASE_PATH={BASE_PATH}
           />
-        )} */}
+        )}
 
         {view === "conjugationWheel" && (
           <ConjugationWheel
