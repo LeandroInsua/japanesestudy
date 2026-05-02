@@ -288,7 +288,7 @@ export default function KanjiGame({ setView, BASE_PATH }) {
         </div>
       </div>
 
-      <button className="back-btn" onClick={() => setView("home")}>
+      <button className="back-btn" onClick={() => setView({ screen: "home" })}>
         Back
       </button>
 

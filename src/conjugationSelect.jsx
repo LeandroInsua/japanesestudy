@@ -166,7 +166,7 @@ export default function ConjugationSelect({
 
     setConjugationPool(selected);
     setGameMode(gameMode);
-    setView("conjugationGame");
+    setView({ screen: "conjugationGame" });
   };
 
   return (
@@ -310,12 +310,7 @@ export default function ConjugationSelect({
             </div>
           )}
 
-          <button
-            className="back-btn"
-            onClick={() =>
-              setView("home")
-            }
-          >
+          <button className="back-btn" onClick={() => setView({ screen: "home" })}>
             Back
           </button>
         </div>

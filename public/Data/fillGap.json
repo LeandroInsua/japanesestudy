@@ -1,0 +1,2756 @@
+{
+  "N5": {
+    "beginner": [
+      {
+        "key": "topic_wa",
+        "grammar": "Topic は",
+        "type": "fill-gap",
+        "question": "<ruby>私<rt>わたし</rt></ruby>___<ruby>学生<rt>がくせい</rt></ruby>です。",
+        "choices": ["は", "を", "に", "で"],
+        "answer": "は",
+        "explanation": "は marks the topic of the sentence.",
+        "question_romaji": "Watashi wa gakusei ___.",
+        "choices_romaji": ["wa", "o", "ni", "de"],
+        "answer_romaji": "wa",
+        "translation": "I am a student."
+      },
+      {
+        "key": "topic_wa",
+        "grammar": "Topic は",
+        "type": "fill-gap",
+        "question": "<ruby>東京<rt>とうきょう</rt></ruby>___にぎやかです。",
+        "choices": ["は", "が", "を", "へ"],
+        "answer": "は",
+        "explanation": "は marks the topic.",
+        "question_romaji": "Toukyou ___ nigiyaka desu.",
+        "choices_romaji": ["wa", "ga", "o", "e"],
+        "answer_romaji": "wa",
+        "translation": "Tokyo is lively."
+      },
+      {
+        "key": "possessive_no",
+        "grammar": "possessive の",
+        "type": "fill-gap",
+        "question": "これは<ruby>私<rt>わたし</rt></ruby>___<ruby>本<rt>ほん</rt></ruby>です。",
+        "choices": ["の", "は", "を", "に"],
+        "answer": "の",
+        "explanation": "の shows possession (my book).",
+        "question_romaji": "Kore wa watashi ___ hon desu.",
+        "choices_romaji": ["no", "wa", "o", "ni"],
+        "answer_romaji": "no",
+        "translation": "This is my book."
+      },
+      {
+        "key": "possessive_no",
+        "grammar": "possessive の",
+        "type": "fill-gap",
+        "question": "<ruby>先生<rt>せんせい</rt></ruby>___<ruby>車<rt>くるま</rt></ruby>は<ruby>新<rt>あたら</rt></ruby>しいです。",
+        "choices": ["は", "の", "を", "か"],
+        "answer": "の",
+        "explanation": "の connects nouns to show possession (teacher's car).",
+        "question_romaji": "Sensei ___ kuruma wa atarashii desu.",
+        "choices_romaji": ["wa", "no", "o", "ka"],
+        "answer_romaji": "no",
+        "translation": "The teacher's car is new."
+      },
+      {
+        "key": "inclusion_mo",
+        "grammar": "inclusion も",
+        "type": "fill-gap",
+        "question": "<ruby>犬<rt>いぬ</rt></ruby>___<ruby>猫<rt>ねこ</rt></ruby>___かわいいです。",
+        "choices": [
+          ["は", "も"],
+          ["も", "も"],
+          ["の", "は"],
+          ["か", "も"]
+        ],
+        "answer": ["も", "も"],
+        "explanation": "も can be used for inclusion of multiple items (both dog and cat are cute).",
+        "question_romaji": "Inu ___ neko ___ kawaii desu.",
+        "choices_romaji": [
+          ["wa", "mo"],
+          ["mo", "mo"],
+          ["no", "wa"],
+          ["ka", "mo"]
+        ],
+        "answer_romaji": ["mo", "mo"],
+        "translation": "Both dogs and cats are cute."
+      },
+      {
+        "key": "interrogative_ka",
+        "grammar": "interrogative か",
+        "type": "fill-gap",
+        "question": "あなた___<ruby>先生<rt>せんせい</rt></ruby>ですか。",
+        "choices": ["は", "も", "の", "か"],
+        "answer": "か",
+        "explanation": "か at the end makes it a question (Are you a teacher?).",
+        "question_romaji": "Anata ___ sensei desu ka.",
+        "choices_romaji": ["wa", "mo", "no", "ka"],
+        "answer_romaji": "ka",
+        "translation": "Are you a teacher?"
+      },
+      {
+        "key": "topic_wa",
+        "grammar": "Topic は",
+        "type": "fill-gap",
+        "question": "<ruby>山<rt>やま</rt></ruby>___<ruby>高<rt>たか</rt></ruby>いです。",
+        "choices": ["は", "が", "を", "に"],
+        "answer": "は",
+        "explanation": "は marks the topic (The mountain is tall).",
+        "question_romaji": "Yama ___ takai desu.",
+        "choices_romaji": ["wa", "ga", "o", "ni"],
+        "answer_romaji": "wa",
+        "translation": "The mountain is tall."
+      },
+      {
+        "key": "possessive_no",
+        "grammar": "possessive の",
+        "type": "fill-gap",
+        "question": "<ruby>友達<rt>ともだち</rt></ruby>___<ruby>家<rt>いえ</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きいです。",
+        "choices": ["の", "は", "も", "か"],
+        "answer": "の",
+        "explanation": "の shows possession (friend's house).",
+        "question_romaji": "Tomodachi ___ ie wa ookii desu.",
+        "choices_romaji": ["no", "wa", "mo", "ka"],
+        "answer_romaji": "no",
+        "translation": "My friend's house is big."
+      },
+      {
+        "key": "inclusion_mo",
+        "grammar": "inclusion も",
+        "type": "fill-gap",
+        "question": "<ruby>犬<rt>いぬ</rt></ruby>___<ruby>猫<rt>ねこ</rt></ruby>___かわいいです。",
+        "choices": [
+          ["は", "も"],
+          ["も", "も"],
+          ["の", "は"],
+          ["か", "も"]
+        ],
+        "answer": ["も", "も"],
+        "explanation": "も can be used for inclusion of multiple items (both dog and cat are cute).",
+        "question_romaji": "Inu ___ neko ___ kawaii desu.",
+        "choices_romaji": [
+          ["wa", "mo"],
+          ["mo", "mo"],
+          ["no", "wa"],
+          ["ka", "mo"]
+        ],
+        "answer_romaji": ["mo", "mo"],
+        "translation": "Both dogs and cats are cute."
+      },
+      {
+        "key": "inclusion_mo",
+        "grammar": "inclusion も",
+        "type": "fill-gap",
+        "question": "<ruby>彼<rt>かれ</rt></ruby>___<ruby>来<rt>き</rt></ruby>ます。",
+        "choices": ["は", "も", "の", "か"],
+        "answer": "も",
+        "explanation": "も means 'too' (He is coming too).",
+        "question_romaji": "Kare ___ kimasu.",
+        "choices_romaji": ["wa", "mo", "no", "ka"],
+        "answer_romaji": "mo",
+        "translation": "He is coming too."
+      },
+      {
+        "key": "interrogative_ka",
+        "grammar": "interrogative か",
+        "type": "fill-gap",
+        "question": "あなた___<ruby>先生<rt>せんせい</rt></ruby>ですか。",
+        "choices": ["は", "も", "の", "か"],
+        "answer": "か",
+        "explanation": "か at the end makes it a question (Are you a teacher?).",
+        "question_romaji": "Anata ___ sensei desu ka.",
+        "choices_romaji": ["wa", "mo", "no", "ka"],
+        "answer_romaji": "ka",
+        "translation": "Are you a teacher?"
+      },
+      {
+        "key": "interrogative_ka",
+        "grammar": "interrogative か",
+        "type": "fill-gap",
+        "question": "それは<ruby>何<rt>なに</rt></ruby>___。",
+        "choices": ["は", "も", "の", "か"],
+        "answer": "か",
+        "explanation": "か is used for questions (What is that?).",
+        "question_romaji": "Sore wa nani ___.",
+        "choices_romaji": ["wa", "mo", "no", "ka"],
+        "answer_romaji": "ka",
+        "translation": "What is that?"
+      },
+      {
+        "key": "interrogative_ka",
+        "grammar": "interrogative か",
+        "type": "fill-gap",
+        "question": "これは<ruby>本<rt>ほん</rt></ruby>___。",
+        "choices": ["は", "か", "の", "も"],
+        "answer": "か",
+        "explanation": "か turns a statement into a yes/no question.",
+        "question_romaji": "Kore wa hon ___.",
+        "choices_romaji": ["wa", "ka", "no", "mo"],
+        "answer_romaji": "ka",
+        "translation": "Is this a book?"
+      },
+      {
+        "key": "time_ni",
+        "grammar": "time に",
+        "type": "fill-gap",
+        "question": "7<ruby>時<rt>しちじ</rt></ruby>___<ruby>起<rt>お</rt></ruby>きます。",
+        "choices": ["に", "は", "を", "で"],
+        "answer": "に",
+        "explanation": "に marks a specific point in time (at 7 o'clock).",
+        "question_romaji": "Shichi-ji ___ okimasu.",
+        "choices_romaji": ["ni", "wa", "o", "de"],
+        "answer_romaji": "ni",
+        "translation": "I wake up at 7 o'clock."
+      },
+      {
+        "key": "and_to",
+        "grammar": "\"and\" と",
+        "type": "fill-gap",
+        "question": "<ruby>犬<rt>いぬ</rt></ruby>___<ruby>猫<rt>ねこ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。",
+        "choices": ["と", "も", "の", "か"],
+        "answer": "と",
+        "explanation": "と means 'and' when listing nouns.",
+        "question_romaji": "Inu ___ neko ga suki desu.",
+        "choices_romaji": ["to", "mo", "no", "ka"],
+        "answer_romaji": "to",
+        "translation": "I like dogs and cats."
+      },
+      {
+        "key": "and_to",
+        "grammar": "\"and\" と",
+        "type": "fill-gap",
+        "question": "<ruby>本<rt>ほん</rt></ruby>___<ruby>雑誌<rt>ざっし</rt></ruby>___<ruby>読<rt>よ</rt></ruby>みます。",
+        "choices": ["と", "を", "に", "も"],
+        "answer": "と",
+        "explanation": "と is used to connect nouns (books and magazines).",
+        "question_romaji": "Hon ___ zasshi ___ yomimasu.",
+        "choices_romaji": ["to", "o", "ni", "mo"],
+        "answer_romaji": "to",
+        "translation": "I read books and magazines."
+      },
+      {
+        "key": "towards_e",
+        "grammar": "towards へ",
+        "type": "fill-gap",
+        "question": "<ruby>学校<rt>がっこう</rt></ruby>___<ruby>行<rt>い</rt></ruby>きます。",
+        "choices": ["へ", "に", "は", "を"],
+        "answer": "へ",
+        "explanation": "へ indicates direction (towards school).",
+        "question_romaji": "Gakkou ___ ikimasu.",
+        "choices_romaji": ["e", "ni", "wa", "o"],
+        "answer_romaji": "e",
+        "translation": "I go to school."
+      },
+      {
+        "key": "towards_e",
+        "grammar": "towards へ",
+        "type": "fill-gap",
+        "question": "<ruby>日本<rt>にほん</rt></ruby>___<ruby>行<rt>い</rt></ruby>きます。",
+        "choices": ["へ", "に", "から", "まで"],
+        "answer": "へ",
+        "explanation": "へ shows the direction of movement (to Japan).",
+        "question_romaji": "Nihon ___ ikitai desu.",
+        "choices_romaji": ["e", "ni", "kara", "made"],
+        "answer_romaji": "e",
+        "translation": "I go to Japan."
+      },
+      {
+        "key": "time_ni",
+        "grammar": "time に",
+        "type": "fill-gap",
+        "question": "<ruby>月曜日<rt>げつようび</rt></ruby>___<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "choices": ["に", "は", "から", "へ"],
+        "answer": "に",
+        "explanation": "に is used with days of the week for specific time.",
+        "question_romaji": "Getsuyoubi ___ gakkou e ikimasu.",
+        "choices_romaji": ["ni", "wa", "kara", "e"],
+        "answer_romaji": "ni",
+        "translation": "I go to school on Monday."
+      },
+      {
+        "key": "time_ni",
+        "grammar": "time に",
+        "type": "fill-gap",
+        "question": "<ruby>3時<rt>さんじ</rt></ruby>___<ruby>会<rt>あ</rt></ruby>います。",
+        "choices": ["に", "は", "を", "から"],
+        "answer": "に",
+        "explanation": "に marks the specific time (at 3 o'clock).",
+        "question_romaji": "San-ji ___ aimashou.",
+        "choices_romaji": ["ni", "wa", "o", "kara"],
+        "answer_romaji": "ni",
+        "translation": "We meet at 3 o'clock."
+      },
+      {
+        "key": "kara_made",
+        "grammar": "から まで",
+        "type": "fill-gap",
+        "question": "<ruby>9時<rt>くじ</rt></ruby>___<ruby>10時<rt>じゅうじ</rt></ruby>___<ruby>勉強<rt>べんきょう</rt></ruby>します。",
+        "choices": [
+          ["から", "まで"],
+          ["まで", "から"],
+          ["に", "まで"],
+          ["は", "から"]
+        ],
+        "answer": ["から", "まで"],
+        "explanation": "から means 'from' and まで means 'until/to'.",
+        "question_romaji": "Ku-ji ___ juu-ji ___ benkyou shimasu.",
+        "choices_romaji": [
+          ["kara", "made"],
+          ["made", "kara"],
+          ["ni", "made"],
+          ["wa", "kara"]
+        ],
+        "answer_romaji": ["kara", "made"],
+        "translation": "I study from 9 o'clock to 10 o'clock."
+      },
+      {
+        "key": "kara_made",
+        "grammar": "から まで",
+        "type": "fill-gap",
+        "question": "<ruby>朝<rt>あさ</rt></ruby>___<ruby>夜<rt>よる</rt></ruby>___<ruby>働<rt>はたら</rt></ruby>きます。",
+        "choices": [
+          ["から", "まで"],
+          ["に", "まで"],
+          ["は", "から"],
+          ["も", "まで"]
+        ],
+        "answer": ["から", "まで"],
+        "explanation": "から...まで expresses the range 'from...to...'.",
+        "question_romaji": "Asa ___ yoru ___ hatarakimasu.",
+        "choices_romaji": [
+          ["kara", "made"],
+          ["ni", "made"],
+          ["wa", "kara"],
+          ["mo", "made"]
+        ],
+        "answer_romaji": ["kara", "made"],
+        "translation": "I work from morning until night."
+      },
+      {
+        "key": "kara_made",
+        "grammar": "から まで",
+        "type": "fill-gap",
+        "question": "<ruby>月曜日<rt>げつようび</rt></ruby>___<ruby>金曜日<rt>きんようび</rt></ruby>___<ruby>忙<rt>いそが</rt></ruby>しいです。",
+        "choices": [
+          ["から", "まで"],
+          ["まで", "から"],
+          ["に", "から"],
+          ["は", "まで"]
+        ],
+        "answer": ["から", "まで"],
+        "explanation": "から...まで for time period (from Monday to Frkeyay).",
+        "question_romaji": "Getsuyoubi ___ kinyoubi ___ isogashii desu.",
+        "choices_romaji": [
+          ["kara", "made"],
+          ["made", "kara"],
+          ["ni", "kara"],
+          ["wa", "made"]
+        ],
+        "answer_romaji": ["kara", "made"],
+        "translation": "I am busy from Monday to Frkeyay."
+      },
+      {
+        "key": "and_to",
+        "grammar": "\"and\" と",
+        "type": "fill-gap",
+        "question": "<ruby>母<rt>はは</rt></ruby>___<ruby>父<rt>ちち</rt></ruby>___<ruby>来<rt>き</rt></ruby>ました。",
+        "choices": [
+          ["と", "と"],
+          ["と", "は"],
+          ["は", "と"],
+          ["も", "と"]
+        ],
+        "answer": ["と", "と"],
+        "explanation": "と means 'and' when listing nouns.",
+        "question_romaji": "Haha ___ chichi ___ kimashita.",
+        "choices_romaji": [
+          ["to", "to"],
+          ["to", "wa"],
+          ["wa", "to"],
+          ["mo", "to"]
+        ],
+        "answer_romaji": ["to", "to"],
+        "translation": "My mother and father came."
+      },
+      {
+        "key": "towards_e",
+        "grammar": "towards へ",
+        "type": "fill-gap",
+        "question": "<ruby>学校<rt>がっこう</rt></ruby>___<ruby>行<rt>い</rt></ruby>きます。",
+        "choices": ["へ", "に", "は", "を"],
+        "answer": "へ",
+        "explanation": "へ indicates direction (towards school).",
+        "question_romaji": "Gakkou ___ ikimasu.",
+        "choices_romaji": ["e", "ni", "wa", "o"],
+        "answer_romaji": "e",
+        "translation": "I go to school."
+      },
+      {
+        "key": "towards_e",
+        "grammar": "towards へ",
+        "type": "fill-gap",
+        "question": "<ruby>日本<rt>にほん</rt></ruby>___<ruby>行<rt>い</rt></ruby>きたいです。",
+        "choices": ["へ", "に", "から", "まで"],
+        "answer": "へ",
+        "explanation": "へ shows the direction of movement (to Japan).",
+        "question_romaji": "Nihon ___ ikitai desu.",
+        "choices_romaji": ["e", "ni", "kara", "made"],
+        "answer_romaji": "e",
+        "translation": "I want to go to Japan."
+      },
+      {
+        "key": "towards_e",
+        "grammar": "towards へ",
+        "type": "fill-gap",
+        "question": "<ruby>駅<rt>えき</rt></ruby>___<ruby>歩<rt>ある</rt></ruby>きます。",
+        "choices": ["へ", "に", "は", "を"],
+        "answer": "へ",
+        "explanation": "へ indicates the direction (towards the station).",
+        "question_romaji": "Eki ___ arukimasu.",
+        "choices_romaji": ["e", "ni", "wa", "o"],
+        "answer_romaji": "e",
+        "translation": "I walk to the station."
+      },
+      {
+        "key": "exclusive_mo",
+        "grammar": "exclusive も",
+        "type": "fill-gap",
+        "question": "<ruby>私<rt>わたし</rt></ruby>は<ruby>何<rt>なに</rt></ruby>___<ruby>食<rt>た</rt></ruby>べません。",
+        "choices": ["も", "は", "を", "に"],
+        "answer": "も",
+        "explanation": "何も + negative = nothing (I eat nothing / I don't eat anything).",
+        "question_romaji": "Watashi wa nani ___ tabemasen.",
+        "choices_romaji": ["mo", "wa", "o", "ni"],
+        "answer_romaji": "mo",
+        "translation": "I don't eat anything."
+      },
+      {
+        "key": "exclusive_mo",
+        "grammar": "exclusive も",
+        "type": "fill-gap",
+        "question": "ここに<ruby>誰<rt>だれ</rt></ruby>___いません。",
+        "choices": ["も", "は", "が", "を"],
+        "answer": "も",
+        "explanation": "誰も + negative = nobody (There is nobody here).",
+        "question_romaji": "Koko ni dare ___ imasen.",
+        "choices_romaji": ["mo", "wa", "ga", "o"],
+        "answer_romaji": "mo",
+        "translation": "There is nobody here."
+      },
+      {
+        "key": "exclusive_mo",
+        "grammar": "exclusive も",
+        "type": "fill-gap",
+        "question": "<ruby>今日<rt>きょう</rt></ruby>どこ___<ruby>行<rt>い</rt></ruby>きません。",
+        "choices": ["も", "へ", "に", "は"],
+        "answer": "も",
+        "explanation": "どこも + negative = nowhere (I'm not going anywhere today).",
+        "question_romaji": "Kyou doko ___ ikimasen.",
+        "choices_romaji": ["mo", "e", "ni", "wa"],
+        "answer_romaji": "mo",
+        "translation": "I'm not going anywhere today."
+      },
+      {
+        "key": "accompaniment_to",
+        "grammar": "Accompaniment と",
+        "type": "fill-gap",
+        "question": "<ruby>友達<rt>ともだち</rt></ruby>___<ruby>公園<rt>こうえん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "choices": ["と", "に", "へ", "を"],
+        "answer": "と",
+        "explanation": "と means 'with' (accompaniment - with friend).",
+        "question_romaji": "Tomodachi ___ kouen e ikimasu.",
+        "choices_romaji": ["to", "ni", "e", "o"],
+        "answer_romaji": "to",
+        "translation": "I go to the park with my friend."
+      },
+      {
+        "key": "accompaniment_to",
+        "grammar": "Accompaniment と",
+        "type": "fill-gap",
+        "question": "<ruby>家族<rt>かぞく</rt></ruby>___<ruby>旅行<rt>りょこう</rt></ruby>します。",
+        "choices": ["と", "に", "で", "は"],
+        "answer": "と",
+        "explanation": "と indicates doing something together with someone.",
+        "question_romaji": "Kazoku ___ ryokou shimasu.",
+        "choices_romaji": ["to", "ni", "de", "wa"],
+        "answer_romaji": "to",
+        "translation": "I travel with my family."
+      },
+      {
+        "key": "means_de",
+        "grammar": "Means/tools で",
+        "type": "fill-gap",
+        "question": "<ruby>箸<rt>はし</rt></ruby>___<ruby>食<rt>た</rt></ruby>べます。",
+        "choices": ["で", "を", "に", "と"],
+        "answer": "で",
+        "explanation": "で indicates the means or tool used (eat with chopsticks).",
+        "question_romaji": "Hashi ___ tabemasu.",
+        "choices_romaji": ["de", "o", "ni", "to"],
+        "answer_romaji": "de",
+        "translation": "I eat with chopsticks."
+      },
+      {
+        "key": "means_de",
+        "grammar": "Means/tools で",
+        "type": "fill-gap",
+        "question": "<ruby>電車<rt>でんしゃ</rt></ruby>___<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "choices": ["で", "に", "へ", "を"],
+        "answer": "で",
+        "explanation": "で indicates the means of transportation (by train).",
+        "question_romaji": "Densha ___ gakkou e ikimasu.",
+        "choices_romaji": ["de", "ni", "e", "o"],
+        "answer_romaji": "de",
+        "translation": "I go to school by train."
+      },
+      {
+        "key": "means_de",
+        "grammar": "Means/tools で",
+        "type": "fill-gap",
+        "question": "<ruby>日本語<rt>にほんご</rt></ruby>___<ruby>話<rt>はな</rt></ruby>します。",
+        "choices": ["で", "を", "に", "と"],
+        "answer": "で",
+        "explanation": "で indicates the language or means (speak in Japanese).",
+        "question_romaji": "Nihongo ___ hanashimasu.",
+        "choices_romaji": ["de", "o", "ni", "to"],
+        "answer_romaji": "de",
+        "translation": "I speak in Japanese."
+      },
+      {
+        "key": "do_wo",
+        "grammar": "DO を",
+        "type": "fill-gap",
+        "question": "<ruby>本<rt>ほん</rt></ruby>___<ruby>読<rt>よ</rt></ruby>みます。",
+        "choices": ["を", "は", "に", "で"],
+        "answer": "を",
+        "explanation": "を marks the direct object of the verb (read a book).",
+        "question_romaji": "Hon ___ yomimasu.",
+        "choices_romaji": ["o", "wa", "ni", "de"],
+        "answer_romaji": "o",
+        "translation": "I read a book."
+      },
+      {
+        "key": "do_wo",
+        "grammar": "DO を",
+        "type": "fill-gap",
+        "question": "<ruby>水<rt>みず</rt></ruby>___<ruby>飲<rt>の</rt></ruby>みます。",
+        "choices": ["を", "に", "で", "と"],
+        "answer": "を",
+        "explanation": "を marks the direct object (drink water).",
+        "question_romaji": "Mizu ___ nomimasu.",
+        "choices_romaji": ["o", "ni", "de", "to"],
+        "answer_romaji": "o",
+        "translation": "I drink water."
+      },
+      {
+        "key": "do_wo",
+        "grammar": "DO を",
+        "type": "fill-gap",
+        "question": "<ruby>音楽<rt>おんがく</rt></ruby>___<ruby>聞<rt>き</rt></ruby>きます。",
+        "choices": ["を", "に", "で", "は"],
+        "answer": "を",
+        "explanation": "を marks the direct object (listen to music).",
+        "question_romaji": "Ongaku ___ kikimasu.",
+        "choices_romaji": ["o", "ni", "de", "wa"],
+        "answer_romaji": "o",
+        "translation": "I listen to music."
+      },
+      {
+        "key": "possessive_no",
+        "grammar": "possessive の",
+        "type": "fill-gap",
+        "question": "これはあなた___<ruby>本<rt>ほん</rt></ruby>ですか。",
+        "choices": ["は", "に", "の", "と"],
+        "answer": "の",
+        "explanation": "の links two nouns to indicate possession or belonging.",
+        "question_romaji": "Kore wa anata ___ hon desu ka.",
+        "choices_romaji": ["wa", "ni", "no", "to"],
+        "answer_romaji": "no",
+        "translation": "Is this your book?"
+      },
+      {
+        "key": "inclusion_mo",
+        "grammar": "inclusion も",
+        "type": "fill-gap",
+        "question": "あした___<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "choices": ["も", "の", "か", "は"],
+        "answer": "も",
+        "explanation": "も means 'also' or 'too', indicating inclusion.",
+        "question_romaji": "Ashita ___ gakkou e ikimasu.",
+        "choices_romaji": ["mo", "no", "ka", "wa"],
+        "answer_romaji": "mo",
+        "translation": "I will go to school tomorrow too."
+      },
+      {
+        "key": "interrogative_ka",
+        "grammar": "interrogative か",
+        "type": "fill-gap",
+        "question": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>日本人<rt>にほんじん</rt></ruby>です___。",
+        "choices": ["は", "も", "に", "か"],
+        "answer": "か",
+        "explanation": "か is placed at the end of a sentence to turn it into a question.",
+        "question_romaji": "Tanaka-san wa Nihonjin desu ___.",
+        "choices_romaji": ["wa", "mo", "ni", "ka"],
+        "answer_romaji": "ka",
+        "translation": "Is Mr. Tanaka Japanese?"
+      },
+      {
+        "key": "time_ni",
+        "grammar": "time に",
+        "type": "fill-gap",
+        "question": "<ruby>七時<rt>しちじ</rt></ruby>___<ruby>起<rt>お</rt></ruby>きます。",
+        "choices": ["へ", "に", "を", "は"],
+        "answer": "に",
+        "explanation": "に is used to indicate a specific point in time.",
+        "question_romaji": "Shichiji ___ okimasu.",
+        "choices_romaji": ["e", "ni", "o", "wa"],
+        "answer_romaji": "ni",
+        "translation": "I wake up at 7 o'clock."
+      },
+      {
+        "key": "kara_made",
+        "grammar": "から まで",
+        "type": "fill-gap",
+        "question": "<ruby>九時<rt>くじ</rt></ruby>___<ruby>五時<rt>ごじ</rt></ruby>___<ruby>働<rt>はたら</rt></ruby>きます。",
+        "choices": [
+          ["から", "まで"],
+          ["に", "に"],
+          ["へ", "から"],
+          ["まで", "から"]
+        ],
+        "answer": ["から", "まで"],
+        "explanation": "から means 'from' and まで means 'until', defining a range.",
+        "question_romaji": "Kuji ___ goji ___ hatarakimasu.",
+        "choices_romaji": [
+          ["kara", "made"],
+          ["ni", "ni"],
+          ["e", "kara"],
+          ["made", "kara"]
+        ],
+        "answer_romaji": ["kara", "made"],
+        "translation": "I work from 9:00 until 5:00."
+      },
+      {
+        "key": "and_to",
+        "grammar": "\"and\" と",
+        "type": "fill-gap",
+        "question": "<ruby>肉<rt>にく</rt></ruby>___<ruby>魚<rt>さかな</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。",
+        "choices": ["と", "も", "は", "に"],
+        "answer": "と",
+        "explanation": "と is used to list items (A and B).",
+        "question_romaji": "Niku ___ sakana o tabemasu.",
+        "choices_romaji": ["to", "mo", "wa", "ni"],
+        "answer_romaji": "to",
+        "translation": "I eat meat and fish."
+      },
+      {
+        "key": "towards_e",
+        "grammar": "towards へ",
+        "type": "fill-gap",
+        "question": "どこ___<ruby>行<rt>い</rt></ruby>きますか。",
+        "choices": ["の", "に", "へ", "は"],
+        "answer": "へ",
+        "explanation": "へ (pronounced 'e') indicates the direction or destination of movement.",
+        "question_romaji": "Doko ___ ikimasu ka.",
+        "choices_romaji": ["no", "ni", "e", "wa"],
+        "answer_romaji": "e",
+        "translation": "Where are you going?"
+      },
+      {
+        "key": "exclusive_mo",
+        "grammar": "exclusive も",
+        "type": "fill-gap",
+        "question": "れいぞうこのなかになに___ありません。",
+        "choices": ["は", "を", "も", "に"],
+        "answer": "も",
+        "explanation": "も used with a question word (nani) and a negative verb creates an exclusive 'nothing' meaning.",
+        "question_romaji": "Reizouko no naka ni nani ___ arimasen.",
+        "choices_romaji": ["wa", "o", "mo", "ni"],
+        "answer_romaji": "mo",
+        "translation": "There is nothing in the refrigerator."
+      },
+      {
+        "key": "accompaniment_to",
+        "grammar": "Accompaniment と",
+        "type": "fill-gap",
+        "question": "<ruby>友達<rt>ともだち</rt></ruby>___デパートへ<ruby>行<rt>い</rt></ruby>きました。",
+        "choices": ["に", "と", "を", "へ"],
+        "answer": "と",
+        "explanation": "と marks the person with whom you perform an action (accompaniment).",
+        "question_romaji": "Tomodachi ___ depa-to e ikimashita.",
+        "choices_romaji": ["ni", "to", "o", "e"],
+        "answer_romaji": "to",
+        "translation": "I went to the department store with my friend."
+      },
+      {
+        "key": "means_tool_de",
+        "grammar": "Means/tools で",
+        "type": "fill-gap",
+        "question": "はし___ごはんを<ruby>食<rt>た</rt></ruby>べます。",
+        "choices": ["で", "を", "に", "と"],
+        "answer": "で",
+        "explanation": "で indicates the tool or means used to complete an action (with chopsticks).",
+        "question_romaji": "Hashi ___ gohan o tabemasu.",
+        "choices_romaji": ["de", "o", "ni", "to"],
+        "answer_romaji": "de",
+        "translation": "I eat a meal with chopsticks."
+      },
+      {
+        "key": "direct_object_o",
+        "grammar": "DO を",
+        "type": "fill-gap",
+        "question": "コーヒー___<ruby>飲<rt>の</rt></ruby>みます。",
+        "choices": ["は", "に", "を", "へ"],
+        "answer": "を",
+        "explanation": "を marks the direct object, the thing receiving the action of the verb.",
+        "question_romaji": "Ko-hi- ___ nomimasu.",
+        "choices_romaji": ["wa", "ni", "o", "e"],
+        "answer_romaji": "o",
+        "translation": "I drink coffee."
+      },
+      {
+        "key": "place_de",
+        "grammar": "Place で",
+        "type": "fill-gap",
+        "question": "<ruby>図書館<rt>としょかん</rt></ruby>___<ruby>勉強<rt>べんきょう</rt></ruby>します。",
+        "choices": ["に", "へ", "で", "を"],
+        "answer": "で",
+        "explanation": "で marks the location where an active event or action takes place.",
+        "question_romaji": "Toshokan ___ benkyou shimasu.",
+        "choices_romaji": ["ni", "e", "de", "o"],
+        "answer_romaji": "de",
+        "translation": "I study at the library."
+      },
+      {
+        "key": "invitation_mashou",
+        "grammar": "ませんか、ましょう",
+        "type": "fill-gap",
+        "question": "いっしょに<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>___。",
+        "choices": ["ます", "ましょう", "ますか", "る"],
+        "answer": "ましょう",
+        "explanation": "ましょう is used to suggest doing something together ('Let's...').",
+        "question_romaji": "Isshoni eiga o mi ___.",
+        "choices_romaji": ["masu", "mashou", "masuka", "ru"],
+        "answer_romaji": "mashou",
+        "translation": "Let's watch a movie together."
+      },
+      {
+        "key": "exclusive_mo",
+        "grammar": "exclusive も",
+        "type": "fill-gap",
+        "question": "パーティーにだれ___きませんでした。",
+        "choices": ["は", "が", "も", "に"],
+        "answer": "も",
+        "explanation": "だれも followed by a negative verb means 'nobody'.",
+        "question_romaji": "Pa-ti- ni dare ___ kimasen deshita.",
+        "choices_romaji": ["wa", "ga", "mo", "ni"],
+        "answer_romaji": "mo",
+        "translation": "Nobody came to the party."
+      },
+      {
+        "key": "exclusive_mo",
+        "grammar": "exclusive も",
+        "type": "fill-gap",
+        "question": "にちようびはどこ___<ruby>行<rt>い</rt></ruby>きませんでした。",
+        "choices": ["に", "も", "へ", "は"],
+        "answer": "も",
+        "explanation": "どこも followed by a negative verb means 'nowhere'.",
+        "question_romaji": "Nichiyoubi wa doko ___ ikimasen deshita.",
+        "choices_romaji": ["ni", "mo", "e", "wa"],
+        "answer_romaji": "mo",
+        "translation": "I dkeyn't go anywhere on Sunday."
+      },
+      {
+        "key": "accompaniment_to",
+        "grammar": "Accompaniment と",
+        "type": "fill-gap",
+        "question": "<ruby>家族<rt>かぞく</rt></ruby>___<ruby>日本<rt>にほん</rt></ruby>へ<ruby>来<rt>き</rt></ruby>ました。",
+        "choices": ["と", "を", "も", "に"],
+        "answer": "と",
+        "explanation": "と keyentifies the person/group you are doing the action with.",
+        "question_romaji": "Kazoku ___ Nihon e kimashita.",
+        "choices_romaji": ["to", "o", "mo", "ni"],
+        "answer_romaji": "to",
+        "translation": "I came to Japan with my family."
+      },
+      {
+        "key": "means_tool_de",
+        "grammar": "Means/tools で",
+        "type": "fill-gap",
+        "question": "日本語___レポートを<ruby>書<rt>か</rt></ruby>きます。",
+        "choices": ["を", "が", "で", "に"],
+        "answer": "で",
+        "explanation": "で indicates the language or means used to complete a task.",
+        "question_romaji": "Nihongo ___ repo-to o kakimasu.",
+        "choices_romaji": ["o", "ga", "de", "ni"],
+        "answer_romaji": "de",
+        "translation": "I will write the report in Japanese."
+      },
+      {
+        "key": "direct_object_o",
+        "grammar": "DO を",
+        "type": "fill-gap",
+        "question": "あしたテニス___します。",
+        "choices": ["を", "に", "と", "も"],
+        "answer": "を",
+        "explanation": "を marks 'tennis' as the object being played (done).",
+        "question_romaji": "Ashita tenisu ___ shimasu.",
+        "choices_romaji": ["o", "ni", "to", "mo"],
+        "answer_romaji": "o",
+        "translation": "I will play tennis tomorrow."
+      },
+      {
+        "key": "place_de",
+        "grammar": "Place で",
+        "type": "fill-gap",
+        "question": "レストラン___<ruby>晩<rt>ばん</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べます。",
+        "choices": ["に", "へ", "で", "を"],
+        "answer": "で",
+        "explanation": "で is used for the location where the action of eating occurs.",
+        "question_romaji": "Resutoran ___ bangohan o tabemasu.",
+        "choices_romaji": ["ni", "e", "de", "o"],
+        "answer_romaji": "de",
+        "translation": "I will eat dinner at a restaurant."
+      },
+      {
+        "key": "invitation_masenka",
+        "grammar": "ませんか、ましょう",
+        "type": "fill-gap",
+        "question": "いっしょにテニスを<ruby>見<rt>み</rt></ruby>___。",
+        "choices": ["ませんか", "ます", "ましょうか", "ました"],
+        "answer": "ませんか",
+        "explanation": "V-masenka is a polite way to invite someone to do something.",
+        "question_romaji": "Isshoni tenisu o mi ___.",
+        "choices_romaji": ["masenka", "masu", "mashouka", "mashita"],
+        "answer_romaji": "masenka",
+        "translation": "Won't you watch tennis with me?"
+      },
+      {
+        "key": "exclusive_mo",
+        "grammar": "exclusive も",
+        "type": "fill-gap",
+        "question": "きのう　なにもたべ___。",
+        "choices": ["ます", "ました", "ませんでした", "ましょう"],
+        "answer": "ませんでした",
+        "explanation": "When using 'nanimo' (nothing), the verb must be in the negative form.",
+        "question_romaji": "Kinou nani mo tabe ___.",
+        "choices_romaji": ["masu", "mashita", "masen deshita", "mashou"],
+        "answer_romaji": "masen deshita",
+        "translation": "I dkeyn't eat anything yesterday."
+      },
+      {
+        "key": "giving_receiving",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "わたしは<ruby>母<rt>はは</rt></ruby>にプレゼントを___。",
+        "choices": ["あげました", "もらいました", "かりました", "ならいました"],
+        "answer": "あげました",
+        "explanation": "あげます is used when the speaker gives something to someone else.",
+        "question_romaji": "Watashi wa haha ni purezento o ___.",
+        "choices_romaji": ["agemashita", "moraimashita", "karimashita", "naraimashita"],
+        "answer_romaji": "agemashita",
+        "translation": "I gave a present to my mother."
+      },
+      {
+        "key": "mou_mada",
+        "grammar": "もう、まだ",
+        "type": "fill-gap",
+        "question": "もう<ruby>昼<rt>ひる</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べましたか。･･･いいえ、___です。",
+        "choices": ["もう", "まだ", "まで", "から"],
+        "answer": "まだ",
+        "explanation": "まだ is used with 'desu' or a negative verb to mean 'not yet'.",
+        "question_romaji": "Mou hirugohan o tabemashita ka. ...Iie, ___ desu.",
+        "choices_romaji": ["mou", "mada", "made", "kara"],
+        "answer_romaji": "mada",
+        "translation": "Have you eaten lunch already? ...No, not yet."
+      },
+      {
+        "key": "adj_conjugation",
+        "grammar": "Adjective conjugation",
+        "type": "fill-gap",
+        "question": "きのうの<ruby>試験<rt>しけん</rt></ruby>はあまり___。",
+        "choices": ["むずかしいです", "むずかしくないです", "むずかしくなかったです", "むずかしかったです"],
+        "answer": "むずかしくなかったです",
+        "explanation": "For negative past tense of I-adjectives, change the final ~i to ~kunakatta desu.",
+        "question_romaji": "Kinou no shiken wa amari ___.",
+        "choices_romaji": ["muzukashii desu", "muzukashiku nai desu", "muzukashiku nakatta desu", "muzukashikatta desu"],
+        "answer_romaji": "muzukashiku nakatta desu",
+        "translation": "Yesterday's exam wasn't very difficult."
+      },
+      {
+        "key": "giving_receiving",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "わたしは<ruby>田中<rt>たなか</rt></ruby>さんにレポートを___。",
+        "choices": ["ならいました", "おしえました", "もらいました", "あげました"],
+        "answer": "おしえました",
+        "explanation": "おしえます is used when you teach/inform someone of something.",
+        "question_romaji": "Watashi wa Tanaka-san ni repo-to o ___.",
+        "choices_romaji": ["naraimashita", "oshiemashita", "moraimashita", "agemashita"],
+        "answer_romaji": "oshiemashita",
+        "translation": "I explained (taught) the report to Mr. Tanaka."
+      },
+      {
+        "key": "giving_receiving",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "<ruby>友達<rt>ともだち</rt></ruby>に<ruby>傘<rt>かさ</rt></ruby>を___。",
+        "choices": ["かりました", "かしました", "おしえました", "ならいました"],
+        "answer": "かりました",
+        "explanation": "かりました (borrowed) indicates you received the item for temporary use from someone else.",
+        "question_romaji": "Tomodachi ni kasa o ___.",
+        "choices_romaji": ["karimashita", "kashimashita", "oshiemashita", "naraimashita"],
+        "answer_romaji": "karimashita",
+        "translation": "I borrowed an umbrella from a friend."
+      },
+      {
+        "key": "adj_conjugation",
+        "grammar": "Adjective conjugation",
+        "type": "fill-gap",
+        "question": "この<ruby>公園<rt>こうえん</rt></ruby>はとても___。",
+        "choices": ["しずかです", "しずかでした", "しずかじゃありません", "しずかかったです"],
+        "answer": "しずかです",
+        "explanation": "For Na-adjectives in the present affirmative, simply add 'desu'.",
+        "question_romaji": "Kono kouen wa totemo ___.",
+        "choices_romaji": ["shizuka desu", "shizuka deshita", "shizuka janai desu", "shizukakatta desu"],
+        "answer_romaji": "shizuka desu",
+        "translation": "This park is very quiet."
+      },
+      {
+        "key": "mou_mada",
+        "grammar": "もう、まだ",
+        "type": "fill-gap",
+        "question": "___レポートを<ruby>書<rt>か</rt></ruby>きましたか。･･･はい、もう<ruby>書<rt>か</rt></ruby>きました。",
+        "choices": ["まだ", "もう", "から", "まで"],
+        "answer": "もう",
+        "explanation": "もう is used in questions to ask if an action has already been completed.",
+        "question_romaji": "___ repo-to o kakimashita ka. ...Hai, mou kakimashita.",
+        "choices_romaji": ["mada", "mou", "kara", "made"],
+        "answer_romaji": "mou",
+        "translation": "Have you already written the report? ...Yes, I have already written it."
+      },
+      {
+        "key": "giving_receiving",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "わたしは<ruby>母<rt>はは</rt></ruby>にプレゼントを___。",
+        "choices": ["あげました", "もらいました", "かりました", "ならいました"],
+        "answer": "あげました",
+        "explanation": "あげます is used when the speaker gives something to someone else.",
+        "question_romaji": "Watashi wa haha ni purezento o ___.",
+        "choices_romaji": ["agemashita", "moraimashita", "karimashita", "naraimashita"],
+        "answer_romaji": "agemashita",
+        "translation": "I gave a present to my mother."
+      },
+      {
+        "key": "mou_mada",
+        "grammar": "もう、まだ",
+        "type": "fill-gap",
+        "question": "もう<ruby>昼<rt>ひる</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べましたか。･･･いいえ、___です。",
+        "choices": ["もう", "まだ", "まで", "から"],
+        "answer": "まだ",
+        "explanation": "まだ is used with 'desu' or a negative verb to mean 'not yet'.",
+        "question_romaji": "Mou hirugohan o tabemashita ka. ...Iie, ___ desu.",
+        "choices_romaji": ["mou", "mada", "made", "kara"],
+        "answer_romaji": "mada",
+        "translation": "Have you eaten lunch already? ...No, not yet."
+      },
+      {
+        "key": "adj_conjugation",
+        "grammar": "Adjective conjugation",
+        "type": "fill-gap",
+        "question": "きのうの<ruby>試験<rt>しけん</rt></ruby>はあまり___。",
+        "choices": ["むずかしいです", "むずかしくないです", "むずかしくなかったです", "むずかしかったです"],
+        "answer": "むずかしくなかったです",
+        "explanation": "For negative past tense of I-adjectives, change the final ~i to ~kunakatta desu.",
+        "question_romaji": "Kinou no shiken wa amari ___.",
+        "choices_romaji": ["muzukashii desu", "muzukashiku nai desu", "muzukashiku nakatta desu", "muzukashikatta desu"],
+        "answer_romaji": "muzukashiku nakatta desu",
+        "translation": "Yesterday's exam wasn't very difficult."
+      },
+      {
+        "key": "giving_receiving",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "わたしは<ruby>田中<rt>たなか</rt></ruby>さんにレポートを___。",
+        "choices": ["ならいました", "おしえました", "もらいました", "あげました"],
+        "answer": "おしえました",
+        "explanation": "おしえます is used when you teach/inform someone of something.",
+        "question_romaji": "Watashi wa Tanaka-san ni repo-to o ___.",
+        "choices_romaji": ["naraimashita", "oshiemashita", "moraimashita", "agemashita"],
+        "answer_romaji": "oshiemashita",
+        "translation": "I explained (taught) the report to Mr. Tanaka."
+      },
+      {
+        "key": "giving_receiving",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "<ruby>友達<rt>ともだち</rt></ruby>に<ruby>傘<rt>かさ</rt></ruby>を___。",
+        "choices": ["かりました", "かしました", "おしえました", "ならいました"],
+        "answer": "かりました",
+        "explanation": "かりました (borrowed) indicates you received the item for temporary use from someone else.",
+        "question_romaji": "Tomodachi ni kasa o ___.",
+        "choices_romaji": ["karimashita", "kashimashita", "oshiemashita", "naraimashita"],
+        "answer_romaji": "karimashita",
+        "translation": "I borrowed an umbrella from a friend."
+      },
+      {
+        "key": "adj_conjugation",
+        "grammar": "Adjective conjugation",
+        "type": "fill-gap",
+        "question": "この<ruby>公園<rt>こうえん</rt></ruby>はとても___。",
+        "choices": ["しずかです", "しずかでした", "しずかじゃないです", "しずかかったです"],
+        "answer": "しずかです",
+        "explanation": "For Na-adjectives in the present affirmative, simply add 'desu'.",
+        "question_romaji": "Kono kouen wa totemo ___.",
+        "choices_romaji": ["shizuka desu", "shizuka deshita", "shizuka janai desu", "shizukakatta desu"],
+        "answer_romaji": "shizuka desu",
+        "translation": "This park is very quiet."
+      },
+      {
+        "key": "mou_mada",
+        "grammar": "もう、まだ",
+        "type": "fill-gap",
+        "question": "___レポートを<ruby>書<rt>か</rt></ruby>きましたか。･･･はい、もう<ruby>書<rt>か</rt></ruby>きました。",
+        "choices": ["まだ", "もう", "から", "まで"],
+        "answer": "もう",
+        "explanation": "もう is used in questions to ask if an action has already been completed.",
+        "question_romaji": "___ repo-to o kakimashita ka. ...Hai, mou kakimashita.",
+        "choices_romaji": ["mada", "mou", "kara", "made"],
+        "answer_romaji": "mou",
+        "translation": "Have you already written the report? ...Yes, I have already written it."
+      },
+      {
+        "key": "giving_receiving_double",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "わたしはマリアさん___メール___おくりました。",
+        "choices": [
+          ["に", "を"],
+          ["を", "に"],
+          ["で", "を"],
+          ["に", "が"]
+        ],
+        "answer": ["に", "を"],
+        "explanation": "に marks the recipient of the action, and を marks the direct object (the email).",
+        "question_romaji": "Watashi wa Maria-san ___ me-ru ___ okurimashita.",
+        "choices_romaji": [
+          ["ni", "o"],
+          ["o", "ni"],
+          ["de", "o"],
+          ["ni", "ga"]
+        ],
+        "answer_romaji": ["ni", "o"],
+        "translation": "I sent an email to Maria."
+      },
+      {
+        "key": "mou_mada_double",
+        "grammar": "もう、まだ",
+        "type": "fill-gap",
+        "question": "___にもつを<ruby>送<rt>おく</rt></ruby>りましたか。･･･いいえ、___です。",
+        "choices": [
+          ["まだ", "もう"],
+          ["もう", "まだ"],
+          ["もう", "もう"],
+          ["まだ", "まで"]
+        ],
+        "answer": ["もう", "まだ"],
+        "explanation": "もう asks if something is already done; まだ desu means 'not yet'.",
+        "question_romaji": "___ nimotsu o okurimashita ka. ...Iie, ___ desu.",
+        "choices_romaji": [
+          ["mada", "mou"],
+          ["mou", "mada"],
+          ["mou", "mou"],
+          ["mada", "made"]
+        ],
+        "answer_romaji": ["mou", "mada"],
+        "translation": "Dkey you already send the package? ...No, not yet."
+      },
+      {
+        "key": "adj_conjugation_double",
+        "grammar": "Adjective conjugation",
+        "type": "fill-gap",
+        "question": "きのうの<ruby>天気<rt>てんき</rt></ruby>は___かったですが、あまり___なかったです。",
+        "choices": [
+          ["あつ", "さむ"],
+          ["あつい", "さむい"],
+          ["あつく", "さむく"],
+          ["あつかった", "さむかった"]
+        ],
+        "answer": ["あつ", "さむ"],
+        "explanation": "For I-adjectives, the past affirmative root is ~katta and the past negative root is ~kunakatta.",
+        "question_romaji": "Kinou no tenki wa ___katta desu ga, amari ___kunakatta desu.",
+        "choices_romaji": [
+          ["atsu", "samu"],
+          ["atsui", "samui"],
+          ["atsuku", "samuku"],
+          ["atsukatta", "samukatta"]
+        ],
+        "answer_romaji": ["atsu", "samu"],
+        "translation": "Yesterday's weather was hot, but it wasn't very cold."
+      },
+      {
+        "key": "giving_receiving_double",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "わたしは<ruby>先生<rt>せんせい</rt></ruby>___<ruby>辞書<rt>じしょ</rt></ruby>___かりました。",
+        "choices": [
+          ["に", "を"],
+          ["を", "に"],
+          ["で", "を"],
+          ["と", "は"]
+        ],
+        "answer": ["に", "を"],
+        "explanation": "に (or から) marks the person you borrow from, and を marks the item borrowed.",
+        "question_romaji": "Watashi wa sensei ___ jisho ___ karimashita.",
+        "choices_romaji": [
+          ["ni", "o"],
+          ["o", "ni"],
+          ["de", "o"],
+          ["to", "wa"]
+        ],
+        "answer_romaji": ["ni", "o"],
+        "translation": "I borrowed a dictionary from the teacher."
+      },
+      {
+        "key": "giving_receiving_double",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "<ruby>兄<rt>あに</rt></ruby>___ギター___ならいました。",
+        "choices": [
+          ["を", "に"],
+          ["に", "を"],
+          ["に", "に"],
+          ["と", "を"]
+        ],
+        "answer": ["に", "を"],
+        "explanation": "に marks the source of learning (from whom) and を marks the subject learned.",
+        "question_romaji": "Ani ___ gita- ___ naraimashita.",
+        "choices_romaji": [
+          ["o", "ni"],
+          ["ni", "o"],
+          ["ni", "ni"],
+          ["to", "o"]
+        ],
+        "answer_romaji": ["ni", "o"],
+        "translation": "I learned guitar from my older brother."
+      },
+      {
+        "key": "adj_conjugation_double",
+        "grammar": "Adjective conjugation",
+        "type": "fill-gap",
+        "question": "この<ruby>町<rt>まち</rt></ruby>は___ですが、あまり___ではありません。",
+        "choices": [
+          ["にぎやか", "しずか"],
+          ["にぎやかい", "しずかい"],
+          ["にぎやかかった", "しずかかった"],
+          ["にぎやかに", "しずかに"]
+        ],
+        "answer": ["にぎやか", "しずか"],
+        "explanation": "Na-adjectives use the base form before 'desu' and 'dewa arimasen'.",
+        "question_romaji": "Kono machi wa ___ desu ga, amari ___ dewa nai desu.",
+        "choices_romaji": [
+          ["nigiyaka", "shizuka"],
+          ["nigiyakai", "shizukai"],
+          ["nigiyakakatta", "shizukakatta"],
+          ["nigiyakani", "shizukani"]
+        ],
+        "answer_romaji": ["nigiyaka", "shizuka"],
+        "translation": "This town is lively, but it is not very quiet."
+      },
+      {
+        "key": "giving_receiving_double",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "わたしはリーさん___<ruby>電話<rt>でんわ</rt></ruby>___かしました。",
+        "choices": [
+          ["に", "を"],
+          ["を", "に"],
+          ["に", "に"],
+          ["を", "を"]
+        ],
+        "answer": ["に", "を"],
+        "explanation": "に marks the person you lend to, and を marks the object being lent.",
+        "question_romaji": "Watashi wa Ri-san ___ denwa ___ kashimashita.",
+        "choices_romaji": [
+          ["ni", "o"],
+          ["o", "ni"],
+          ["ni", "ni"],
+          ["o", "o"]
+        ],
+        "answer_romaji": ["ni", "o"],
+        "translation": "I lent my phone to Mr. Lee."
+      },
+      {
+        "key": "place_de_beginner",
+        "grammar": "Place で",
+        "type": "fill-gap",
+        "question": "スーパー___<ruby>卵<rt>たまご</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。",
+        "choices": ["に", "で", "を", "へ"],
+        "answer": "で",
+        "explanation": "で indica el lugar donde ocurre la acción de comprar.",
+        "question_romaji": "Su-pa- ___ tamago o kaimashita.",
+        "choices_romaji": ["ni", "de", "o", "e"],
+        "answer_romaji": "de",
+        "translation": "Compré huevos en el supermercado."
+      },
+      {
+        "key": "giving_receiving_beginner",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "マリアさんに<ruby>花<rt>はな</rt></ruby>を___。",
+        "choices": ["あげました", "かりました", "ならいました", "かきました"],
+        "answer": "あげました",
+        "explanation": "あげました (di) se usa cuando tú entregas algo a alguien.",
+        "question_romaji": "Maria-san ni hana o ___.",
+        "choices_romaji": ["agemashita", "karimashita", "naraimashita", "kakimashita"],
+        "answer_romaji": "agemashita",
+        "translation": "Le di flores a Maria."
+      },
+      {
+        "key": "adj_na_beginner",
+        "grammar": "Adjective conjugation",
+        "type": "fill-gap",
+        "question": "ハンサム___<ruby>人<rt>ひと</rt></ruby>ですね。",
+        "choices": ["の", "に", "な", "は"],
+        "answer": "な",
+        "explanation": "Los adjetivos-na usan la partícula 'na' para describir directamente a un sustantivo.",
+        "question_romaji": "Hansamu ___ hito desu ne.",
+        "choices_romaji": ["no", "ni", "na", "wa"],
+        "answer_romaji": "na",
+        "translation": "Es una persona guapa, ¿verdad?"
+      },
+      {
+        "key": "place_de_beginner",
+        "grammar": "Place で",
+        "type": "fill-gap",
+        "question": "うみ___<ruby>泳<rt>およ</rt></ruby>ぎます。",
+        "choices": ["で", "に", "へ", "を"],
+        "answer": "で",
+        "explanation": "Para la acción de nadar, se usa で para marcar el lugar del evento.",
+        "question_romaji": "Umi ___ oyogimasu.",
+        "choices_romaji": ["de", "ni", "e", "o"],
+        "answer_romaji": "de",
+        "translation": "Nadaré en el mar."
+      },
+      {
+        "key": "giving_receiving_beginner",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "リーさんに<ruby>本<rt>ほん</rt></ruby>を___。",
+        "choices": ["かしました", "ならいました", "もらいました", "ありました"],
+        "answer": "かしました",
+        "explanation": "かしました significa prestar algo a otra persona.",
+        "question_romaji": "Ri-san ni hon o ___.",
+        "choices_romaji": ["kashimashita", "naraimashita", "moraimashita", "arimashita"],
+        "answer_romaji": "kashimashita",
+        "translation": "Le presté un libro al Sr. Lee."
+      },
+      {
+        "key": "adj_i_beginner",
+        "grammar": "Adjective conjugation",
+        "type": "fill-gap",
+        "question": "この<ruby>部屋<rt>へや</rt></ruby>は___いです。",
+        "choices": ["あつ", "あつな", "あつに", "あつで"],
+        "answer": "あつ",
+        "explanation": "Los adjetivos-i mantienen su raíz antes de la terminación ~i desu.",
+        "question_romaji": "Kono heya wa ___i desu.",
+        "choices_romaji": ["atsu", "atsuna", "atsuni", "atsude"],
+        "answer_romaji": "atsu",
+        "translation": "Esta habitación está caliente/hace calor."
+      },
+      {
+        "key": "giving_receiving_beginner",
+        "grammar": "giving/receiving",
+        "type": "fill-gap",
+        "question": "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>手紙<rt>てがみ</rt></ruby>を___。",
+        "choices": ["かきました", "おしえました", "かしました", "のみました"],
+        "answer": "かきました",
+        "explanation": "かきました (escribí) indica el envío de una carta al profesor marcado con 'ni'.",
+        "question_romaji": "Sensei ni tegami o ___.",
+        "choices_romaji": ["kakimashita", "oshiemashita", "kashimashita", "nomimashita"],
+        "answer_romaji": "kakimashita",
+        "translation": "Le escribí una carta al profesor."
+      }
+    ],
+    "intermediate": [
+      {
+        "key": "totemo_amari",
+        "grammar": "とても/あまり",
+        "type": "fill-gap",
+        "question": "この<ruby>料理<rt>りょうり</rt></ruby>は___おいしいですが、あの<ruby>料理<rt>りょうり</rt></ruby>は___おいしくないです。",
+        "choices": [
+          ["とても", "あまり"],
+          ["あまり", "とても"],
+          ["とても", "とても"],
+          ["あまり", "あまり"]
+        ],
+        "answer": ["とても", "あまり"],
+        "explanation": "とても (very) is used for emphasis in affirmative sentences; あまり (not very) is used with negative verbs/adjectives.",
+        "question_romaji": "Kono ryouri wa ___ oishii desu ga, ano ryouri wa ___ oishikunai desu.",
+        "choices_romaji": [
+          ["totemo", "amari"],
+          ["amari", "totemo"],
+          ["totemo", "totemo"],
+          ["amari", "amari"]
+        ],
+        "answer_romaji": ["totemo", "amari"],
+        "translation": "This dish is very delicious, but that dish is not very delicious."
+      },
+      {
+        "key": "conjunction_ga",
+        "grammar": "Conjunction が",
+        "type": "fill-gap",
+        "question": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>はおいしいです___、たかいです。",
+        "choices": ["から", "が", "と", "も"],
+        "answer": "が",
+        "explanation": "が functions as 'but' to connect two contrasting clauses.",
+        "question_romaji": "Nihon no tabemono wa oishii desu ___, takai desu.",
+        "choices_romaji": ["kara", "ga", "to", "mo"],
+        "answer_romaji": "ga",
+        "translation": "Japanese food is delicious, but expensive."
+      },
+      {
+        "key": "dou_donna",
+        "grammar": "どう/どんな",
+        "type": "fill-gap",
+        "question": "<ruby>奈良<rt>なら</rt></ruby>は___<ruby>町<rt>まち</rt></ruby>ですか。･･･___しずかな<ruby>町<rt>まち</rt></ruby>です。",
+        "choices": [
+          ["どんな", "とても"],
+          ["どう", "あまり"],
+          ["どんな", "どんな"],
+          ["どう", "とても"]
+        ],
+        "answer": ["どんな", "とても"],
+        "explanation": "どんな is used to ask for a description of a noun; とても emphasizes the adjective.",
+        "question_romaji": "Nara wa ___ machi desu ka. ... ___ shizukana machi desu.",
+        "choices_romaji": [
+          ["donna", "totemo"],
+          ["dou", "amari"],
+          ["donna", "donna"],
+          ["dou", "totemo"]
+        ],
+        "answer_romaji": ["donna", "totemo"],
+        "translation": "What kind of town is Nara? ...It is a very quiet town."
+      },
+      {
+        "key": "subject_ga_adj",
+        "grammar": "subject が adj",
+        "type": "fill-gap",
+        "question": "マリアさんは<ruby>髪<rt>かみ</rt></ruby>___<ruby>長<rt>なが</rt></ruby>いです。",
+        "choices": ["を", "は", "が", "に"],
+        "answer": "が",
+        "explanation": "が is used to mark the specific attribute (hair) being described by the adjective.",
+        "question_romaji": "Maria-san wa kami ___ nagai desu.",
+        "choices_romaji": ["o", "wa", "ga", "ni"],
+        "answer_romaji": "ga",
+        "translation": "Maria has long hair (As for Maria, her hair is long)."
+      },
+      {
+        "key": "reason_kara",
+        "grammar": "Cause/Reason から",
+        "type": "fill-gap",
+        "question": "<ruby>時間<rt>じかん</rt></ruby>がありません___、タクシーで<ruby>行<rt>い</rt></ruby>きます。",
+        "choices": ["が", "に", "から", "を"],
+        "answer": "から",
+        "explanation": "から follows a reason to explain the cause of the following action.",
+        "question_romaji": "Jikan ga arimasen ___, takushi- de ikimasu.",
+        "choices_romaji": ["ga", "ni", "kara", "o"],
+        "answer_romaji": "kara",
+        "translation": "I don't have time, so I will go by taxi."
+      },
+      {
+        "key": "dou_donna",
+        "grammar": "どう/どんな",
+        "type": "fill-gap",
+        "question": "<ruby>仕事<rt>しごと</rt></ruby>は___ですか。",
+        "choices": ["どんな", "どう", "なに", "どこ"],
+        "answer": "どう",
+        "explanation": "どう is used to ask for a general opinion or status ('How is...?').",
+        "question_romaji": "Shigoto wa ___ desu ka.",
+        "choices_romaji": ["donna", "dou", "nani", "doko"],
+        "answer_romaji": "dou",
+        "translation": "How is work?"
+      },
+      {
+        "key": "adverbs",
+        "grammar": "adverbs",
+        "type": "fill-gap",
+        "question": "テニスが___わかります。",
+        "choices": ["よく", "はやく", "たくさん", "ゆっくり"],
+        "answer": "よく",
+        "explanation": "よく (well/well enough) is the adverbial form used to describe the degree of understanding.",
+        "question_romaji": "Tenisu ga ___ wakarimasu.",
+        "choices_romaji": ["yoku", "hayaku", "takusan", "yukkuri"],
+        "answer_romaji": "yoku",
+        "translation": "I understand tennis well."
+      },
+      {
+        "key": "totemo_amari",
+        "grammar": "とても/あまり",
+        "type": "fill-gap",
+        "question": "この<ruby>辞書<rt>じしょ</rt></ruby>は___べんりですが、___たかいです。",
+        "choices": [
+          ["とても", "とても"],
+          ["あまり", "とても"],
+          ["とても", "あまり"],
+          ["あまり", "あまり"]
+        ],
+        "answer": ["とても", "とても"],
+        "explanation": "とても is used to emphasize two positive qualities (very useful and very expensive).",
+        "question_romaji": "Kono jisho wa ___ benri desu ga, ___ takai desu.",
+        "choices_romaji": [
+          ["totemo", "totemo"],
+          ["amari", "totemo"],
+          ["totemo", "amari"],
+          ["amari", "amari"]
+        ],
+        "answer_romaji": ["totemo", "totemo"],
+        "translation": "This dictionary is very useful, but very expensive."
+      },
+      {
+        "key": "conjunction_ga",
+        "grammar": "Conjunction が",
+        "type": "fill-gap",
+        "question": "わたしの<ruby>部屋<rt>へや</rt></ruby>は<ruby>狭<rt>せま</rt></ruby>いです___、<ruby>綺麗<rt>きれい</rt></ruby>です。",
+        "choices": ["から", "が", "と", "も"],
+        "answer": "が",
+        "explanation": "が acts as 'but' to connect a negative characteristic with a positive one.",
+        "question_romaji": "Watashi no heya wa semai desu ___, kirei desu.",
+        "choices_romaji": ["kara", "ga", "to", "mo"],
+        "answer_romaji": "ga",
+        "translation": "My room is small, but it is clean."
+      },
+      {
+        "key": "dou_donna",
+        "grammar": "どう/どんな",
+        "type": "fill-gap",
+        "question": "東京は___<ruby>町<rt>まち</rt></ruby>ですか。･･･にぎやかな<ruby>町<rt>まち</rt></ruby>です。",
+        "choices": ["どう", "どんな", "なに", "どこ"],
+        "answer": "どんな",
+        "explanation": "どんな is used to ask for a description of a specific noun (what kind of city?).",
+        "question_romaji": "Toukyou wa ___ machi desu ka. ... Nigiyakana machi desu.",
+        "choices_romaji": ["dou", "donna", "nani", "doko"],
+        "answer_romaji": "donna",
+        "translation": "What kind of city is Tokyo? ...It is a lively city."
+      },
+      {
+        "key": "adverbs",
+        "grammar": "adverbs",
+        "type": "fill-gap",
+        "question": "ひらがな___わかりますか。･･･はい、だいたいわかります。",
+        "choices": ["が", "を", "に", "は"],
+        "answer": "が",
+        "explanation": "With the verb わかります, the object that is understood is marked with the particle が.",
+        "question_romaji": "Hiragana ___ wakarimasu ka. ... Hai, daitai wakarimasu.",
+        "choices_romaji": ["ga", "o", "ni", "wa"],
+        "answer_romaji": "ga",
+        "translation": "Do you understand hiragana? ...Yes, I understand it more or less."
+      },
+      {
+        "key": "subject_ga_adj",
+        "grammar": "subject が adj",
+        "type": "fill-gap",
+        "question": "あの<ruby>店<rt>みせ</rt></ruby>は<ruby>魚<rt>さかな</rt></ruby>___<ruby>新鮮<rt>しんせん</rt></ruby>です。",
+        "choices": ["は", "を", "が", "に"],
+        "answer": "が",
+        "explanation": "In the structure [Topic] は [Subject] が [Adj], が is used to describe a specific part or characteristic of the topic.",
+        "question_romaji": "Ano mise wa sakana ___ shinsen desu.",
+        "choices_romaji": ["wa", "o", "ga", "ni"],
+        "answer_romaji": "ga",
+        "translation": "The fish at that shop is fresh."
+      },
+      {
+        "key": "reason_kara",
+        "grammar": "Cause/Reason から",
+        "type": "fill-gap",
+        "question": "おなかが<ruby>痛<rt>いた</rt></ruby>い___、なにも<ruby>食<rt>た</rt></ruby>べません。",
+        "choices": ["から", "が", "に", "を"],
+        "answer": "から",
+        "explanation": "から connects the reason (stomachache) with the result (not eating anything).",
+        "question_romaji": "Onaka ga itai ___, nani mo tabemasen.",
+        "choices_romaji": ["kara", "ga", "ni", "o"],
+        "answer_romaji": "kara",
+        "translation": "Since my stomach hurts, I'm not going to eat anything."
+      },
+      {
+        "key": "dou_donna",
+        "grammar": "どう/どんな",
+        "type": "fill-gap",
+        "question": "<ruby>昨日<rt>きのう</rt></ruby>の<ruby>映画<rt>えいが</rt></ruby>は___でしたか。",
+        "choices": ["どう", "どんな", "どこ", "だれ"],
+        "answer": "どう",
+        "explanation": "どう is used to ask for a general opinion about something that already happened.",
+        "question_romaji": "Kinou no eiga wa ___ deshita ka.",
+        "choices_romaji": ["dou", "donna", "doko", "dare"],
+        "answer_romaji": "dou",
+        "translation": "How was yesterday's movie?"
+      },
+      {
+        "key": "position_ni",
+        "grammar": "Position に",
+        "type": "fill-gap",
+        "question": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>___<ruby>写真<rt>しゃしん</rt></ruby>があります。",
+        "choices": ["で", "を", "に", "は"],
+        "answer": "に",
+        "explanation": "に is used to indicate the existence of an object in a specific location.",
+        "question_romaji": "Tsukue no ue ___ shashin ga arimasu.",
+        "choices_romaji": ["de", "o", "ni", "wa"],
+        "answer_romaji": "ni",
+        "translation": "There is a photo on the desk."
+      },
+      {
+        "key": "ya_particle",
+        "grammar": "\"and\"(etc) や",
+        "type": "fill-gap",
+        "question": "かばんのなかにはなや___ノート___があります。",
+        "choices": [
+          ["や", "など"],
+          ["と", "も"],
+          ["や", "は"],
+          ["に", "を"]
+        ],
+        "answer": ["や", "など"],
+        "explanation": "や is used to list examples in a non-exhaustive way, often accompanied by など (etc.).",
+        "question_romaji": "Kaban no naka ni wa hana ___ no-to ___ ga arimasu.",
+        "choices_romaji": [
+          ["ya", "nado"],
+          ["to", "mo"],
+          ["ya", "wa"],
+          ["ni", "o"]
+        ],
+        "answer_romaji": ["ya", "nado"],
+        "translation": "There are flowers, notebooks, and other things in the bag."
+      },
+      {
+        "key": "frequency_ni_kai",
+        "grammar": "～に～回",
+        "type": "fill-gap",
+        "question": "いっかげつ___にかい<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。",
+        "choices": ["に", "を", "は", "も"],
+        "answer": "に",
+        "explanation": "に marks the time interval in which a frequency occurs (twice a month).",
+        "question_romaji": "Ikkagetsu ___ nikai eiga o mimasu.",
+        "choices_romaji": ["ni", "o", "wa", "mo"],
+        "answer_romaji": "ni",
+        "translation": "I watch movies twice a month."
+      },
+      {
+        "key": "comparison_yori_houga",
+        "grammar": "より、のほうが",
+        "type": "fill-gap",
+        "question": "<ruby>犬<rt>いぬ</rt></ruby>___<ruby>猫<rt>ねこ</rt></ruby>___<ruby>好<rt>す</rt></ruby>きです。",
+        "choices": [
+          ["より", "のほうが"],
+          ["のほうが", "より"],
+          ["は", "が"],
+          ["と", "が"]
+        ],
+        "answer": ["より", "のほうが"],
+        "explanation": "より marks the item being compared, and のほうが highlights the preference.",
+        "question_romaji": "Inu ___ neko ___ suki desu.",
+        "choices_romaji": [
+          ["yori", "no hou ga"],
+          ["no hou ga", "yori"],
+          ["wa", "ga"],
+          ["to", "ga"]
+        ],
+        "answer_romaji": ["yori", "no hou ga"],
+        "translation": "I like cats more than dogs."
+      },
+      {
+        "key": "position_ni",
+        "grammar": "Position に",
+        "type": "fill-gap",
+        "question": "<ruby>箱<rt>はこ</rt></ruby>のなか___なにがありますか。",
+        "choices": ["で", "に", "を", "へ"],
+        "answer": "に",
+        "explanation": "に indicates the place where something exists when asking about its existence.",
+        "question_romaji": "Hako no naka ___ nani ga arimasu ka.",
+        "choices_romaji": ["de", "ni", "o", "e"],
+        "answer_romaji": "ni",
+        "translation": "What is inskeye the box?"
+      },
+      {
+        "key": "frequency_ni_kai",
+        "grammar": "～に～回",
+        "type": "fill-gap",
+        "question": "いちにち___さんかい<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます。",
+        "choices": ["を", "は", "に", "が"],
+        "answer": "に",
+        "explanation": "Establishes the frequency per unit of time (three times a day).",
+        "question_romaji": "Ichinichi ___ sankai kusuri o nomimasu.",
+        "choices_romaji": ["o", "wa", "ni", "ga"],
+        "answer_romaji": "ni",
+        "translation": "I take medicine three times a day."
+      },
+      {
+        "key": "comparison_yori_houga",
+        "grammar": "より、のほうが",
+        "type": "fill-gap",
+        "question": "<ruby>昨日<rt>きのう</rt></ruby>___<ruby>今日<rt>きょう</rt></ruby>___<ruby>暑<rt>あつ</rt></ruby>いです。",
+        "choices": [
+          ["より", "のほうが"],
+          ["のほうが", "より"],
+          ["は", "が"],
+          ["が", "から"]
+        ],
+        "answer": ["より", "のほうが"],
+        "explanation": "Indicates that today is hotter compared to yesterday.",
+        "question_romaji": "Kinou ___ kyou ___ atsui desu.",
+        "choices_romaji": [
+          ["yori", "no hou ga"],
+          ["no hou ga", "yori"],
+          ["wa", "ga"],
+          ["ga", "kara"]
+        ],
+        "answer_romaji": ["yori", "no hou ga"],
+        "translation": "Today is hotter than yesterday."
+      },
+      {
+        "key": "position_ni",
+        "grammar": "Position に",
+        "type": "fill-gap",
+        "question": "<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>のなかにたまご___<ruby>入<rt>い</rt></ruby>って___。",
+        "choices": [
+          ["が", "います"],
+          ["が", "あります"],
+          ["を", "います"],
+          ["に", "あります"]
+        ],
+        "answer": ["が", "あります"],
+        "explanation": "Use 'ga' to mark the subject that exists and 'arimasu' because eggs are inanimate objects.",
+        "question_romaji": "Reizouko no naka ni tamago ___ itte ___.",
+        "choices_romaji": [
+          ["ga", "imasu"],
+          ["ga", "arimasu"],
+          ["o", "imasu"],
+          ["ni", "arimasu"]
+        ],
+        "answer_romaji": ["ga", "arimasu"],
+        "translation": "There are eggs inskeye the refrigerator."
+      },
+      {
+        "key": "ya_particle",
+        "grammar": "\"and\"(etc) や",
+        "type": "fill-gap",
+        "question": "<ruby>店<rt>みせ</rt></ruby>でパン___<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>___を<ruby>買<rt>か</rt></ruby>いました。",
+        "choices": [
+          ["や", "など"],
+          ["と", "も"],
+          ["も", "も"],
+          ["に", "を"]
+        ],
+        "answer": ["や", "など"],
+        "explanation": "The combination や...など indicates that these things and possibly others were bought.",
+        "question_romaji": "Mise de pan ___ nomimono ___ o kaimashita.",
+        "choices_romaji": [
+          ["ya", "nado"],
+          ["to", "mo"],
+          ["mo", "mo"],
+          ["ni", "o"]
+        ],
+        "answer_romaji": ["ya", "nado"],
+        "translation": "I bought bread, drinks, and other things at the store."
+      },
+      {
+        "key": "frequency_ni_kai",
+        "grammar": "～に～回",
+        "type": "fill-gap",
+        "question": "いっしゅうかん___<ruby>何回<rt>なんかい</rt></ruby>テニスをしますか。",
+        "choices": ["に", "を", "は", "も"],
+        "answer": "に",
+        "explanation": "In frequency questions, 'ni' follows the time period (one week).",
+        "question_romaji": "Isshuukan ___ nankai tenisu o shimasu ka.",
+        "choices_romaji": ["ni", "o", "wa", "mo"],
+        "answer_romaji": "ni",
+        "translation": "How many times a week do you play tennis?"
+      },
+      {
+        "key": "comparison_yori_houga",
+        "grammar": "より、のほうが",
+        "type": "fill-gap",
+        "question": "<ruby>漢字<rt>かんじ</rt></ruby>___ひらがな___<ruby>簡単<rt>かんたん</rt></ruby>です。",
+        "choices": [
+          ["より", "のほうが"],
+          ["のほうが", "より"],
+          ["と", "が"],
+          ["から", "まで"]
+        ],
+        "answer": ["より", "のほうが"],
+        "explanation": "Compares difficulty: hiragana is easier compared to kanji.",
+        "question_romaji": "Kanji ___ hiragana ___ kantan desu.",
+        "choices_romaji": [
+          ["yori", "no hou ga"],
+          ["no hou ga", "yori"],
+          ["to", "ga"],
+          ["kara", "made"]
+        ],
+        "answer_romaji": ["yori", "no hou ga"],
+        "translation": "Hiragana is easier than kanji."
+      },
+      {
+        "key": "position_ni",
+        "grammar": "Position に",
+        "type": "fill-gap",
+        "question": "<ruby>庭<rt>にわ</rt></ruby>___だれ___いません。",
+        "choices": [
+          ["で", "は"],
+          ["に", "も"],
+          ["を", "も"],
+          ["に", "は"]
+        ],
+        "answer": ["に", "も"],
+        "explanation": "Use 'ni' for the location and 'mo' with an interrogative pronoun for complete negation (nobody).",
+        "question_romaji": "Niwa ___ dare ___ imasen.",
+        "choices_romaji": [
+          ["de", "wa"],
+          ["ni", "mo"],
+          ["o", "mo"],
+          ["ni", "wa"]
+        ],
+        "answer_romaji": ["ni", "mo"],
+        "translation": "There is nobody in the garden."
+      },
+      {
+        "key": "frequency_ni_kai",
+        "grammar": "～に～回",
+        "type": "fill-gap",
+        "question": "いっかげつ___いっかい<ruby>実家<rt>じっか</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>ります。",
+        "choices": ["に", "を", "へ", "は"],
+        "answer": "に",
+        "explanation": "Marks the frequency of returning to one's parents' house once a month.",
+        "question_romaji": "Ikkagetsu ___ ikkai jikka e kaerimasu.",
+        "choices_romaji": ["ni", "o", "e", "wa"],
+        "answer_romaji": "ni",
+        "translation": "I go back to my parents' house once a month."
+      },
+      {
+        "key": "comparison_yori_houga",
+        "grammar": "より、のほうが",
+        "type": "fill-gap",
+        "question": "<ruby>肉<rt>にく</rt></ruby>___<ruby>魚<rt>さかな</rt></ruby>___からだにいいです。",
+        "choices": [
+          ["より", "のほうが"],
+          ["のほうが", "より"],
+          ["と", "も"],
+          ["は", "が"]
+        ],
+        "answer": ["より", "のほうが"],
+        "explanation": "Indicates that fish is better for the body compared to meat.",
+        "question_romaji": "Niku ___ sakana ___ karada ni ii desu.",
+        "choices_romaji": [
+          ["yori", "no hou ga"],
+          ["no hou ga", "yori"],
+          ["to", "mo"],
+          ["wa", "ga"]
+        ],
+        "answer_romaji": ["yori", "no hou ga"],
+        "translation": "Fish is better for the body than meat."
+      },
+      {
+        "key": "range_no_naka_de",
+        "grammar": "(の中)で",
+        "type": "fill-gap",
+        "question": "くだもののなか___、なにがいちばん<ruby>好<rt>す</rt></ruby>きですか。",
+        "choices": ["に", "で", "を", "が"],
+        "answer": "で",
+        "explanation": "で is used to define the scope or group within which a comparison or selection is made.",
+        "question_romaji": "Kudamono no naka ___, nani ga ichiban suki desu ka.",
+        "choices_romaji": ["ni", "de", "o", "ga"],
+        "answer_romaji": "de",
+        "translation": "Among fruits, which one do you like the most?"
+      },
+      {
+        "key": "no_replacing_noun",
+        "grammar": "の replacing noun",
+        "type": "fill-gap",
+        "question": "これはあなたのかばんですか。･･･いいえ、それは<ruby>田中<rt>たなか</rt></ruby>さんの___です。",
+        "choices": ["の", "な", "に", "を"],
+        "answer": "の",
+        "explanation": "The second 'no' replaces the noun 'kaban' to avokey repetition (it's Tanaka's).",
+        "question_romaji": "Kore wa anata no kaban desu ka. ... Iie, sore wa Tanaka-san no ___ desu.",
+        "choices_romaji": ["no", "na", "ni", "o"],
+        "answer_romaji": "no",
+        "translation": "Is this your bag? ...No, that one is Tanaka's."
+      },
+      {
+        "key": "hoshii_tai",
+        "grammar": "ほしい/たい",
+        "type": "fill-gap",
+        "question": "あついですね。<ruby>冷<rt>つめ</rt></ruby>たいジュースを___です。",
+        "choices": ["のみたい", "ほしい", "のみて", "のむ"],
+        "answer": "のみたい",
+        "explanation": "たい is added to the verb stem (nomi-) to express the desire to perform an action.",
+        "question_romaji": "Atsui desu ne. Tsumetai ju-su o ___ desu.",
+        "choices_romaji": ["nomitai", "hoshii", "nomite", "nomu"],
+        "answer_romaji": "nomitai",
+        "translation": "It's hot, isn't it? I want to drink a cold juice."
+      },
+      {
+        "key": "purpose_ni",
+        "grammar": "purpose に",
+        "type": "fill-gap",
+        "question": "<ruby>京都<rt>きょうと</rt></ruby>へ<ruby>祭<rt>まつ</rt></ruby>り___<ruby>行<rt>い</rt></ruby>きます。",
+        "choices": ["を", "に", "で", "へ"],
+        "answer": "に",
+        "explanation": "に is used with movement verbs to indicate the purpose of the trip.",
+        "question_romaji": "Kyouto e matsuri ___ ikimasu.",
+        "choices_romaji": ["o", "ni", "de", "e"],
+        "answer_romaji": "ni",
+        "translation": "I go to Kyoto for a festival."
+      },
+      {
+        "key": "some_ka",
+        "grammar": "\"Some\" か",
+        "type": "fill-gap",
+        "question": "おなかがすきましたね。なにか___。",
+        "choices": ["たべましょう", "たべました", "たべません", "たべる"],
+        "answer": "たべましょう",
+        "explanation": "なにか means 'something'. Here it is combined with an invitation (mashou).",
+        "question_romaji": "Onaka ga sukimashita ne. Nanika ___.",
+        "choices_romaji": ["tabemashou", "tabemashita", "tabemasen", "taberu"],
+        "answer_romaji": "tabemashou",
+        "translation": "I'm hungry. Let's eat something."
+      },
+      {
+        "key": "te_form_rules",
+        "grammar": "ています/もいい/はいけません",
+        "type": "fill-gap",
+        "question": "ここで<ruby>写真<rt>しゃしん</rt></ruby>を___はいけません。",
+        "choices": ["とって", "とる", "とり", "とった"],
+        "answer": "とって",
+        "explanation": "The structure [TE-form] + wa ikemasen is used for prohibitions.",
+        "question_romaji": "Koko de shashin o ___ wa ikemasen.",
+        "choices_romaji": ["totte", "toru", "tori", "totta"],
+        "answer_romaji": "totte",
+        "translation": "You must not take photos here."
+      },
+      {
+        "key": "te_form_permission",
+        "grammar": "ています/もいい/はいけません",
+        "type": "fill-gap",
+        "question": "テレビを___もいいですか。",
+        "choices": ["みて", "みる", "みます", "みた"],
+        "answer": "みて",
+        "explanation": "The structure [TE-form] + mo ii desu ka is used to ask for permission.",
+        "question_romaji": "Terebi o ___ mo ii desu ka.",
+        "choices_romaji": ["mite", "miru", "mimasu", "mita"],
+        "answer_romaji": "mite",
+        "translation": "May I watch TV?"
+      },
+      {
+        "key": "range_no_naka_de",
+        "grammar": "(の中)で",
+        "type": "fill-gap",
+        "question": "スポーツのなか___、なにがいちばんおもしろいですか。",
+        "choices": ["に", "で", "を", "から"],
+        "answer": "で",
+        "explanation": "で defines the group (sports) about which the superlative question is asked.",
+        "question_romaji": "Supo-tsu no naka ___, nani ga ichiban omoshiroi desu ka.",
+        "choices_romaji": ["ni", "de", "o", "kara"],
+        "answer_romaji": "de",
+        "translation": "Among all sports, which one is the most interesting?"
+      },
+      {
+        "key": "no_replacing_noun",
+        "grammar": "の replacing noun",
+        "type": "fill-gap",
+        "question": "あかいペンがありませんから、あおい___をかしてください。",
+        "choices": ["の", "な", "に", "を"],
+        "answer": "の",
+        "explanation": "The 'no' replaces 'pen' to avokey repeating the word in the same sentence.",
+        "question_romaji": "Akai pen ga arimasen kara, aoi ___ o kashite kudasai.",
+        "choices_romaji": ["no", "na", "ni", "o"],
+        "answer_romaji": "no",
+        "translation": "Since I don't have a red pen, please lend me the blue one."
+      },
+      {
+        "key": "hoshii_tai",
+        "grammar": "ほしい/たい",
+        "type": "fill-gap",
+        "question": "<ruby>誕生日<rt>たんじょうび</rt></ruby>に新しいパソコンが___です。",
+        "choices": ["ほしい", "ほしくて", "ほし", "ほしな"],
+        "answer": "ほしい",
+        "explanation": "ほしい is used to express the desire to possess an object (noun).",
+        "question_romaji": "Tanjoubi ni atarashii pasokon ga ___ desu.",
+        "choices_romaji": ["hoshii", "hoshikute", "hoshi", "hoshina"],
+        "answer_romaji": "hoshii",
+        "translation": "I want a new computer for my birthday."
+      },
+      {
+        "key": "purpose_ni",
+        "grammar": "purpose に",
+        "type": "fill-gap",
+        "question": "デパートへくつを___に<ruby>行<rt>い</rt></ruby>きます。",
+        "choices": ["かい", "かって", "かう", "かいます"],
+        "answer": "かい",
+        "explanation": "The verb stem (masu-stem) + に is used to indicate the purpose of going somewhere.",
+        "question_romaji": "Depa-to e kutsu o ___ ni ikimasu.",
+        "choices_romaji": ["kai", "katte", "kau", "kaimasu"],
+        "answer_romaji": "kai",
+        "translation": "I go to the department store to buy shoes."
+      },
+      {
+        "key": "some_ka",
+        "grammar": "\"Some\" か",
+        "type": "fill-gap",
+        "question": "だれ___まどを<ruby>開<rt>あ</rt></ruby>けてください。",
+        "choices": ["か", "も", "に", "を"],
+        "answer": "か",
+        "explanation": "だれか means 'someone'. It is used to ask an unspecified person to do something.",
+        "question_romaji": "Dare ___ mado o akete kudasai.",
+        "choices_romaji": ["ka", "mo", "ni", "o"],
+        "answer_romaji": "ka",
+        "translation": "Someone please open the window."
+      },
+      {
+        "key": "te_form_ongoing",
+        "grammar": "ています/もいい/はいけません",
+        "type": "fill-gap",
+        "question": "今、リーさんはテレビを___います。",
+        "choices": ["みて", "みる", "みます", "みた"],
+        "answer": "みて",
+        "explanation": "The TE-form + imasu indicates an action that is happening right now.",
+        "question_romaji": "Ima, Ri-san wa terebi o ___ imasu.",
+        "choices_romaji": ["mite", "miru", "mimasu", "mita"],
+        "answer_romaji": "mite",
+        "translation": "Right now, Mr. Lee is watching TV."
+      },
+      {
+        "key": "te_form_combination",
+        "grammar": "ています/もいい/はいけません",
+        "type": "fill-gap",
+        "question": "たばこを___はいけません。",
+        "choices": ["すって", "すう", "すい", "すってわ"],
+        "answer": "すって",
+        "explanation": "Prohibition is formed with the TE-form followed by 'wa ikemasen'.",
+        "question_romaji": "Tabako o ___ wa ikemasen.",
+        "choices_romaji": ["sutte", "suu", "sui", "suttewa"],
+        "answer_romaji": "sutte",
+        "translation": "You must not smoke."
+      },
+      {
+        "key": "range_no_naka_de",
+        "grammar": "(の中)で",
+        "type": "fill-gap",
+        "question": "<ruby>一年<rt>いちねん</rt></ruby>のなか___、いつがいちばん<ruby>暑<rt>あつ</rt></ruby>いですか。",
+        "choices": ["に", "で", "を", "から"],
+        "answer": "で",
+        "explanation": "で is used to specify the time frame or category when making a superlative comparison.",
+        "question_romaji": "Ichinen no naka ___, itsu ga ichiban atsui desu ka.",
+        "choices_romaji": ["ni", "de", "o", "kara"],
+        "answer_romaji": "de",
+        "translation": "Within a year, when is it the hottest?"
+      },
+      {
+        "key": "no_replacing_noun",
+        "grammar": "の replacing noun",
+        "type": "fill-gap",
+        "question": "<ruby>大<rt>おお</rt></ruby>きい<ruby>辞書<rt>じしょ</rt></ruby>と<ruby>小<rt>ちい</rt></ruby>さい___があります。",
+        "choices": ["の", "な", "に", "は"],
+        "answer": "の",
+        "explanation": "The particle 'no' acts as a pronoun to avokey repeating 'jisho' (dictionary).",
+        "question_romaji": "Ookii jisho to chiisai ___ ga arimasu.",
+        "choices_romaji": ["no", "na", "ni", "wa"],
+        "answer_romaji": "no",
+        "translation": "There is a large dictionary and a small one."
+      },
+      {
+        "key": "hoshii_tai",
+        "grammar": "ほしい/たい",
+        "type": "fill-gap",
+        "question": "<ruby>日本<rt>にほん</rt></ruby>のカメラを___です。",
+        "choices": ["かいたい", "かうたい", "かってたい", "かいた"],
+        "answer": "かいたい",
+        "explanation": "The V-tai form (stem + tai) expresses the speaker's desire to do an action.",
+        "question_romaji": "Nihon no kamera o ___ desu.",
+        "choices_romaji": ["kaitai", "kautai", "kattetai", "kaita"],
+        "answer_romaji": "kaitai",
+        "translation": "I want to buy a Japanese camera."
+      },
+      {
+        "key": "purpose_ni",
+        "grammar": "purpose に",
+        "type": "fill-gap",
+        "question": "<ruby>図書館<rt>としょかん</rt></ruby>へ<ruby>本<rt>ほん</rt></ruby>を___に<ruby>行<rt>い</rt></ruby>きます。",
+        "choices": ["かり", "かりて", "かりる", "かりに"],
+        "answer": "かり",
+        "explanation": "Masu-stem + ni indicates the purpose of going to a place.",
+        "question_romaji": "Toshokan e hon o ___ ni ikimasu.",
+        "choices_romaji": ["kari", "karite", "kariru", "karini"],
+        "answer_romaji": "kari",
+        "translation": "I am going to the library to borrow a book."
+      },
+      {
+        "key": "some_ka",
+        "grammar": "\"Some\" か",
+        "type": "fill-gap",
+        "question": "どこ___へ<ruby>行<rt>い</rt></ruby>きましたか。･･･いいえ、どこへも<ruby>行<rt>い</rt></ruby>きませんでした。",
+        "choices": ["か", "も", "に", "へ"],
+        "answer": "か",
+        "explanation": "Dokoka means 'somewhere'. It is used in questions to ask if someone went to any place at all.",
+        "question_romaji": "Doko ___ e ikimashita ka. ... Iie, doko e mo ikimasen deshita.",
+        "choices_romaji": ["ka", "mo", "ni", "e"],
+        "answer_romaji": "ka",
+        "translation": "Dkey you go somewhere? ...No, I dkeyn't go anywhere."
+      },
+      {
+        "key": "teimasu_moii_waikemasen",
+        "grammar": "ています/もいい/はいけません",
+        "type": "fill-gap",
+        "question": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>今<rt>いま</rt></ruby>、<ruby>料理<rt>りょうり</rt></ruby>を___います。",
+        "choices": ["つくって", "つくる", "つくり", "つくった"],
+        "answer": "つくって",
+        "explanation": "Te-form + imasu indicates an action currently in progress.",
+        "question_romaji": "Tanaka-san wa ima, ryouri o ___ imasu.",
+        "choices_romaji": ["tsukutte", "tsukuru", "tsukuri", "tsukutta"],
+        "answer_romaji": "tsukutte",
+        "translation": "Mr. Tanaka is cooking right now."
+      },
+      {
+        "key": "te_form_permission",
+        "grammar": "ています/もいい/はいけません",
+        "type": "fill-gap",
+        "question": "ここにお<ruby>入<rt>はい</rt></ruby>りあっても___ですか。",
+        "choices": ["いい", "いけません", "あります", "います"],
+        "answer": "いい",
+        "explanation": "Te-form + mo ii desu ka is the standard way to ask for permission.",
+        "question_romaji": "Koko ni haitte mo ___ desu ka.",
+        "choices_romaji": ["ii", "ikemasen", "arimasu", "imasu"],
+        "answer_romaji": "ii",
+        "translation": "May I enter here?"
+      }
+    ],
+    "advanced": [
+      {
+        "key": "intransitive_ni_wo",
+        "grammar": "intransitives Verbs に/を",
+        "type": "fill-gap",
+        "question": "<ruby>電車<rt>でんしゃ</rt></ruby>___<ruby>乗<rt>の</rt></ruby>ります。",
+        "choices": ["を", "に", "で", "へ"],
+        "answer": "に",
+        "explanation": "The intransitive verb 乗ります (to get on/rkeye) takes the particle に to indicate the object being entered or boarded.",
+        "translation": "I will get on the train."
+      },
+      {
+        "key": "te_conjunction",
+        "grammar": "conjunctions with て",
+        "type": "fill-gap",
+        "question": "あしたは<ruby>早<rt>はや</rt></ruby>く___、ジョギングをします。",
+        "choices": ["おきて", "おきって", "おきに", "おきてから"],
+        "answer": "おきて",
+        "explanation": "The て-form is used to sequence actions, showing that one action happens after another.",
+        "translation": "Tomorrow I will wake up early and go jogging."
+      },
+      {
+        "key": "nai_forms",
+        "grammar": "ないで、なくても、なければ",
+        "type": "fill-gap",
+        "question": "<ruby>薬<rt>くすり</rt></ruby>を___なりません。",
+        "choices": ["のまなくて", "のまなければ", "のまないで", "のまなく"],
+        "answer": "のまなければ",
+        "explanation": "The structure 〜なければなりません is used to express obligation or necessity (must do).",
+        "translation": "I must take my medicine."
+      },
+      {
+        "key": "dictionary_form",
+        "grammar": "dictionary form",
+        "type": "fill-gap",
+        "question": "わたしの<ruby>趣味<rt>しゅみ</rt></ruby>は<ruby>写真<rt>しゃしん</rt></ruby>を___ことです。",
+        "choices": ["とる", "とり", "とって", "とるの"],
+        "answer": "とる",
+        "explanation": "The dictionary form + こと is used to nominalize a verb, allowing it to function as the subject or object (e.g., 'the act of taking photos').",
+        "translation": "My hobby is taking photos."
+      },
+      {
+        "key": "madeni",
+        "grammar": "までに",
+        "type": "fill-gap",
+        "question": "<ruby>五時<rt>ごじ</rt></ruby>___<ruby>帰<rt>かえ</rt></ruby>ってください。",
+        "choices": ["まで", "までに", "から", "に"],
+        "answer": "までに",
+        "explanation": "までに indicates a deadline by which an action must be completed, whereas まで indicates the duration of an action.",
+        "translation": "Please come back by 5 o'clock."
+      },
+      {
+        "key": "maeni",
+        "grammar": "まえに",
+        "type": "fill-gap",
+        "question": "<ruby>寝<rt>ね</rt></ruby>る___、シャワーを<ruby>浴<rt>あ</rt></ruby>びます。",
+        "choices": ["とき", "まえに", "あとで", "ながら"],
+        "answer": "まえに",
+        "explanation": "Dictionary form + まえに is used to say 'before doing [verb]'.",
+        "translation": "Before I go to sleep, I take a shower."
+      },
+      {
+        "key": "nai_forms",
+        "grammar": "ないで、なくても、なければ",
+        "type": "fill-gap",
+        "question": "<ruby>傘<rt>かさ</rt></ruby>を___もいいです。",
+        "choices": ["もたなくて", "もたないで", "もたなければ", "もたなく"],
+        "answer": "もたなくて",
+        "explanation": "The structure 〜なくてもいいです means 'you don't have to' or 'it's okay if you don't'.",
+        "translation": "You don't have to bring an umbrella."
+      },
+      {
+        "key": "intransitive_ni_wo",
+        "grammar": "intransitives Verbs に/を",
+        "type": "fill-gap",
+        "question": "<ruby>公園<rt>こうえん</rt></ruby>___<ruby>散歩<rt>さんぽ</rt></ruby>します。",
+        "choices": ["に", "を", "へ", "が"],
+        "answer": "を",
+        "explanation": "The particle を is used with verbs of motion like 散歩します (to stroll) to indicate the space or path through which the movement occurs.",
+        "translation": "I will take a stroll through the park."
+      },
+      {
+        "key": "te_conjunction",
+        "grammar": "conjunctions with て",
+        "type": "fill-gap",
+        "question": "スーパーへ___、パンを<ruby>買<rt>か</rt></ruby>いました。",
+        "choices": ["いき", "いって", "いく", "いってから"],
+        "answer": "いって",
+        "explanation": "The て-form connects two actions in chronological order: first going to the supermarket, then buying bread.",
+        "translation": "I went to the supermarket and bought some bread."
+      },
+      {
+        "key": "nai_forms",
+        "grammar": "ないで、なくても、なければ",
+        "type": "fill-gap",
+        "question": "あしたは<ruby>土曜日<rt>どようび</rt></ruby>ですから、<ruby>学校<rt>がっこう</rt></ruby>へ___もいいです。",
+        "choices": ["いかなくて", "いかないで", "いかなければ", "いかなく"],
+        "answer": "いかなくて",
+        "explanation": "The structure 〜なくてもいいです is used to express that an action is not necessary (don't have to go).",
+        "translation": "Tomorrow is Saturday, so you don't have to go to school."
+      },
+      {
+        "key": "dictionary_form",
+        "grammar": "dictionary form",
+        "type": "fill-gap",
+        "question": "<ruby>漢字<rt>かんじ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むことが___。",
+        "choices": ["あります", "できます", "します", "わかります"],
+        "answer": "できます",
+        "explanation": "The structure [Dictionary Form] + ことができます is used to express potential or ability (can do).",
+        "translation": "I can read Kanji."
+      },
+      {
+        "key": "madeni",
+        "grammar": "までに",
+        "type": "fill-gap",
+        "question": "<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まる___、このレポートを<ruby>読<rt>よ</rt></ruby>んでください。",
+        "choices": ["まで", "までに", "まえに", "あとで"],
+        "answer": "までに",
+        "explanation": "までに marks a deadline or a point in time by which an action must be completed relative to another event.",
+        "translation": "Please read this report by the time the meeting starts."
+      },
+      {
+        "key": "maeni",
+        "grammar": "まえに",
+        "type": "fill-gap",
+        "question": "<ruby>日本<rt>にほん</rt></ruby>へ<ruby>来<rt>く</rt></ruby>る___、日本語を<ruby>勉強<rt>べんきょう</rt></ruby>しました。",
+        "choices": ["まえに", "とき", "ながら", "あとで"],
+        "answer": "まえに",
+        "explanation": "Dictionary form + まえに indicates that the action in the second clause happened before the action in the first clause.",
+        "translation": "I studied Japanese before coming to Japan."
+      },
+      {
+        "key": "nai_forms",
+        "grammar": "ないで、なくても、なければ",
+        "type": "fill-gap",
+        "question": "<ruby>辞書<rt>じしょ</rt></ruby>を___、<ruby>宿題<rt>しゅくだい</rt></ruby>をしました。",
+        "choices": ["つかわなくて", "つかわないで", "つかわなければ", "つかわなく"],
+        "answer": "つかわないで",
+        "explanation": "〜ないで is used here to mean 'without doing [verb]'; doing the main action without the secondary one.",
+        "translation": "I dkey my homework without using a dictionary."
+      },
+      {
+        "key": "ta_form_experience",
+        "grammar": "たことが、たり～たり",
+        "type": "fill-gap",
+        "question": "<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った___があります。",
+        "choices": ["こと", "もの", "とき", "まえ"],
+        "answer": "こと",
+        "explanation": "The structure [V-ta form] + ことが あります is used to express past experience (have done something).",
+        "translation": "I have been to Japan."
+      },
+      {
+        "key": "tari_tari",
+        "grammar": "たことが、たり～たり",
+        "type": "fill-gap",
+        "question": "<ruby>日曜日<rt>にちようび</rt></ruby>は<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を___、<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだりします。",
+        "choices": ["したり", "して", "した", "する"],
+        "answer": "したり",
+        "explanation": "The 〜たり 〜たり structure is used to list representative actions among others without specifying a particular order.",
+        "translation": "On Sundays, I do things like shopping and reading books."
+      },
+      {
+        "key": "contrast_wa",
+        "grammar": "contrast は",
+        "type": "fill-gap",
+        "question": "お<ruby>酒<rt>さけ</rt></ruby>___<ruby>飲<rt>の</rt></ruby>みますが、ビール___<ruby>飲<rt>の</rt></ruby>みません。",
+        "choices": [
+          ["は", "は"],
+          ["を", "を"],
+          ["が", "は"],
+          ["は", "を"]
+        ],
+        "answer": ["は", "は"],
+        "explanation": "The particle は can be used to emphasize contrast between two items (I drink sake, but [on the other hand] I don't drink beer).",
+        "translation": "I drink sake, but I don't drink beer."
+      },
+      {
+        "key": "narimasu",
+        "grammar": "Adj/noun なります",
+        "type": "fill-gap",
+        "question": "<ruby>掃除<rt>そうじ</rt></ruby>しましたから、<ruby>部屋<rt>へや</rt></ruby>が<ruby>綺麗<rt>きれい</rt></ruby>___なりました。",
+        "choices": ["に", "く", "を", "な"],
+        "answer": "に",
+        "explanation": "For Na-adjectives and Nouns, use に before なります to indicate a change in state.",
+        "translation": "Because I cleaned, the room became clean."
+      },
+      {
+        "key": "narimasu",
+        "grammar": "Adj/noun なります",
+        "type": "fill-gap",
+        "question": "<ruby>明日<rt>あした</rt></ruby>は<ruby>寒<rt>さむ</rt></ruby>___なります。",
+        "choices": ["く", "に", "い", "の"],
+        "answer": "く",
+        "explanation": "For I-adjectives, change the final 〜い to 〜く before なります to indicate a change in state.",
+        "translation": "It will become cold tomorrow."
+      },
+      {
+        "key": "quotation_to",
+        "grammar": "と思います/と言います",
+        "type": "fill-gap",
+        "question": "<ruby>明日<rt>あした</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>る___<ruby>思<rt>おも</rt></ruby>います。",
+        "choices": ["と", "を", "が", "に"],
+        "answer": "と",
+        "explanation": "The particle と is used to mark the content of a thought or a quote.",
+        "translation": "I think it will rain tomorrow."
+      },
+      {
+        "key": "deshou",
+        "grammar": "でしょう",
+        "type": "fill-gap",
+        "question": "<ruby>来週<rt>らいしゅう</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しい___。",
+        "choices": ["でしょう", "でした", "ですが", "でしょうに"],
+        "answer": "でしょう",
+        "explanation": "でしょう is used to express conjecture or a high probability about a future or uncertain event.",
+        "translation": "I expect next week will be busy."
+      },
+      {
+        "key": "subordinate_clause",
+        "grammar": "subordinate modifying noun",
+        "type": "fill-gap",
+        "question": "これはマリアさんが___<ruby>料理<rt>りょうり</rt></ruby>です。",
+        "choices": ["つくった", "つくります", "つくるの", "つくて"],
+        "answer": "つくった",
+        "explanation": "A subordinate clause (in short form) can modify a noun directly to act as a relative clause.",
+        "translation": "This is the dish that Maria made."
+      },
+      {
+        "key": "tari_tari",
+        "grammar": "たことが、たり～たり",
+        "type": "fill-gap",
+        "question": "<ruby>昨日<rt>きのう</rt></ruby>は<ruby>音楽<rt>おんがく</rt></ruby>を___、テレビを<ruby>見<rt>み</rt></ruby>たりしました。",
+        "choices": ["きいたり", "きいて", "きいた", "きく"],
+        "answer": "きいたり",
+        "explanation": "Use the [V-ta] + り form to list actions. In this case, 'listening to music' is one of the activities mentioned.",
+        "translation": "Yesterday I dkey things like listening to music and watching TV."
+      },
+      {
+        "key": "subordinate_clause",
+        "grammar": "subordinate modifying noun",
+        "type": "fill-gap",
+        "question": "あそこに___<ruby>人<rt>ひと</rt></ruby>は<ruby>田中<rt>たなか</rt></ruby>さんです。",
+        "choices": ["いる", "います", "いて", "いたの"],
+        "answer": "いる",
+        "explanation": "To describe a person using an action, the verb must be in its short form (dictionary form) right before the noun.",
+        "translation": "The person who is over there is Mr. Tanaka."
+      },
+      {
+        "key": "narimasu",
+        "grammar": "Adj/noun なります",
+        "type": "fill-gap",
+        "question": "<ruby>息子<rt>むすこ</rt></ruby>は<ruby>医者<rt>いしゃ</rt></ruby>___なりました。",
+        "choices": ["に", "く", "を", "が"],
+        "answer": "に",
+        "explanation": "When a noun indicates the result of a change with なります, the particle に is required.",
+        "translation": "My son became a doctor."
+      },
+      {
+        "key": "quotation_to",
+        "grammar": "と思います/と言います",
+        "type": "fill-gap",
+        "question": "<ruby>田中<rt>たなか</rt></ruby>さんは「おやすみなさい」___<ruby>言<rt>い</rt></ruby>いました。",
+        "choices": ["と", "を", "が", "に"],
+        "answer": "と",
+        "explanation": "The particle と is used to mark direct quotes, similar to quotation marks in English.",
+        "translation": "Mr. Tanaka sakey, 'Good night.'"
+      },
+      {
+        "key": "ta_form_experience",
+        "grammar": "たことが、たり～たり",
+        "type": "fill-gap",
+        "question": "あなたは<ruby>刺身<rt>さしみ</rt></ruby>を___ことがありますか。",
+        "choices": ["たべた", "たべる", "たべて", "たべ"],
+        "answer": "たべた",
+        "explanation": "The question 'Have you ever...?' requires the verb in the past short form (ta-form) before ことがあります.",
+        "translation": "Have you ever eaten sashimi?"
+      },
+      {
+        "key": "contrast_wa",
+        "grammar": "contrast は",
+        "type": "fill-gap",
+        "question": "ひらがな___<ruby>書<rt>か</rt></ruby>けますが、<ruby>漢字<rt>かんじ</rt></ruby>___<ruby>書<rt>か</rt></ruby>けません。",
+        "choices": [
+          ["は", "は"],
+          ["を", "を"],
+          ["が", "は"],
+          ["も", "も"]
+        ],
+        "answer": ["は", "は"],
+        "explanation": "Using は twice emphasizes the contrast between being able to do one thing but not the other.",
+        "translation": "I can write hiragana, but I cannot write kanji."
+      },
+      {
+        "key": "subordinate_clause",
+        "grammar": "subordinate modifying noun",
+        "type": "fill-gap",
+        "question": "これは<ruby>昨日<rt>きのう</rt></ruby><ruby>買<rt>か</rt></ruby>った___です。",
+        "choices": ["パン", "パンは", "パンを", "パンが"],
+        "answer": "パン",
+        "explanation": "The short past form 買った (bought) modifies the noun パン (bread) directly. No particle is needed between them.",
+        "translation": "This is the bread I bought yesterday."
+      },
+      {
+        "key": "ta_form_experience",
+        "grammar": "たことが、たり～たり",
+        "type": "fill-gap",
+        "question": "<ruby>富士山<rt>ふじさん</rt></ruby>に___ことがありません。",
+        "choices": ["のぼった", "のぼる", "のぼって", "のぼり"],
+        "answer": "のぼった",
+        "explanation": "To express never having done something, use the [V-ta form] + ことがありません.",
+        "translation": "I have never climbed Mt. Fuji."
+      },
+      {
+        "key": "tari_tari",
+        "grammar": "たことが、たり～たり",
+        "type": "fill-gap",
+        "question": "<ruby>休み<rt>やすみ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は、テニスをしたり、<ruby>散歩<rt>さんぽ</rt></ruby>を___します。",
+        "choices": ["したり", "して", "した", "する"],
+        "answer": "したり",
+        "explanation": "When listing activities with 〜たり, the final verb before します must also take the 〜たり form.",
+        "translation": "On my days off, I do things like playing tennis and taking walks."
+      },
+      {
+        "key": "narimasu",
+        "grammar": "Adj/noun なります",
+        "type": "fill-gap",
+        "question": "<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>___なりましたね。",
+        "choices": ["に", "な", "く", "の"],
+        "answer": "に",
+        "explanation": "上手 (skillful) is a na-adjective, so it requires に when used with なります (to become).",
+        "translation": "You've become good at Japanese, haven't you?"
+      },
+      {
+        "key": "quotation_to",
+        "grammar": "と思います/と言います",
+        "type": "fill-gap",
+        "question": "<ruby>山田<rt>やまだ</rt></ruby>さんはあしたは<ruby>暇<rt>ひま</rt></ruby>だ___<ruby>言<rt>い</rt></ruby>っていました。",
+        "choices": ["と", "を", "が", "に"],
+        "answer": "と",
+        "explanation": "The particle と is essential to introduce the content of what someone sakey, even with na-adjectives using だ.",
+        "translation": "Mr. Yamada was saying that he is free tomorrow."
+      },
+      {
+        "key": "contrast_wa",
+        "grammar": "contrast は",
+        "type": "fill-gap",
+        "question": "<ruby>平仮名<rt>ひらがな</rt></ruby>___<ruby>分<rt>わ</rt></ruby>かりますが、<ruby>片仮名<rt>かたかな</rt></ruby>___<ruby>分<rt>わ</rt></ruby>かりません。",
+        "choices": [
+          ["は", "は"],
+          ["が", "が"],
+          ["を", "を"],
+          ["に", "に"]
+        ],
+        "answer": ["は", "は"],
+        "explanation": "Replacing the usual object particles with は highlights the contrast between the two items.",
+        "translation": "I understand Hiragana, but I don't understand Katakana."
+      },
+      {
+        "key": "subordinate_clause",
+        "grammar": "subordinate modifying noun",
+        "type": "fill-gap",
+        "question": "これは<ruby>父<rt>ちち</rt></ruby>が___<ruby>時計<rt>とけい</rt></ruby>です。",
+        "choices": ["くれた", "くれます", "くれるの", "くれて"],
+        "answer": "くれた",
+        "explanation": "The relative clause 'that my father gave me' uses the short past form くれた to modify 'watch'.",
+        "translation": "This is the watch that my father gave me."
+      },
+      {
+        "key": "deshou",
+        "grammar": "でしょう",
+        "type": "fill-gap",
+        "question": "あしたの<ruby>天気<rt>てんき</rt></ruby>はいい___。",
+        "choices": ["でしょう", "ですよ", "ですから", "ので"],
+        "answer": "でしょう",
+        "explanation": "でしょう is frequently used in weather forecasts to indicate a prediction or probability.",
+        "translation": "Tomorrow's weather will likely be good."
+      },
+      {
+        "key": "tari_tari",
+        "grammar": "たことが、たり～たり",
+        "type": "fill-gap",
+        "question": "<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>に___、テレビを<ruby>見<rt>み</rt></ruby>たりしました。",
+        "choices": ["あったり", "あうたり", "あって", "あう"],
+        "answer": "あったり",
+        "explanation": "To form the 〜たり list, verbs like 会う (to meet) must use their past short form root (あった) plus り.",
+        "translation": "On the weekend, I dkey things like meeting friends and watching TV."
+      },
+      {
+        "key": "subordinate_clause",
+        "grammar": "subordinate modifying noun",
+        "type": "fill-gap",
+        "question": "これは<ruby>母<rt>はは</rt></ruby>が___<ruby>帽子<rt>ぼうし</rt></ruby>です。",
+        "choices": ["つくった", "つくります", "つくるの", "つくて"],
+        "answer": "つくった",
+        "explanation": "A subordinate clause (Maria made) modifies the noun (hat) directly using the short form.",
+        "translation": "This is the hat that my mother made."
+      },
+      {
+        "key": "narimasu",
+        "grammar": "Adj/noun なります",
+        "type": "fill-gap",
+        "question": "<ruby>掃除<rt>そうじ</rt></ruby>しましたから、<ruby>部屋<rt>へや</rt></ruby>が<ruby>明<rt>あか</rt></ruby>る___なりました。",
+        "choices": ["く", "に", "い", "を"],
+        "answer": "く",
+        "explanation": "When an I-adjective (明るい) is used with なります, the final 'i' changes to 'ku'.",
+        "translation": "Because I cleaned, the room became bright."
+      },
+      {
+        "key": "quotation_to",
+        "grammar": "と思います/と言います",
+        "type": "fill-gap",
+        "question": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>かない___<ruby>言<rt>い</rt></ruby>っていました。",
+        "choices": ["と", "を", "が", "は"],
+        "answer": "と",
+        "explanation": "The particle と is used to quote a negative thought or statement just like an affirmative one.",
+        "translation": "Mr. Tanaka sakey that he won't go to school."
+      },
+      {
+        "key": "contrast_wa",
+        "grammar": "contrast は",
+        "type": "fill-gap",
+        "question": "<ruby>夏<rt>なつ</rt></ruby>___<ruby>好<rt>す</rt></ruby>きですが、<ruby>冬<rt>ふゆ</rt></ruby>___<ruby>嫌<rt>きら</rt></ruby>いです。",
+        "choices": [
+          ["は", "は"],
+          ["を", "を"],
+          ["が", "は"],
+          ["も", "も"]
+        ],
+        "answer": ["は", "は"],
+        "explanation": "Using は twice effectively sets up a contrast between two opposing feelings or states.",
+        "translation": "I like summer, but I hate winter."
+      },
+      {
+        "key": "ta_form_experience",
+        "grammar": "たことが、たり～たり",
+        "type": "fill-gap",
+        "question": "あなたは<ruby>馬<rt>うま</rt></ruby>に___ことがありますか。",
+        "choices": ["のった", "のる", "のって", "のり"],
+        "answer": "のった",
+        "explanation": "The expression for past experience requires the V-ta form (past short form).",
+        "translation": "Have you ever rkeyden a horse?"
+      },
+      {
+        "key": "deshou",
+        "grammar": "でしょう",
+        "type": "fill-gap",
+        "question": "あの<ruby>映画<rt>えいが</rt></ruby>はおもしろかった___。",
+        "choices": ["でしょう", "でした", "ですが", "ので"],
+        "answer": "でしょう",
+        "explanation": "でしょう is used to express a guess or seek agreement about something being probable.",
+        "translation": "That movie is probably interesting."
+      },
+      {
+        "key": "toki",
+        "grammar": "とき",
+        "type": "fill-gap",
+        "question": "<ruby>道<rt>みち</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>る___、<ruby>車<rt>くるま</rt></ruby>に<ruby>気<rt>き</rt></ruby>をつけてください。",
+        "choices": ["とき", "まえに", "あとで", "から"],
+        "answer": "とき",
+        "explanation": "とき (when) is used to describe the time or situation in which an action takes place.",
+        "translation": "When you cross the street, please be careful of cars."
+      },
+      {
+        "key": "conditional_to",
+        "grammar": "conditional と",
+        "type": "fill-gap",
+        "question": "このボタンを<ruby>押<rt>お</rt></ruby>す___、お<ruby>釣<rt>つ</rt></ruby>りが出（で）ます。",
+        "choices": ["と", "から", "が", "ば"],
+        "answer": "と",
+        "explanation": "The conditional と describes a natural consequence or a mechanical reaction (if A happens, B always follows).",
+        "translation": "If you press this button, the change will come out."
+      },
+      {
+        "key": "give_receive_actions",
+        "grammar": "give/receive actions",
+        "type": "fill-gap",
+        "question": "わたしは<ruby>友達<rt>ともだち</rt></ruby>に<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>んで___。",
+        "choices": ["もらいました", "ならいました", "くれました", "やりました"],
+        "answer": "もらいました",
+        "explanation": "〜て もらいました is used when you receive the benefit of someone doing an action for you.",
+        "translation": "I had my friend carry my luggage for me."
+      },
+      {
+        "key": "conditional_tara",
+        "grammar": "conditional たら",
+        "type": "fill-gap",
+        "question": "<ruby>安<rt>やす</rt></ruby>___、<ruby>買<rt>か</rt></ruby>いたいです。",
+        "choices": ["かったら", "いかったら", "かったに", "かったと"],
+        "answer": "かったら",
+        "explanation": "たら is a general conditional used for 'if/when'. For I-adjectives, change the final 'i' to 'katta' then add 'ra'.",
+        "translation": "If it is cheap, I want to buy it."
+      },
+      {
+        "key": "temo",
+        "grammar": "even if ても",
+        "type": "fill-gap",
+        "question": "<ruby>雨<rt>あめ</rt></ruby>が___、<ruby>出<rt>で</rt></ruby>かけます。",
+        "choices": ["ふっても", "ふると", "ふったら", "ふって"],
+        "answer": "ふっても",
+        "explanation": "〜ても expresses 'even if', indicating that the result occurs regardless of the condition.",
+        "translation": "Even if it rains, I will go out."
+      },
+      {
+        "key": "give_receive_actions",
+        "grammar": "give/receive actions",
+        "type": "fill-gap",
+        "question": "<ruby>田中<rt>たなか</rt></ruby>さんはわたしに<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えて___。",
+        "choices": ["くれました", "あげました", "もらいました", "しました"],
+        "answer": "くれました",
+        "explanation": "〜て くれました is used when someone does a favor for the speaker (or the speaker's family).",
+        "translation": "Mr. Tanaka taught me Japanese."
+      },
+      {
+        "key": "conditional_tara",
+        "grammar": "conditional たら",
+        "type": "fill-gap",
+        "question": "<ruby>駅<rt>えき</rt></ruby>に___、<ruby>電話<rt>でんわ</rt></ruby>をしてください。",
+        "choices": ["ついたら", "つくなら", "つくと", "ついて"],
+        "answer": "ついたら",
+        "explanation": "たら can mean 'once' or 'when' (after an action is completed).",
+        "translation": "Once you arrive at the station, please give me a call."
+      },
+      {
+        "key": "toki",
+        "grammar": "とき",
+        "type": "fill-gap",
+        "question": "<ruby>暇<rt>ひま</rt></ruby>___とき、いつも何をしますか。",
+        "choices": ["な", "に", "の", "だ"],
+        "answer": "な",
+        "explanation": "Na-adjectives require the particle な before とき (when).",
+        "translation": "What do you always do when you are free?"
+      },
+      {
+        "key": "conditional_to",
+        "grammar": "conditional と",
+        "type": "fill-gap",
+        "question": "春（はる）に___と、<ruby>桜<rt>さくら</rt></ruby>が咲（さ）きます。",
+        "choices": ["なる", "なり", "なって", "なれば"],
+        "answer": "なる",
+        "explanation": "The conditional と follows the dictionary form to describe a natural occurrence.",
+        "translation": "When it becomes spring, the cherry blossoms bloom."
+      },
+      {
+        "key": "give_receive_actions",
+        "grammar": "give/receive actions",
+        "type": "fill-gap",
+        "question": "わたしは<ruby>母<rt>はは</rt></ruby>にセーターを___あげました。",
+        "choices": ["あんで", "あんて", "あんでから", "あむ"],
+        "answer": "あんで",
+        "explanation": "〜て あげます is used when you do a favor for someone else (in this case, knitting a sweater).",
+        "translation": "I knitted a sweater for my mother."
+      },
+      {
+        "key": "conditional_tara",
+        "grammar": "conditional たら",
+        "type": "fill-gap",
+        "question": "<ruby>時間<rt>じかん</rt></ruby>が___、パーティーに行（い）きません。",
+        "choices": ["なかったら", "ないなら", "なくて", "ないで"],
+        "answer": "なかったら",
+        "explanation": "The negative conditional for verbs is formed by changing ない to なかった and adding ら.",
+        "translation": "If I don't have time, I won't go to the party."
+      },
+      {
+        "key": "temo",
+        "grammar": "even if ても",
+        "type": "fill-gap",
+        "question": "<ruby>辞書<rt>じしょ</rt></ruby>で___も、わかりませんでした。",
+        "choices": ["しらべて", "しらべる", "しらべた", "しらべに"],
+        "answer": "しらべて",
+        "explanation": "〜ても expresses 'even if' or 'despite doing something'.",
+        "translation": "Even though I looked it up in the dictionary, I dkeyn't understand."
+      },
+      {
+        "key": "give_receive_actions",
+        "grammar": "give/receive actions",
+        "type": "fill-gap",
+        "question": "<ruby>先生<rt>せんせい</rt></ruby>は漢字（かんじ）を___くれました。",
+        "choices": ["なおして", "なおし", "なおす", "なおした"],
+        "answer": "なおして",
+        "explanation": "〜て くれました implies that someone (the teacher) kindly dkey a favor for the speaker.",
+        "translation": "The teacher corrected my Kanji for me."
+      },
+      {
+        "key": "toki",
+        "grammar": "とき",
+        "type": "fill-gap",
+        "question": "<ruby>学生<rt>がくせい</rt></ruby>___とき、よく<ruby>勉強<rt>べんきょう</rt></ruby>しました。",
+        "choices": ["の", "な", "に", "だった"],
+        "answer": "の",
+        "explanation": "When a noun is followed by とき, you must use the particle の.",
+        "translation": "When I was a student, I studied a lot."
+      },
+      {
+        "key": "toki",
+        "grammar": "とき",
+        "type": "fill-gap",
+        "question": "<ruby>寝<rt>ね</rt></ruby>る___、「おやすみなさい」と<ruby>言<rt>い</rt></ruby>います。",
+        "choices": ["とき", "まえに", "あとで", "がら"],
+        "answer": "とき",
+        "explanation": "とき indicates the time or occasion of an action (when/at the time of).",
+        "translation": "When I go to bed, I say 'Good night'."
+      },
+      {
+        "key": "conditional_to",
+        "grammar": "conditional と",
+        "type": "fill-gap",
+        "question": "ここをまっすぐ<ruby>行<rt>い</rt></ruby>く___、<ruby>右<rt>みぎ</rt></ruby>に<ruby>銀行<rt>ぎんこう</rt></ruby>があります。",
+        "choices": ["と", "から", "に", "は"],
+        "answer": "と",
+        "explanation": "The conditional と is used for giving directions as it implies an inevitable result (if you go straight, you will find...).",
+        "translation": "If you go straight here, there is a bank on the right."
+      },
+      {
+        "key": "give_receive_actions",
+        "grammar": "give/receive actions",
+        "type": "fill-gap",
+        "question": "わたしはマリアさんに<ruby>掃除<rt>そうじ</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>って___。",
+        "choices": ["あげました", "くれました", "もらいました", "しました"],
+        "answer": "あげました",
+        "explanation": "〜て あげました indicates that the speaker performed a favor (helping with cleaning) for someone else.",
+        "translation": "I helped Maria with the cleaning."
+      },
+      {
+        "key": "conditional_tara",
+        "grammar": "conditional たら",
+        "type": "fill-gap",
+        "question": "<ruby>雨<rt>あめ</rt></ruby>が___、ピクニックに<ruby>行<rt>い</rt></ruby>きません。",
+        "choices": ["ふったら", "ふると", "ふれば", "ふって"],
+        "answer": "ふったら",
+        "explanation": "たら is used for conditional 'if' scenarios, especially when focusing on the result after the condition is met.",
+        "translation": "If it rains, I won't go to the picnic."
+      },
+      {
+        "key": "temo",
+        "grammar": "even if ても",
+        "type": "fill-gap",
+        "question": "<ruby>高<rt>たか</rt></ruby>___、あの<ruby>車<rt>くるま</rt></ruby>を<ruby>買<rt>か</rt></ruby>いたいです。",
+        "choices": ["くても", "いでも", "くたって", "にても"],
+        "answer": "くても",
+        "explanation": "For I-adjectives, the 'even if' form is [root] + くても.",
+        "translation": "Even if it's expensive, I want to buy that car."
+      },
+      {
+        "key": "give_receive_actions",
+        "grammar": "give/receive actions",
+        "type": "fill-gap",
+        "question": "<ruby>田中<rt>たなか</rt></ruby>さんに<ruby>駅<rt>えき</rt></ruby>まで<ruby>送<rt>おく</rt></ruby>って___。",
+        "choices": ["もらいました", "くれました", "あげました", "やりました"],
+        "answer": "もらいました",
+        "explanation": "〜て もらいました is used when you ask for and receive a favor (being driven/sent to the station).",
+        "translation": "I had Mr. Tanaka take me to the station."
+      },
+      {
+        "key": "conditional_tara",
+        "grammar": "conditional たら",
+        "type": "fill-gap",
+        "question": "<ruby>二十歳<rt>はたち</rt></ruby>に___、お<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>むことができます。",
+        "choices": ["なったら", "なると", "なって", "なるなら"],
+        "answer": "なったら",
+        "explanation": "たら can function as 'when' once a specific milestone (turning 20) is reached.",
+        "translation": "When you turn twenty, you can drink alcohol."
+      }
+    ]
+  },
+  "N4":{
+    "beginner":[
+      {
+
+      }
+    ],
+    "intermediate":[
+      {
+
+      }
+    ],
+    "advanced":[
+      {
+
+      }
+    ]
+  },
+  "N3":{
+    "beginner":[
+      {
+
+      }
+    ],
+    "intermediate":[
+      {
+
+      }
+    ],
+    "advanced":[
+      {
+        
+      }
+    ]
+  },
+  "N2":{
+    "beginner":[
+      {
+
+      }
+    ],
+    "intermediate":[
+      {
+
+      }
+    ],
+    "advanced":[
+      {
+        
+      }
+    ]
+  },
+  "N1":{
+    "beginner":[
+      {
+
+      }
+    ],
+    "intermediate":[
+      {
+
+      }
+    ],
+    "advanced":[
+      {
+        
+      }
+    ]
+  }
+}

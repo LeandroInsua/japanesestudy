@@ -153,7 +153,7 @@ export default function KanaSelect({
 
     setKanaPool(pool);
     setGameMode(mode);
-    setView("kanaGame");
+    setView({ screen: "kanaGame" })
   };
 
   return (
@@ -188,6 +188,11 @@ export default function KanaSelect({
             {/* HIRAGANA */}
             <div className="kana-panel">
                 <h3>Hiragana ・ ひらがな</h3>
+
+                <div className="quick-actions">
+                <button onClick={() => selectAll("hiragana")}>All</button>
+                <button onClick={() => clearAll("hiragana")}>None</button>
+                </div>
 
                 {kanaGroups.hiragana.map((group) => (
                 <div
@@ -230,16 +235,17 @@ export default function KanaSelect({
                     </div>
                 ))}
                 </details>
-
-                <div className="quick-actions">
-                <button onClick={() => selectAll("hiragana")}>All</button>
-                <button onClick={() => clearAll("hiragana")}>None</button>
-                </div>
             </div>
 
             {/* KATAKANA */}
             <div className="kana-panel">
                 <h3>Katakana ・ カタカナ</h3>
+                
+                <div className="quick-actions">
+                <button onClick={() => selectAll("katakana")}>All</button>
+                <button onClick={() => clearAll("katakana")}>None</button>
+                </div>
+
 
                 {kanaGroups.katakana.map((group) => (
                 <div
@@ -282,11 +288,6 @@ export default function KanaSelect({
                     </div>
                 ))}
                 </details>
-
-                <div className="quick-actions">
-                <button onClick={() => selectAll("katakana")}>All</button>
-                <button onClick={() => clearAll("katakana")}>None</button>
-                </div>
             </div>
 
             </div>
@@ -294,7 +295,7 @@ export default function KanaSelect({
             <div className="button-group">
             
 
-            <button className="btn" onClick={() => setView("home")}>
+            <button className="btn" onClick={() => setView({ screen: "home" })}>
                 Back
             </button>
             </div>

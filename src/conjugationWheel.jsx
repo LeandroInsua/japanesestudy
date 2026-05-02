@@ -141,33 +141,29 @@ export default function ConjugationWheel({ BASE_PATH, onExit }) {
 
             {search.trim() !== "" && (
             <div className="wheel-dropdown">
-                {filteredVerbs
-                .slice(0, 10)
-                .map((verb) => (
-                    <button
-                    key={verb.id}
-                    className="wheel-dropdown-item"
-                    onClick={() => {
-                        setSelectedVerb(verb);
-                        setSelectedConjugation(
-                        "dictionary"
-                        );
-                        setSearch("");
-                    }}
-                    >
-                    <span
-                        dangerouslySetInnerHTML={{
-                        __html:
-                            verb.verb_furigana ||
-                            verb.verb,
-                        }}
-                    />
-
-                    <div className="wheel-translation">
-                        {verb.translation}
-                    </div>
-                    </button>
-                ))}
+              {filteredVerbs
+              .slice(0, 10)
+              .map((verb) => (
+                <button
+                key={verb.id}
+                className="wheel-dropdown-item"
+                onClick={() => {
+                  setSelectedVerb(verb);
+                  setSelectedConjugation(
+                  "dictionary"
+                  );
+                  setSearch("");
+                }}
+                >
+                <span
+                  dangerouslySetInnerHTML={{
+                  __html:
+                    verb.verb_furigana ||
+                    verb.verb,
+                  }}
+                />
+                </button>
+              ))}
             </div>
             )}
         </div>
@@ -179,9 +175,9 @@ export default function ConjugationWheel({ BASE_PATH, onExit }) {
             placeholder="Search conjugation..."
             value={conjugationSearch}
             onChange={(e) =>
-                setConjugationSearch(
-                e.target.value
-                )
+              setConjugationSearch(
+              e.target.value
+              )
             }
             className="typing-input"
             />

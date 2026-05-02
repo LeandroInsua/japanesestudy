@@ -9,14 +9,17 @@ import VocabGame from "./vocabGame.jsx";
 import ConjugationSelect from "./conjugationSelect.jsx";
 import ConjugationGame from "./conjugationGame.jsx";
 import ConjugationWheel from "./conjugationWheel.jsx";
+import GrammarSelect from "./grammarSelect.jsx";
+import GrammarFillBlanks from "./grammarFillBlanks.jsx";
 
 export default function App() {
-  const [view, setView] = useState("home");
+  const [view, setView] = useState({screen: "home"});
   const [steps, setSteps] = useState([]);
   const [title, setTitle] = useState("Choose sublevel");
   const [gameMode, setGameMode] = useState(null);
   const [kanaPool, setKanaPool] = useState([]);
   const [conjugationPool, setConjugationPool] = useState([]);
+  const [grammarConfig, setGrammarConfig] = useState({level: null,grammar: [],});
 
   // New state for Kanji Game configuration
   const [questionType, setQuestionType] = useState("kanji");
@@ -53,7 +56,7 @@ export default function App() {
     localStorage.setItem("answerType", answerType);
 
     localStorage.setItem("step", step);
-    setView("game");
+    setView({ screen: "game" });
   };
 
   const isValidConfig = questionType !== answerType;
@@ -64,27 +67,31 @@ export default function App() {
 
       <div className="main-container">
         {/* HOME */}
-        {view === "home" && (
+        {view.screen === "home" && (
           <div className="flex-center flex-column">
             <h1>Japanese Quiz</h1>
 
-            <div className="btn" onClick={() => setView("kana")}>
+            <div className="btn" onClick={() => setView({ screen: "kana" })}>
               Hiragana & Katakana
             </div>
 
-            <div className="btn" onClick={() => setView("kanji")}>
+            <div className="btn" onClick={() => setView({ screen: "kanji"})}>
               Kanji
             </div>
 
-            <div className="btn" onClick={() => setView("vocab")}>
+            <div className="btn" onClick={() => setView({ screen: "vocab"})}>
               Vocabulary
             </div>
 
-            <div className="btn" onClick={() => setView("conjugation")}>
+            <div className="btn" onClick={() => setView({ screen: "grammar"})}>
+              Grammar
+            </div>
+
+            <div className="btn" onClick={() => setView({ screen: "conjugation"})}>
               Conjugation
             </div>
 
-            <div className="btn" onClick={() => setView("conjugationWheel")}>
+            <div className="btn" onClick={() => setView({ screen: "conjugationWheel"})}>
               Conjugation Wheel
             </div>
 
@@ -95,7 +102,7 @@ export default function App() {
         )}
 
         {/* KANA */}
-        {view === "kana" && (
+        {view.screen === "kana" && (
           <KanaSelect
             setView={setView}
             setKanaPool={setKanaPool}
@@ -104,7 +111,7 @@ export default function App() {
         )}
 
         {/* KANJI LEVEL */}
-        {view === "kanji" && (
+        {view.screen === "kanji" && (
           <div className="flex-center flex-column">
             <h1>Kanji Level</h1>
 
@@ -193,21 +200,21 @@ export default function App() {
                   setTitle(`Choose N${lvl} sublevel`);
                   loadKanji(lvl);
                   setGameMode("kanji");
-                  setView("steps");
+                  setView({ screen: "steps" });
                 }}
               >
                 N{lvl}
               </div>
             ))}
 
-            <button className="btn" onClick={() => setView("home")}>
+            <button className="btn" onClick={() => setView({ screen: "home" })}>
               Back
             </button>
           </div>
         )}
 
         {/* VOCAB LEVEL */}
-        {view === "vocab" && (
+        {view.screen === "vocab" && (
           <div className="flex-center flex-column vocab-level">
             <h1>Vocabulary Level</h1>
 
@@ -220,21 +227,21 @@ export default function App() {
                   setTitle(`Choose N${lvl} sublevel`);
                   loadVocab(lvl);
                   setGameMode("vocab");
-                  setView("steps");
+                  setView({ screen: "steps" });
                 }}
               >
                 N{lvl}
               </div>
             ))}
 
-            <button className="btn" onClick={() => setView("home")}>
+            <button className="btn" onClick={() => setView({ screen: "home" })}>
               Back
             </button>
           </div>
         )}
 
         {/* CONJUGATION */}
-        {view === "conjugation" && (
+        {view.screen === "conjugation" && (
           <ConjugationSelect
             setView={setView}
             setConjugationPool={setConjugationPool}
@@ -243,7 +250,7 @@ export default function App() {
         )}
 
         {/* STEPS */}
-        {view === "steps" && (
+        {view.screen === "steps" && (
           <div className="flex-center flex-column">
             <h1>{title}</h1>
 
@@ -265,9 +272,9 @@ export default function App() {
 
             <button className="btn" onClick={() => {
               if (gameMode === "kanji") {
-                setView("kanji");
+                setView({ screen: "kanji" });
               } else if (gameMode === "vocab") {
-                setView("vocab");
+                setView({ screen: "vocab" });
               }}}>
               Back
             </button>
@@ -275,43 +282,64 @@ export default function App() {
         )}
 
         {/* GAME */}
-        {view === "kanaGame" && (
+        {view.screen === "kanaGame" && (
           <KanaGame
             mode={gameMode}
             kanaPool={kanaPool}
             BASE_PATH={BASE_PATH}
-            onExit={() => setView("kana")}
+            onExit={() => setView({ screen: "kana" })}
           />
         )}
-        {view === "game" && gameMode === "kanji" && (
-          <KanjiGame 
-            key="kanji" 
-            setView={setView} 
-            BASE_PATH={BASE_PATH} 
+        {view.screen === "game" && gameMode === "kanji" && (
+          <KanjiGame
+            key="kanji"
+            setView={setView}
+            BASE_PATH={BASE_PATH}
+            onExit={() => setView({ screen: "home" })}
           />)}
 
-        {view === "game" && gameMode === "vocab" && (
-          <VocabGame 
-            key="vocab" 
-            setView={setView} 
-            BASE_PATH={BASE_PATH} 
+        {view.screen === "game" && gameMode === "vocab" && (
+          <VocabGame
+            key="vocab"
+            setView={setView}
+            BASE_PATH={BASE_PATH}
+            onExit={() => setView({ screen: "home" })}
           />)}
 
-          {view === "conjugationGame" && (
+          {view.screen === "grammar" && (
+            <GrammarSelect
+              BASE_PATH={BASE_PATH}
+              setView={setView}
+              setGrammarConfig={setGrammarConfig}
+              initialLevel={view.level || null}
+              onExit={() => setView({ screen: "home" })}
+            />
+          )}
+
+          {view.screen === "grammarFillBlanks" && (
+            <GrammarFillBlanks
+              BASE_PATH={BASE_PATH}
+              level={grammarConfig.level}
+              selectedGrammar={grammarConfig.grammar}
+              onExit={() => setView({screen: "grammar", level: grammarConfig.level,})}
+            />
+          )}
+
+          {view.screen === "conjugationGame" && (
           <ConjugationGame
             conjugationPool={conjugationPool}
             mode={gameMode}
-            onExit={() => setView("conjugation")}
+            onExit={() => setView({ screen: "conjugation" })}
             BASE_PATH={BASE_PATH}
           />
         )}
 
-        {view === "conjugationWheel" && (
+        {view.screen === "conjugationWheel" && (
           <ConjugationWheel
             conjugationPool={conjugationPool}
             mode={gameMode}
             BASE_PATH={BASE_PATH}
-            onExit={() => setView("home")}
+            onExit={() => setView({ screen: "home" })}
           />
         )}
         

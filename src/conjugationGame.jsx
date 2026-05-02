@@ -606,10 +606,7 @@ export default function ConjugationGame({
         </button>
       )}
 
-      <button
-        className="back-btn"
-        onClick={onExit}
-      >
+      <button className="back-btn" onClick={onExit}>
         Back
       </button>
     </div>

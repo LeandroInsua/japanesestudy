@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
-import n5Grammar from "./data/grammar/n5Grammar.json";
 
-export default function GrammarGame({
+export default function GrammarFillBlanks({
   selectedGrammar,
-  selectedLevel,
-  setView,
+  level,
+  onExit,
 }) {
   const [questionPool, setQuestionPool] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(null);
@@ -20,7 +19,11 @@ export default function GrammarGame({
   const [correctQuestions, setCorrectQuestions] = useState(0);
 
   const [gameOver, setGameOver] = useState(false);
+  console.log("LEVEL:", level);
+console.log("SELECTED:", selectedGrammar);
+  
 
+  /* EFFECTS */
   useEffect(() => {
     loadQuestionPool();
   }, []);
@@ -56,24 +59,42 @@ export default function GrammarGame({
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [choices, currentQuestion, showExplanation]);
 
-  const loadQuestionPool = () => {
-    let grammarData = [];
+  const loadQuestionPool = async () => {
+    try {
+      const res = await fetch(
+        `${import.meta.env.BASE_URL}Data/fillGap.json`
+      );
 
-    if (selectedLevel === "N5") {
-      grammarData = [
-        ...n5Grammar.beginner,
-        ...n5Grammar.intermediate,
-        ...n5Grammar.advanced,
+      const json = await res.json();
+
+      const levelData = json[level];
+      
+      if (!levelData) {
+        console.error("Level not found:", level);
+        return;
+      }
+
+      const combined = [
+        ...(levelData.beginner || []),
+        ...(levelData.intermediate || []),
+        ...(levelData.advanced || []),
       ];
+
+      const filtered = combined.filter((item) =>
+        selectedGrammar.includes(item.key)
+      );
+
+      console.log("FILTERED:", filtered);
+
+      setQuestionPool(filtered);
+
+      if (filtered.length > 0) {
+        generateQuestion(filtered);
+      }
+
+    } catch (err) {
+      console.error(err);
     }
-
-    const filtered = grammarData.filter((item) =>
-      selectedGrammar.includes(item.grammar)
-    );
-
-    setQuestionPool(filtered);
-
-    generateQuestion(filtered);
   };
 
   const shuffleArray = (array) => {
@@ -101,7 +122,12 @@ export default function GrammarGame({
 
     setAnsweredQuestions((prev) => prev + 1);
 
-    if (choice === currentQuestion.answer) {
+    if (
+      JSON.stringify(choice) ===
+      JSON.stringify(currentQuestion.answer)
+    ) {
+      new Audio(`${import.meta.env.BASE_URL}Audio/correct.wav`).play();
+
       setScore((prev) => prev + 10);
       setCorrectQuestions((prev) => prev + 1);
     } else {
@@ -110,7 +136,9 @@ export default function GrammarGame({
       setLives(remainingLives);
 
       if (remainingLives <= 0) {
-        setGameOver(true);
+        setTimeout(() => {
+          setGameOver(true);
+        }, 300);
       }
     }
   };
@@ -127,14 +155,29 @@ export default function GrammarGame({
       : 0;
 
   if (!currentQuestion) {
-    return <div className="flex-center">Loading...</div>;
-  }
+  return (
+    <div className="flex-center flex-column">
+      <h2>Loading...</h2>
+
+      <p>Level: {String(level)}</p>
+
+      <p>
+        Selected grammar:
+        {JSON.stringify(selectedGrammar)}
+      </p>
+
+      <p>
+        Pool size: {questionPool.length}
+      </p>
+    </div>
+  );
+}
 
   return (
     <div className="grammar-game flex-center flex-column">
       <h1>Grammar Game</h1>
 
-      <div className="grammar-stats">
+      <div className="hud">
         <div>Score: {score}</div>
         <div>Lives: {lives}</div>
         <div>
@@ -146,28 +189,31 @@ export default function GrammarGame({
       {!gameOver ? (
         <>
           <div className="grammar-question-card">
-            <h2>{currentQuestion.grammar}</h2>
-
-            <div className="grammar-question">
-              {currentQuestion.question}
-            </div>
+            <div
+              className="grammar-question"
+              dangerouslySetInnerHTML={{
+                __html: currentQuestion.question,
+              }}
+            />
           </div>
 
-          <div className="grammar-choices">
+          <div className="answers">
             {choices.map((choice, index) => {
               const isCorrect =
-                choice === currentQuestion.answer;
+                JSON.stringify(choice) ===
+                JSON.stringify(currentQuestion.answer);
 
               const isWrong =
-                selectedChoice === choice &&
-                choice !== currentQuestion.answer;
+                JSON.stringify(selectedChoice) ===
+                  JSON.stringify(choice) &&
+                !isCorrect;
 
               return (
                 <button
                   key={choice + index}
-                  className={`grammar-choice-btn
+                  className={`choice-container
                     ${showExplanation && isCorrect ? "correct" : ""}
-                    ${showExplanation && isWrong ? "wrong" : ""}
+                    ${showExplanation && isWrong ? "incorrect" : ""}
                   `}
                   onClick={() => handleAnswer(choice)}
                 >
@@ -186,14 +232,9 @@ export default function GrammarGame({
               <h3>
                 {selectedChoice === currentQuestion.answer
                   ? "Correct!"
-                  : "Incorrect"}
+                  : `Incorrect! Correct answer ${currentQuestion.answer}`}
               </h3>
-
-              <p>
-                Correct answer: {currentQuestion.answer}
-              </p>
-
-              <p>{currentQuestion.explanation}</p>
+              <h3>{currentQuestion.explanation}</h3>
 
               <button className="btn" onClick={nextQuestion}>
                 Next Question (Enter)
@@ -211,14 +252,22 @@ export default function GrammarGame({
 
           <button
             className="btn"
-            onClick={() => window.location.reload()}
+            onClick={() => {
+              setScore(0);
+              setLives(3);
+              setAnsweredQuestions(0);
+              setCorrectQuestions(0);
+              setGameOver(false);
+
+              generateQuestion(questionPool);
+            }}
           >
             Restart
           </button>
         </div>
       )}
 
-      <button className="back-btn" onClick={() => setView("home")}>
+      <button className="back-btn" onClick={onExit}>
         Back
       </button>
     </div>

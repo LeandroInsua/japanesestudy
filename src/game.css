@@ -9,6 +9,7 @@
 }
 
 .hud {
+  font-size: 2rem;
   grid-column: 1 / -1;
   display: flex;
   justify-content: space-between;
@@ -525,14 +526,12 @@
 .grammar-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 
 .grammar-item {
   display: flex;
-  align-items: center;
-  gap: 8px;
   cursor: pointer;
+  gap: 1rem;
 }
 
 .grammar-game-buttons {
@@ -540,27 +539,20 @@
 }
 
 .grammar-game {
-  gap: 20px;
-  padding: 20px;
+  gap: 1rem;
 }
 
-.grammar-stats {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
 
 .grammar-question-card {
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
   width: 100%;
-  max-width: 700px;
   text-align: center;
 }
 
 .grammar-question {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-top: 20px;
 }
 
@@ -585,20 +577,10 @@
   font-weight: bold;
 }
 
-.correct {
-  border: 2px solid limegreen;
-}
-
-.wrong {
-  border: 2px solid crimson;
-}
-
 .grammar-explanation-box {
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 20px;
   width: 100%;
-  max-width: 700px;
 }
 
 .game-over-screen {
