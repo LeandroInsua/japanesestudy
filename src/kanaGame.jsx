@@ -102,6 +102,7 @@ export default function KanaGame({ mode, kanaPool, onExit, BASE_PATH }) {
     const handleKeyDown = (e) => {
       // ENTER → next question
       if (
+        mode === "multiple" &&
         e.key === "Enter" &&
         waitingNext
       ) {
