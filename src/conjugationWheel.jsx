@@ -76,8 +76,8 @@ export default function ConjugationWheel({ BASE_PATH, onExit }) {
   const currentForm = selectedVerb.forms[selectedConjugation];
   const currentIndex = conjugationOrder.indexOf(selectedConjugation);
   const displayForm = currentForm[formality] || currentForm.plain;
-  const stemHTML = selectedVerb.display?.root || "";
-  const stemMiddle = selectedVerb.display?.middle || "";
+  const stemHTML = displayForm.root || selectedVerb.display?.root || "";
+  const stemMiddle = displayForm.middle || "";
 
   const changeConjugation = (direction) => {
     let next = currentIndex + direction;
@@ -212,7 +212,7 @@ export default function ConjugationWheel({ BASE_PATH, onExit }) {
         </div>
         {/* EXTRA INFO */}
           <div className="translation-text">
-            <h3>{displayForm.translation || selectedVerb.translation}</h3>
+            <h3>{displayForm.translation || currentForm.polite?.translation || selectedVerb.translation}</h3>
           </div>
 
         {/* PLAIN / POLITE SWITCH */}

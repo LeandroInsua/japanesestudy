@@ -394,7 +394,7 @@
         "plain": { "root": "<ruby>飲<rt>の</rt></ruby>", "middle": "", "ending": "んで", "full": "飲んで", "kana": "のんで", "full_furigana": "<ruby>飲<rt>の</rt></ruby>んで" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>飲<rt>の</rt></ruby>", "middle": "む", "ending": "", "full": "飲む", "kana": "のむ", "full_furigana": "<ruby>飲<rt>の</rt></ruby>む" },
+        "plain": { "root": "<ruby>飲<rt>の</rt></ruby>", "middle": "", "ending": "む", "full": "飲む", "kana": "のむ", "full_furigana": "<ruby>飲<rt>の</rt></ruby>む" },
         "polite": { "root": "<ruby>飲<rt>の</rt></ruby>", "middle": "み", "ending": "ます", "full": "飲みます", "kana": "のみます", "full_furigana": "<ruby>飲<rt>の</rt></ruby>みます", "translation": "drink / to drink" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -433,7 +433,7 @@
         "plain": { "root": "<ruby>飲<rt>の</rt></ruby>", "middle": "む", "ending": "まい", "full": "飲むまい", "kana": "のむまい", "full_furigana": "<ruby>飲<rt>の</rt></ruby>むまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>飲<rt>の</rt></ruby>", "middle": "め", "ending": "", "full": "飲め", "kana": "のめ", "full_furigana": "<ruby>飲<rt>の</rt></ruby>め" }
+        "plain": { "root": "<ruby>飲<rt>の</rt></ruby>", "middle": "", "ending": "め", "full": "飲め", "kana": "のめ", "full_furigana": "<ruby>飲<rt>の</rt></ruby>め" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>飲<rt>の</rt></ruby>", "middle": "む", "ending": "な", "full": "飲むな", "kana": "のむな", "full_furigana": "<ruby>飲<rt>の</rt></ruby>むな" }
@@ -515,7 +515,7 @@
         "plain": { "root": "<ruby>読<rt>よ</rt></ruby>", "middle": "", "ending": "んで", "full": "読んで", "kana": "よんで", "full_furigana": "<ruby>読<rt>よ</rt></ruby>んで" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>読<rt>よ</rt></ruby>", "middle": "む", "ending": "", "full": "読む", "kana": "よむ", "full_furigana": "<ruby>読<rt>よ</rt></ruby>む" },
+        "plain": { "root": "<ruby>読<rt>よ</rt></ruby>", "middle": "", "ending": "む", "full": "読む", "kana": "よむ", "full_furigana": "<ruby>読<rt>よ</rt></ruby>む" },
         "polite": { "root": "<ruby>読<rt>よ</rt></ruby>", "middle": "み", "ending": "ます", "full": "読みます", "kana": "よみます", "full_furigana": "<ruby>読<rt>よ</rt></ruby>みます", "translation": "read / to read" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -554,7 +554,7 @@
         "plain": { "root": "<ruby>読<rt>よ</rt></ruby>", "middle": "む", "ending": "まい", "full": "読むまい", "kana": "よむまい", "full_furigana": "<ruby>読<rt>よ</rt></ruby>むまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>読<rt>よ</rt></ruby>", "middle": "め", "ending": "", "full": "読め", "kana": "よめ", "full_furigana": "<ruby>読<rt>よ</rt></ruby>め" }
+        "plain": { "root": "<ruby>読<rt>よ</rt></ruby>", "middle": "", "ending": "め", "full": "読め", "kana": "よめ", "full_furigana": "<ruby>読<rt>よ</rt></ruby>め" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>読<rt>よ</rt></ruby>", "middle": "む", "ending": "な", "full": "読むな", "kana": "よむな", "full_furigana": "<ruby>読<rt>よ</rt></ruby>むな" }
@@ -757,7 +757,7 @@
         "plain": { "root": "<ruby>書<rt>か</rt></ruby>", "middle": "", "ending": "いて", "full": "書いて", "kana": "かいて", "full_furigana": "<ruby>書<rt>か</rt></ruby>いて" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>書<rt>か</rt></ruby>", "middle": "く", "ending": "", "full": "書く", "kana": "かく", "full_furigana": "<ruby>書<rt>か</rt></ruby>く" },
+        "plain": { "root": "<ruby>書<rt>か</rt></ruby>", "middle": "", "ending": "く", "full": "書く", "kana": "かく", "full_furigana": "<ruby>書<rt>か</rt></ruby>く" },
         "polite": { "root": "<ruby>書<rt>か</rt></ruby>", "middle": "き", "ending": "ます", "full": "書きます", "kana": "かきます", "full_furigana": "<ruby>書<rt>か</rt></ruby>きます", "translation": "write / to write" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -796,7 +796,7 @@
         "plain": { "root": "<ruby>書<rt>か</rt></ruby>", "middle": "く", "ending": "まい", "full": "書くまい", "kana": "かくまい", "full_furigana": "<ruby>書<rt>か</rt></ruby>くまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>書<rt>か</rt></ruby>", "middle": "け", "ending": "", "full": "書け", "kana": "かけ", "full_furigana": "<ruby>書<rt>か</rt></ruby>け" }
+        "plain": { "root": "<ruby>書<rt>か</rt></ruby>", "middle": "", "ending": "け", "full": "書け", "kana": "かけ", "full_furigana": "<ruby>書<rt>か</rt></ruby>け" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>書<rt>か</rt></ruby>", "middle": "く", "ending": "な", "full": "書くな", "kana": "かくな", "full_furigana": "<ruby>書<rt>か</rt></ruby>くな" }
@@ -878,7 +878,7 @@
         "plain": { "root": "<ruby>話<rt>はな</rt></ruby>", "middle": "", "ending": "して", "full": "話して", "kana": "はなして", "full_furigana": "<ruby>話<rt>はな</rt></ruby>して" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>話<rt>はな</rt></ruby>", "middle": "す", "ending": "", "full": "話す", "kana": "はなす", "full_furigana": "<ruby>話<rt>はな</rt></ruby>す" },
+        "plain": { "root": "<ruby>話<rt>はな</rt></ruby>", "middle": "", "ending": "す", "full": "話す", "kana": "はなす", "full_furigana": "<ruby>話<rt>はな</rt></ruby>す" },
         "polite": { "root": "<ruby>話<rt>はな</rt></ruby>", "middle": "し", "ending": "ます", "full": "話します", "kana": "はなします", "full_furigana": "<ruby>話<rt>はな</rt></ruby>します", "translation": "speak / to speak" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -917,7 +917,7 @@
         "plain": { "root": "<ruby>話<rt>はな</rt></ruby>", "middle": "す", "ending": "まい", "full": "話すまい", "kana": "はなすまい", "full_furigana": "<ruby>話<rt>はな</rt></ruby>すまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>話<rt>はな</rt></ruby>", "middle": "せ", "ending": "", "full": "話せ", "kana": "はなせ", "full_furigana": "<ruby>話<rt>はな</rt></ruby>せ" }
+        "plain": { "root": "<ruby>話<rt>はな</rt></ruby>", "middle": "", "ending": "せ", "full": "話せ", "kana": "はなせ", "full_furigana": "<ruby>話<rt>はな</rt></ruby>せ" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>話<rt>はな</rt></ruby>", "middle": "す", "ending": "な", "full": "話すな", "kana": "はなすな", "full_furigana": "<ruby>話<rt>はな</rt></ruby>すな" }
@@ -1120,7 +1120,7 @@
         "plain": { "root": "<ruby>歩<rt>ある</rt></ruby>", "middle": "", "ending": "いて", "full": "歩いて", "kana": "あるいて", "full_furigana": "<ruby>歩<rt>ある</rt></ruby>いて" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>歩<rt>ある</rt></ruby>", "middle": "く", "ending": "", "full": "歩く", "kana": "あるく", "full_furigana": "<ruby>歩<rt>ある</rt></ruby>く" },
+        "plain": { "root": "<ruby>歩<rt>ある</rt></ruby>", "middle": "", "ending": "く", "full": "歩く", "kana": "あるく", "full_furigana": "<ruby>歩<rt>ある</rt></ruby>く" },
         "polite": { "root": "<ruby>歩<rt>ある</rt></ruby>", "middle": "き", "ending": "ます", "full": "歩きます", "kana": "あるきます", "full_furigana": "<ruby>歩<rt>ある</rt></ruby>きます", "translation": "walk / to walk" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -1159,7 +1159,7 @@
         "plain": { "root": "<ruby>歩<rt>ある</rt></ruby>", "middle": "く", "ending": "まい", "full": "歩くまい", "kana": "あるくまい", "full_furigana": "<ruby>歩<rt>ある</rt></ruby>くまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>歩<rt>ある</rt></ruby>", "middle": "け", "ending": "", "full": "歩け", "kana": "あるけ", "full_furigana": "<ruby>歩<rt>ある</rt></ruby>け" }
+        "plain": { "root": "<ruby>歩<rt>ある</rt></ruby>", "middle": "", "ending": "け", "full": "歩け", "kana": "あるけ", "full_furigana": "<ruby>歩<rt>ある</rt></ruby>け" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>歩<rt>ある</rt></ruby>", "middle": "く", "ending": "な", "full": "歩くな", "kana": "あるくな", "full_furigana": "<ruby>歩<rt>ある</rt></ruby>くな" }
@@ -1241,7 +1241,7 @@
         "plain": { "root": "<ruby>買<rt>か</rt></ruby>", "middle": "", "ending": "って", "full": "買って", "kana": "かって", "full_furigana": "<ruby>買<rt>か</rt></ruby>って" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>買<rt>か</rt></ruby>", "middle": "う", "ending": "", "full": "買う", "kana": "かう", "full_furigana": "<ruby>買<rt>か</rt></ruby>う" },
+        "plain": { "root": "<ruby>買<rt>か</rt></ruby>", "middle": "", "ending": "う", "full": "買う", "kana": "かう", "full_furigana": "<ruby>買<rt>か</rt></ruby>う" },
         "polite": { "root": "<ruby>買<rt>か</rt></ruby>", "middle": "い", "ending": "ます", "full": "買います", "kana": "かいます", "full_furigana": "<ruby>買<rt>か</rt></ruby>います", "translation": "buy / to buy" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -1280,7 +1280,7 @@
         "plain": { "root": "<ruby>買<rt>か</rt></ruby>", "middle": "う", "ending": "まい", "full": "買うまい", "kana": "かうまい", "full_furigana": "<ruby>買<rt>か</rt></ruby>うまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>買<rt>か</rt></ruby>", "middle": "え", "ending": "", "full": "買え", "kana": "かえ", "full_furigana": "<ruby>買<rt>か</rt></ruby>え" }
+        "plain": { "root": "<ruby>買<rt>か</rt></ruby>", "middle": "", "ending": "え", "full": "買え", "kana": "かえ", "full_furigana": "<ruby>買<rt>か</rt></ruby>え" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>買<rt>か</rt></ruby>", "middle": "う", "ending": "な", "full": "買うな", "kana": "かうな", "full_furigana": "<ruby>買<rt>か</rt></ruby>うな" }
@@ -1362,7 +1362,7 @@
         "plain": { "root": "<ruby>走<rt>はし</rt></ruby>", "middle": "", "ending": "って", "full": "走って", "kana": "はしって", "full_furigana": "<ruby>走<rt>はし</rt></ruby>って" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>走<rt>はし</rt></ruby>", "middle": "る", "ending": "", "full": "走る", "kana": "はしる", "full_furigana": "<ruby>走<rt>はし</rt></ruby>る" },
+        "plain": { "root": "<ruby>走<rt>はし</rt></ruby>", "middle": "", "ending": "る", "full": "走る", "kana": "はしる", "full_furigana": "<ruby>走<rt>はし</rt></ruby>る" },
         "polite": { "root": "<ruby>走<rt>はし</rt></ruby>", "middle": "り", "ending": "ます", "full": "走ります", "kana": "はしります", "full_furigana": "<ruby>走<rt>はし</rt></ruby>ります", "translation": "run / to run" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -1401,7 +1401,7 @@
         "plain": { "root": "<ruby>走<rt>はし</rt></ruby>", "middle": "る", "ending": "まい", "full": "走るまい", "kana": "はしるまい", "full_furigana": "<ruby>走<rt>はし</rt></ruby>るまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>走<rt>はし</rt></ruby>", "middle": "れ", "ending": "", "full": "走れ", "kana": "はしれ", "full_furigana": "<ruby>走<rt>はし</rt></ruby>れ" }
+        "plain": { "root": "<ruby>走<rt>はし</rt></ruby>", "middle": "", "ending": "れ", "full": "走れ", "kana": "はしれ", "full_furigana": "<ruby>走<rt>はし</rt></ruby>れ" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>走<rt>はし</rt></ruby>", "middle": "る", "ending": "な", "full": "走るな", "kana": "はしるな", "full_furigana": "<ruby>走<rt>はし</rt></ruby>るな" }
@@ -1604,7 +1604,7 @@
         "plain": { "root": "<ruby>聞<rt>き</rt></ruby>", "middle": "", "ending": "いて", "full": "聞いて", "kana": "きいて", "full_furigana": "<ruby>聞<rt>き</rt></ruby>いて" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>聞<rt>き</rt></ruby>", "middle": "く", "ending": "", "full": "聞く", "kana": "きく", "full_furigana": "<ruby>聞<rt>き</rt></ruby>く" },
+        "plain": { "root": "<ruby>聞<rt>き</rt></ruby>", "middle": "", "ending": "く", "full": "聞く", "kana": "きく", "full_furigana": "<ruby>聞<rt>き</rt></ruby>く" },
         "polite": { "root": "<ruby>聞<rt>き</rt></ruby>", "middle": "き", "ending": "ます", "full": "聞きます", "kana": "ききます", "full_furigana": "<ruby>聞<rt>き</rt></ruby>きます", "translation": "listen / to listen" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -1643,7 +1643,7 @@
         "plain": { "root": "<ruby>聞<rt>き</rt></ruby>", "middle": "く", "ending": "まい", "full": "聞くまい", "kana": "きくまい", "full_furigana": "<ruby>聞<rt>き</rt></ruby>くまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>聞<rt>き</rt></ruby>", "middle": "け", "ending": "", "full": "聞け", "kana": "きけ", "full_furigana": "<ruby>聞<rt>き</rt></ruby>け" }
+        "plain": { "root": "<ruby>聞<rt>き</rt></ruby>", "middle": "", "ending": "け", "full": "聞け", "kana": "きけ", "full_furigana": "<ruby>聞<rt>き</rt></ruby>け" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>聞<rt>き</rt></ruby>", "middle": "く", "ending": "な", "full": "聞くな", "kana": "きくな", "full_furigana": "<ruby>聞<rt>き</rt></ruby>くな" }
@@ -1725,7 +1725,7 @@
         "plain": { "root": "<ruby>休<rt>やす</rt></ruby>", "middle": "", "ending": "んで", "full": "休んで", "kana": "やすんで", "full_furigana": "<ruby>休<rt>やす</rt></ruby>んで" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>休<rt>やす</rt></ruby>", "middle": "む", "ending": "", "full": "休む", "kana": "やすむ", "full_furigana": "<ruby>休<rt>やす</rt></ruby>む" },
+        "plain": { "root": "<ruby>休<rt>やす</rt></ruby>", "middle": "", "ending": "む", "full": "休む", "kana": "やすむ", "full_furigana": "<ruby>休<rt>やす</rt></ruby>む" },
         "polite": { "root": "<ruby>休<rt>やす</rt></ruby>", "middle": "み", "ending": "ます", "full": "休みます", "kana": "やすみます", "full_furigana": "<ruby>休<rt>やす</rt></ruby>みます", "translation": "rest / to rest" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -1764,7 +1764,7 @@
         "plain": { "root": "<ruby>休<rt>やす</rt></ruby>", "middle": "む", "ending": "まい", "full": "休むまい", "kana": "やすむまい", "full_furigana": "<ruby>休<rt>やす</rt></ruby>むまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>休<rt>やす</rt></ruby>", "middle": "め", "ending": "", "full": "休め", "kana": "やすめ", "full_furigana": "<ruby>休<rt>やす</rt></ruby>め" }
+        "plain": { "root": "<ruby>休<rt>やす</rt></ruby>", "middle": "", "ending": "め", "full": "休め", "kana": "やすめ", "full_furigana": "<ruby>休<rt>やす</rt></ruby>め" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>休<rt>やす</rt></ruby>", "middle": "む", "ending": "な", "full": "休むな", "kana": "やすむな", "full_furigana": "<ruby>休<rt>やす</rt></ruby>むな" }
@@ -1846,7 +1846,7 @@
         "plain": { "root": "<ruby>働<rt>はたら</rt></ruby>", "middle": "", "ending": "いて", "full": "働いて", "kana": "はたらいて", "full_furigana": "<ruby>働<rt>はたら</rt></ruby>いて" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>働<rt>はたら</rt></ruby>", "middle": "く", "ending": "", "full": "働く", "kana": "はたらく", "full_furigana": "<ruby>働<rt>はたら</rt></ruby>く" },
+        "plain": { "root": "<ruby>働<rt>はたら</rt></ruby>", "middle": "", "ending": "く", "full": "働く", "kana": "はたらく", "full_furigana": "<ruby>働<rt>はたら</rt></ruby>く" },
         "polite": { "root": "<ruby>働<rt>はたら</rt></ruby>", "middle": "き", "ending": "ます", "full": "働きます", "kana": "はたらきます", "full_furigana": "<ruby>働<rt>はたら</rt></ruby>きます", "translation": "work / to work" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -1885,7 +1885,7 @@
         "plain": { "root": "<ruby>働<rt>はたら</rt></ruby>", "middle": "く", "ending": "まい", "full": "働くまい", "kana": "はたらくまい", "full_furigana": "<ruby>働<rt>はたら</rt></ruby>くまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>働<rt>はたら</rt></ruby>", "middle": "け", "ending": "", "full": "働け", "kana": "はたらけ", "full_furigana": "<ruby>働<rt>はたら</rt></ruby>け" }
+        "plain": { "root": "<ruby>働<rt>はたら</rt></ruby>", "middle": "", "ending": "け", "full": "働け", "kana": "はたらけ", "full_furigana": "<ruby>働<rt>はたら</rt></ruby>け" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>働<rt>はたら</rt></ruby>", "middle": "く", "ending": "な", "full": "働くな", "kana": "はたらくな", "full_furigana": "<ruby>働<rt>はたら</rt></ruby>くな" }
@@ -1967,7 +1967,7 @@
         "plain": { "root": "<ruby>遊<rt>あそ</rt></ruby>", "middle": "", "ending": "んで", "full": "遊んで", "kana": "あそんで", "full_furigana": "<ruby>遊<rt>あそ</rt></ruby>んで" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>遊<rt>あそ</rt></ruby>", "middle": "ぶ", "ending": "", "full": "遊ぶ", "kana": "あそぶ", "full_furigana": "<ruby>遊<rt>あそ</rt></ruby>ぶ" },
+        "plain": { "root": "<ruby>遊<rt>あそ</rt></ruby>", "middle": "", "ending": "ぶ", "full": "遊ぶ", "kana": "あそぶ", "full_furigana": "<ruby>遊<rt>あそ</rt></ruby>ぶ" },
         "polite": { "root": "<ruby>遊<rt>あそ</rt></ruby>", "middle": "び", "ending": "ます", "full": "遊びます", "kana": "あそびます", "full_furigana": "<ruby>遊<rt>あそ</rt></ruby>びます", "translation": "play / to play" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -2006,7 +2006,7 @@
         "plain": { "root": "<ruby>遊<rt>あそ</rt></ruby>", "middle": "ぶ", "ending": "まい", "full": "遊ぶまい", "kana": "あそぶまい", "full_furigana": "<ruby>遊<rt>あそ</rt></ruby>ぶまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>遊<rt>あそ</rt></ruby>", "middle": "べ", "ending": "", "full": "遊べ", "kana": "あそべ", "full_furigana": "<ruby>遊<rt>あそ</rt></ruby>べ" }
+        "plain": { "root": "<ruby>遊<rt>あそ</rt></ruby>", "middle": "", "ending": "べ", "full": "遊べ", "kana": "あそべ", "full_furigana": "<ruby>遊<rt>あそ</rt></ruby>べ" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>遊<rt>あそ</rt></ruby>", "middle": "ぶ", "ending": "な", "full": "遊ぶな", "kana": "あそぶな", "full_furigana": "<ruby>遊<rt>あそ</rt></ruby>ぶな" }
@@ -2088,7 +2088,7 @@
         "plain": { "root": "<ruby>吸<rt>す</rt></ruby>", "middle": "", "ending": "って", "full": "吸って", "kana": "すって", "full_furigana": "<ruby>吸<rt>す</rt></ruby>って" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>吸<rt>す</rt></ruby>", "middle": "う", "ending": "", "full": "吸う", "kana": "すう", "full_furigana": "<ruby>吸<rt>す</rt></ruby>う" },
+        "plain": { "root": "<ruby>吸<rt>す</rt></ruby>", "middle": "", "ending": "う", "full": "吸う", "kana": "すう", "full_furigana": "<ruby>吸<rt>す</rt></ruby>う" },
         "polite": { "root": "<ruby>吸<rt>す</rt></ruby>", "middle": "い", "ending": "ます", "full": "吸います", "kana": "すいます", "full_furigana": "<ruby>吸<rt>す</rt></ruby>います", "translation": "smoke / to smoke" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -2127,7 +2127,7 @@
         "plain": { "root": "<ruby>吸<rt>す</rt></ruby>", "middle": "う", "ending": "まい", "full": "吸うまい", "kana": "すうまい", "full_furigana": "<ruby>吸<rt>す</rt></ruby>うまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>吸<rt>す</rt></ruby>", "middle": "え", "ending": "", "full": "吸え", "kana": "すえ", "full_furigana": "<ruby>吸<rt>す</rt></ruby>え" }
+        "plain": { "root": "<ruby>吸<rt>す</rt></ruby>", "middle": "", "ending": "え", "full": "吸え", "kana": "すえ", "full_furigana": "<ruby>吸<rt>す</rt></ruby>え" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>吸<rt>す</rt></ruby>", "middle": "う", "ending": "な", "full": "吸うな", "kana": "すうな", "full_furigana": "<ruby>吸<rt>す</rt></ruby>うな" }
@@ -2209,7 +2209,7 @@
         "plain": { "root": "<ruby>切<rt>き</rt></ruby>", "middle": "", "ending": "って", "full": "切って", "kana": "きって", "full_furigana": "<ruby>切<rt>き</rt></ruby>って" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>切<rt>き</rt></ruby>", "middle": "る", "ending": "", "full": "切る", "kana": "きる", "full_furigana": "<ruby>切<rt>き</rt></ruby>る" },
+        "plain": { "root": "<ruby>切<rt>き</rt></ruby>", "middle": "", "ending": "る", "full": "切る", "kana": "きる", "full_furigana": "<ruby>切<rt>き</rt></ruby>る" },
         "polite": { "root": "<ruby>切<rt>き</rt></ruby>", "middle": "り", "ending": "ます", "full": "切ります", "kana": "きります", "full_furigana": "<ruby>切<rt>き</rt></ruby>ります", "translation": "cut / to cut" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -2248,7 +2248,7 @@
         "plain": { "root": "<ruby>切<rt>き</rt></ruby>", "middle": "る", "ending": "まい", "full": "切るまい", "kana": "きるまい", "full_furigana": "<ruby>切<rt>き</rt></ruby>るまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>切<rt>き</rt></ruby>", "middle": "れ", "ending": "", "full": "切れ", "kana": "きれ", "full_furigana": "<ruby>切<rt>き</rt></ruby>れ" }
+        "plain": { "root": "<ruby>切<rt>き</rt></ruby>", "middle": "", "ending": "れ", "full": "切れ", "kana": "きれ", "full_furigana": "<ruby>切<rt>き</rt></ruby>れ" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>切<rt>き</rt></ruby>", "middle": "る", "ending": "な", "full": "切るな", "kana": "きるな", "full_furigana": "<ruby>切<rt>き</rt></ruby>るな" }
@@ -2330,7 +2330,7 @@
         "plain": { "root": "<ruby>泳<rt>およ</rt></ruby>", "middle": "", "ending": "いで", "full": "泳いで", "kana": "およいで", "full_furigana": "<ruby>泳<rt>およ</rt></ruby>いで" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>泳<rt>およ</rt></ruby>", "middle": "ぐ", "ending": "", "full": "泳ぐ", "kana": "およぐ", "full_furigana": "<ruby>泳<rt>およ</rt></ruby>ぐ" },
+        "plain": { "root": "<ruby>泳<rt>およ</rt></ruby>", "middle": "", "ending": "ぐ", "full": "泳ぐ", "kana": "およぐ", "full_furigana": "<ruby>泳<rt>およ</rt></ruby>ぐ" },
         "polite": { "root": "<ruby>泳<rt>およ</rt></ruby>", "middle": "ぎ", "ending": "ます", "full": "泳ぎます", "kana": "およぎます", "full_furigana": "<ruby>泳<rt>およ</rt></ruby>ぎます", "translation": "swim / to swim" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -2369,7 +2369,7 @@
         "plain": { "root": "<ruby>泳<rt>およ</rt></ruby>", "middle": "ぐ", "ending": "まい", "full": "泳ぐまい", "kana": "およぐまい", "full_furigana": "<ruby>泳<rt>およ</rt></ruby>ぐまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>泳<rt>およ</rt></ruby>", "middle": "げ", "ending": "", "full": "泳げ", "kana": "およげ", "full_furigana": "<ruby>泳<rt>およ</rt></ruby>げ" }
+        "plain": { "root": "<ruby>泳<rt>およ</rt></ruby>", "middle": "", "ending": "げ", "full": "泳げ", "kana": "およげ", "full_furigana": "<ruby>泳<rt>およ</rt></ruby>げ" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>泳<rt>およ</rt></ruby>", "middle": "ぐ", "ending": "な", "full": "泳ぐな", "kana": "およぐな", "full_furigana": "<ruby>泳<rt>およ</rt></ruby>ぐな" }
@@ -2451,7 +2451,7 @@
         "plain": { "root": "<ruby>帰<rt>かえ</rt></ruby>", "middle": "", "ending": "って", "full": "帰って", "kana": "かえって", "full_furigana": "<ruby>帰<rt>かえ</rt></ruby>って" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>帰<rt>かえ</rt></ruby>", "middle": "る", "ending": "", "full": "帰る", "kana": "かえる", "full_furigana": "<ruby>帰<rt>かえ</rt></ruby>る" },
+        "plain": { "root": "<ruby>帰<rt>かえ</rt></ruby>", "middle": "", "ending": "る", "full": "帰る", "kana": "かえる", "full_furigana": "<ruby>帰<rt>かえ</rt></ruby>る" },
         "polite": { "root": "<ruby>帰<rt>かえ</rt></ruby>", "middle": "り", "ending": "ます", "full": "帰ります", "kana": "かえります", "full_furigana": "<ruby>帰<rt>かえ</rt></ruby>ります", "translation": "return / to return" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -2490,7 +2490,7 @@
         "plain": { "root": "<ruby>帰<rt>かえ</rt></ruby>", "middle": "る", "ending": "まい", "full": "帰るまい", "kana": "かえるまい", "full_furigana": "<ruby>帰<rt>かえ</rt></ruby>るまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>帰<rt>かえ</rt></ruby>", "middle": "れ", "ending": "", "full": "帰れ", "kana": "かえれ", "full_furigana": "<ruby>帰<rt>かえ</rt></ruby>れ" }
+        "plain": { "root": "<ruby>帰<rt>かえ</rt></ruby>", "middle": "", "ending": "れ", "full": "帰れ", "kana": "かえれ", "full_furigana": "<ruby>帰<rt>かえ</rt></ruby>れ" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>帰<rt>かえ</rt></ruby>", "middle": "る", "ending": "な", "full": "帰るな", "kana": "かえるな", "full_furigana": "<ruby>帰<rt>かえ</rt></ruby>るな" }
@@ -2677,7 +2677,7 @@
         "plain": { "root": "<ruby>作<rt>つく</rt></ruby>", "middle": "", "ending": "って", "full": "作って", "kana": "つくって", "full_furigana": "<ruby>作<rt>つく</rt></ruby>って" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>作<rt>つく</rt></ruby>", "middle": "る", "ending": "", "full": "作る", "kana": "つくる", "full_furigana": "<ruby>作<rt>つく</rt></ruby>る" },
+        "plain": { "root": "<ruby>作<rt>つく</rt></ruby>", "middle": "", "ending": "る", "full": "作る", "kana": "つくる", "full_furigana": "<ruby>作<rt>つく</rt></ruby>る" },
         "polite": { "root": "<ruby>作<rt>つく</rt></ruby>", "middle": "り", "ending": "ます", "full": "作ります", "kana": "つくります", "full_furigana": "<ruby>作<rt>つく</rt></ruby>ります", "translation": "make / to make" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -2716,7 +2716,7 @@
         "plain": { "root": "<ruby>作<rt>つく</rt></ruby>", "middle": "る", "ending": "まい", "full": "作るまい", "kana": "つくるまい", "full_furigana": "<ruby>作<rt>つく</rt></ruby>るまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>作<rt>つく</rt></ruby>", "middle": "れ", "ending": "", "full": "作れ", "kana": "つくれ", "full_furigana": "<ruby>作<rt>つく</rt></ruby>れ" }
+        "plain": { "root": "<ruby>作<rt>つく</rt></ruby>", "middle": "", "ending": "れ", "full": "作れ", "kana": "つくれ", "full_furigana": "<ruby>作<rt>つく</rt></ruby>れ" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>作<rt>つく</rt></ruby>", "middle": "る", "ending": "な", "full": "作るな", "kana": "つくるな", "full_furigana": "<ruby>作<rt>つく</rt></ruby>るな" }
@@ -2790,7 +2790,7 @@
         "plain": { "root": "<ruby>進<rt>すす</rt></ruby>", "middle": "", "ending": "んで", "full": "進んで", "kana": "すすんで", "full_furigana": "<ruby>進<rt>すす</rt></ruby>んで" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>進<rt>すす</rt></ruby>", "middle": "む", "ending": "", "full": "進む", "kana": "すすむ", "full_furigana": "<ruby>進<rt>すす</rt></ruby>む" },
+        "plain": { "root": "<ruby>進<rt>すす</rt></ruby>", "middle": "", "ending": "む", "full": "進む", "kana": "すすむ", "full_furigana": "<ruby>進<rt>すす</rt></ruby>む" },
         "polite": { "root": "<ruby>進<rt>すす</rt></ruby>", "middle": "み", "ending": "ます", "full": "進みます", "kana": "すすみます", "full_furigana": "<ruby>進<rt>すす</rt></ruby>みます", "translation": "advance / to advance" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -2829,7 +2829,7 @@
         "plain": { "root": "<ruby>進<rt>すす</rt></ruby>", "middle": "む", "ending": "まい", "full": "進むまい", "kana": "すすむまい", "full_furigana": "<ruby>進<rt>すす</rt></ruby>むまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>進<rt>すす</rt></ruby>", "middle": "め", "ending": "", "full": "進め", "kana": "すすめ", "full_furigana": "<ruby>進<rt>すす</rt></ruby>め" }
+        "plain": { "root": "<ruby>進<rt>すす</rt></ruby>", "middle": "", "ending": "め", "full": "進め", "kana": "すすめ", "full_furigana": "<ruby>進<rt>すす</rt></ruby>め" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>進<rt>すす</rt></ruby>", "middle": "む", "ending": "な", "full": "進むな", "kana": "すすむな", "full_furigana": "<ruby>進<rt>すす</rt></ruby>むな" }
@@ -3016,7 +3016,7 @@
         "plain": { "root": "<ruby>誘<rt>さそ</rt></ruby>", "middle": "", "ending": "って", "full": "誘って", "kana": "さそって", "full_furigana": "<ruby>誘<rt>さそ</rt></ruby>って" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>誘<rt>さそ</rt></ruby>", "middle": "う", "ending": "", "full": "誘う", "kana": "さそう", "full_furigana": "<ruby>誘<rt>さそ</rt></ruby>う" },
+        "plain": { "root": "<ruby>誘<rt>さそ</rt></ruby>", "middle": "", "ending": "う", "full": "誘う", "kana": "さそう", "full_furigana": "<ruby>誘<rt>さそ</rt></ruby>う" },
         "polite": { "root": "<ruby>誘<rt>さそ</rt></ruby>", "middle": "い", "ending": "ます", "full": "誘います", "kana": "さそいます", "full_furigana": "<ruby>誘<rt>さそ</rt></ruby>います", "translation": "invite / to invite" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -3055,7 +3055,7 @@
         "plain": { "root": "<ruby>誘<rt>さそ</rt></ruby>", "middle": "う", "ending": "まい", "full": "誘うまい", "kana": "さそうまい", "full_furigana": "<ruby>誘<rt>さそ</rt></ruby>うまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>誘<rt>さそ</rt></ruby>", "middle": "え", "ending": "", "full": "誘え", "kana": "さそえ", "full_furigana": "<ruby>誘<rt>さそ</rt></ruby>え" }
+        "plain": { "root": "<ruby>誘<rt>さそ</rt></ruby>", "middle": "", "ending": "え", "full": "誘え", "kana": "さそえ", "full_furigana": "<ruby>誘<rt>さそ</rt></ruby>え" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>誘<rt>さそ</rt></ruby>", "middle": "う", "ending": "な", "full": "誘うな", "kana": "さそうな", "full_furigana": "<ruby>誘<rt>さそ</rt></ruby>うな" }
@@ -3241,7 +3241,7 @@
         "plain": { "root": "<ruby>迷<rt>まよ</rt></ruby>", "middle": "", "ending": "って", "full": "迷って", "kana": "まよって", "full_furigana": "<ruby>迷<rt>まよ</rt></ruby>って" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>迷<rt>まよ</rt></ruby>", "middle": "う", "ending": "", "full": "迷う", "kana": "まよう", "full_furigana": "<ruby>迷<rt>まよ</rt></ruby>う" },
+        "plain": { "root": "<ruby>迷<rt>まよ</rt></ruby>", "middle": "", "ending": "う", "full": "迷う", "kana": "まよう", "full_furigana": "<ruby>迷<rt>まよ</rt></ruby>う" },
         "polite": { "root": "<ruby>迷<rt>まよ</rt></ruby>", "middle": "い", "ending": "ます", "full": "迷います", "kana": "まよいます", "full_furigana": "<ruby>迷<rt>まよ</rt></ruby>います", "translation": "get lost / to get lost" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -3280,7 +3280,7 @@
         "plain": { "root": "<ruby>迷<rt>まよ</rt></ruby>", "middle": "う", "ending": "まい", "full": "迷うまい", "kana": "まようまい", "full_furigana": "<ruby>迷<rt>まよ</rt></ruby>うまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>迷<rt>まよ</rt></ruby>", "middle": "え", "ending": "", "full": "迷え", "kana": "まよえ", "full_furigana": "<ruby>迷<rt>まよ</rt></ruby>え" }
+        "plain": { "root": "<ruby>迷<rt>まよ</rt></ruby>", "middle": "", "ending": "え", "full": "迷え", "kana": "まよえ", "full_furigana": "<ruby>迷<rt>まよ</rt></ruby>え" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>迷<rt>まよ</rt></ruby>", "middle": "う", "ending": "な", "full": "迷うな", "kana": "まような", "full_furigana": "<ruby>迷<rt>まよ</rt></ruby>うな" }
@@ -3464,7 +3464,7 @@
     "display": { "root": "<ruby>煽<rt>おだ</rt></ruby>", "middle": "て" },
     "forms": {
       "te": { "label": "-te Form", "order": 1, "grammar": "te-form",
-        "plain": { "root": "<ruby>煽<rt>おだ</rt></ruby>", "middle": "て", "ending": "", "full": "煽てて", "kana": "おだてて", "full_furigana": "<ruby>煽<rt>おだ</rt></ruby>てて" }
+        "plain": { "root": "<ruby>煽<rt>おだ</rt></ruby>", "middle": "", "ending": "て", "full": "煽てて", "kana": "おだてて", "full_furigana": "<ruby>煽<rt>おだ</rt></ruby>てて" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
         "plain": { "root": "<ruby>煽<rt>おだ</rt></ruby>", "middle": "て", "ending": "る", "full": "煽てる", "kana": "おだてる", "full_furigana": "<ruby>煽<rt>おだ</rt></ruby>てる" },
@@ -3580,7 +3580,7 @@
         "plain": { "root": "<ruby>覆<rt>くつがえ</rt></ruby>", "middle": "", "ending": "して", "full": "覆して", "kana": "くつがえして", "full_furigana": "<ruby>覆<rt>くつがえ</rt></ruby>して" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>覆<rt>くつがえ</rt></ruby>", "middle": "す", "ending": "", "full": "覆す", "kana": "くつがえす", "full_furigana": "<ruby>覆<rt>くつがえ</rt></ruby>す" },
+        "plain": { "root": "<ruby>覆<rt>くつがえ</rt></ruby>", "middle": "", "ending": "す", "full": "覆す", "kana": "くつがえす", "full_furigana": "<ruby>覆<rt>くつがえ</rt></ruby>す" },
         "polite": { "root": "<ruby>覆<rt>くつがえ</rt></ruby>", "middle": "し", "ending": "ます", "full": "覆します", "kana": "くつがえします", "full_furigana": "<ruby>覆<rt>くつがえ</rt></ruby>します", "translation": "overturn / to overturn" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -3619,7 +3619,7 @@
         "plain": { "root": "<ruby>覆<rt>くつがえ</rt></ruby>", "middle": "す", "ending": "まい", "full": "覆すまい", "kana": "くつがえすまい", "full_furigana": "<ruby>覆<rt>くつがえ</rt></ruby>すまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>覆<rt>くつがえ</rt></ruby>", "middle": "せ", "ending": "", "full": "覆せ", "kana": "くつがえせ", "full_furigana": "<ruby>覆<rt>くつがえ</rt></ruby>せ" }
+        "plain": { "root": "<ruby>覆<rt>くつがえ</rt></ruby>", "middle": "", "ending": "せ", "full": "覆せ", "kana": "くつがえせ", "full_furigana": "<ruby>覆<rt>くつがえ</rt></ruby>せ" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>覆<rt>くつがえ</rt></ruby>", "middle": "す", "ending": "な", "full": "覆すな", "kana": "くつがえすな", "full_furigana": "<ruby>覆<rt>くつがえ</rt></ruby>すな" }
@@ -3693,7 +3693,7 @@
         "plain": { "root": "<ruby>刻<rt>きざ</rt></ruby>", "middle": "", "ending": "んで", "full": "刻んで", "kana": "きざんで", "full_furigana": "<ruby>刻<rt>きざ</rt></ruby>んで" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>刻<rt>きざ</rt></ruby>", "middle": "む", "ending": "", "full": "刻む", "kana": "きざむ", "full_furigana": "<ruby>刻<rt>きざ</rt></ruby>む" },
+        "plain": { "root": "<ruby>刻<rt>きざ</rt></ruby>", "middle": "", "ending": "む", "full": "刻む", "kana": "きざむ", "full_furigana": "<ruby>刻<rt>きざ</rt></ruby>む" },
         "polite": { "root": "<ruby>刻<rt>きざ</rt></ruby>", "middle": "み", "ending": "ます", "full": "刻みます", "kana": "きざみます", "full_furigana": "<ruby>刻<rt>きざ</rt></ruby>みます", "translation": "carve / to carve" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -3732,7 +3732,7 @@
         "plain": { "root": "<ruby>刻<rt>きざ</rt></ruby>", "middle": "む", "ending": "まい", "full": "刻むまい", "kana": "きざむまい", "full_furigana": "<ruby>刻<rt>きざ</rt></ruby>むまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>刻<rt>きざ</rt></ruby>", "middle": "め", "ending": "", "full": "刻め", "kana": "きざめ", "full_furigana": "<ruby>刻<rt>きざ</rt></ruby>め" }
+        "plain": { "root": "<ruby>刻<rt>きざ</rt></ruby>", "middle": "", "ending": "め", "full": "刻め", "kana": "きざめ", "full_furigana": "<ruby>刻<rt>きざ</rt></ruby>め" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>刻<rt>きざ</rt></ruby>", "middle": "む", "ending": "な", "full": "刻むな", "kana": "きざむな", "full_furigana": "<ruby>刻<rt>きざ</rt></ruby>むな" }
@@ -3806,7 +3806,7 @@
         "plain": { "root": "<ruby>貫<rt>つらぬ</rt></ruby>", "middle": "", "ending": "いて", "full": "貫いて", "kana": "つらぬいて", "full_furigana": "<ruby>貫<rt>つらぬ</rt></ruby>いて" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>貫<rt>つらぬ</rt></ruby>", "middle": "く", "ending": "", "full": "貫く", "kana": "つらぬく", "full_furigana": "<ruby>貫<rt>つらぬ</rt></ruby>く" },
+        "plain": { "root": "<ruby>貫<rt>つらぬ</rt></ruby>", "middle": "", "ending": "く", "full": "貫く", "kana": "つらぬく", "full_furigana": "<ruby>貫<rt>つらぬ</rt></ruby>く" },
         "polite": { "root": "<ruby>貫<rt>つらぬ</rt></ruby>", "middle": "き", "ending": "ます", "full": "貫きます", "kana": "つらぬきます", "full_furigana": "<ruby>貫<rt>つらぬ</rt></ruby>きます", "translation": "pierce / to pierce" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -3845,7 +3845,7 @@
         "plain": { "root": "<ruby>貫<rt>つらぬ</rt></ruby>", "middle": "く", "ending": "まい", "full": "貫くまい", "kana": "つらぬくまい", "full_furigana": "<ruby>貫<rt>つらぬ</rt></ruby>くまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>貫<rt>つらぬ</rt></ruby>", "middle": "け", "ending": "", "full": "貫け", "kana": "つらぬけ", "full_furigana": "<ruby>貫<rt>つらぬ</rt></ruby>け" }
+        "plain": { "root": "<ruby>貫<rt>つらぬ</rt></ruby>", "middle": "", "ending": "け", "full": "貫け", "kana": "つらぬけ", "full_furigana": "<ruby>貫<rt>つらぬ</rt></ruby>け" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>貫<rt>つらぬ</rt></ruby>", "middle": "く", "ending": "な", "full": "貫くな", "kana": "つらぬくな", "full_furigana": "<ruby>貫<rt>つらぬ</rt></ruby>くな" }
@@ -4032,7 +4032,7 @@
         "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "", "ending": "って", "full": "辿って", "kana": "たどって", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>って" }
       },
       "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "る", "ending": "", "full": "辿る", "kana": "たどる", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>る" },
+        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "", "ending": "る", "full": "辿る", "kana": "たどる", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>る" },
         "polite": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "り", "ending": "ます", "full": "辿ります", "kana": "たどります", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>ります", "translation": "follow / to follow" }
       },
       "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
@@ -4071,7 +4071,7 @@
         "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "る", "ending": "まい", "full": "辿るまい", "kana": "たどるまい", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>るまい" }
       },
       "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
-        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "れ", "ending": "", "full": "辿れ", "kana": "たどれ", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>れ" }
+        "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "", "ending": "れ", "full": "辿れ", "kana": "たどれ", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>れ" }
       },
       "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
         "plain": { "root": "<ruby>辿<rt>たど</rt></ruby>", "middle": "る", "ending": "な", "full": "辿るな", "kana": "たどるな", "full_furigana": "<ruby>辿<rt>たど</rt></ruby>るな" }
@@ -27947,7 +27947,7 @@
       },
       "dictionary": {
         "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>断<rt>ことわ</rt></ruby>", "middle": "る", "ending": "", "full": "断る", "kana": "ことわる", "full_furigana": "<ruby>断<rt>ことわ</rt></ruby>る" },
+        "plain": { "root": "<ruby>断<rt>ことわ</rt></ruby>", "middle": "", "ending": "る", "full": "断る", "kana": "ことわる", "full_furigana": "<ruby>断<rt>ことわ</rt></ruby>る" },
         "polite": { "root": "<ruby>断<rt>ことわ</rt></ruby>", "middle": "り", "ending": "ます", "full": "断ります", "kana": "ことわります", "full_furigana": "<ruby>断<rt>ことわ</rt></ruby>ります", "translation": "refuse" }
       },
       "negative": {
@@ -28087,7 +28087,7 @@
       },
       "dictionary": {
         "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>悲<rt>かな</rt></ruby>", "middle": "しむ", "ending": "", "full": "悲しむ", "kana": "かなしむ", "full_furigana": "<ruby>悲<rt>かな</rt></ruby>しむ" },
+        "plain": { "root": "<ruby>悲<rt>かな</rt></ruby>", "middle": "し", "ending": "む", "full": "悲しむ", "kana": "かなしむ", "full_furigana": "<ruby>悲<rt>かな</rt></ruby>しむ" },
         "polite": { "root": "<ruby>悲<rt>かな</rt></ruby>", "middle": "しみ", "ending": "ます", "full": "悲しみます", "kana": "かなしみます", "full_furigana": "<ruby>悲<rt>かな</rt></ruby>しみます", "translation": "be sad" }
       },
       "negative": {
@@ -28227,7 +28227,7 @@
       },
       "dictionary": {
         "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>楽<rt>たの</rt></ruby>", "middle": "しむ", "ending": "", "full": "楽しむ", "kana": "たのしむ", "full_furigana": "<ruby>楽<rt>たの</rt></ruby>しむ" },
+        "plain": { "root": "<ruby>楽<rt>たの</rt></ruby>", "middle": "し", "ending": "む", "full": "楽しむ", "kana": "たのしむ", "full_furigana": "<ruby>楽<rt>たの</rt></ruby>しむ" },
         "polite": { "root": "<ruby>楽<rt>たの</rt></ruby>", "middle": "しみ", "ending": "ます", "full": "楽しみます", "kana": "たのしみます", "full_furigana": "<ruby>楽<rt>たの</rt></ruby>しみます", "translation": "enjoy" }
       },
       "negative": {
@@ -28367,7 +28367,7 @@
       },
       "dictionary": {
         "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>怒<rt>おこ</rt></ruby>", "middle": "る", "ending": "", "full": "怒る", "kana": "おこる", "full_furigana": "<ruby>怒<rt>おこ</rt></ruby>る" },
+        "plain": { "root": "<ruby>怒<rt>おこ</rt></ruby>", "middle": "", "ending": "る", "full": "怒る", "kana": "おこる", "full_furigana": "<ruby>怒<rt>おこ</rt></ruby>る" },
         "polite": { "root": "<ruby>怒<rt>おこ</rt></ruby>", "middle": "り", "ending": "ます", "full": "怒ります", "kana": "おこります", "full_furigana": "<ruby>怒<rt>おこ</rt></ruby>ります", "translation": "get angry" }
       },
       "negative": {
@@ -28507,7 +28507,7 @@
       },
       "dictionary": {
         "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
-        "plain": { "root": "<ruby>省<rt>はぶ</rt></ruby>", "middle": "く", "ending": "", "full": "省く", "kana": "はぶく", "full_furigana": "<ruby>省<rt>はぶ</rt></ruby>く" },
+        "plain": { "root": "<ruby>省<rt>はぶ</rt></ruby>", "middle": "", "ending": "く", "full": "省く", "kana": "はぶく", "full_furigana": "<ruby>省<rt>はぶ</rt></ruby>く" },
         "polite": { "root": "<ruby>省<rt>はぶ</rt></ruby>", "middle": "き", "ending": "ます", "full": "省きます", "kana": "はぶきます", "full_furigana": "<ruby>省<rt>はぶ</rt></ruby>きます", "translation": "omit" }
       },
       "negative": {

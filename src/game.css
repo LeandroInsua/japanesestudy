@@ -362,6 +362,10 @@
   margin-bottom: 2rem;
 }
 
+.translation-text{
+  width: 20rem;
+}
+
 .verb-stem {
   display: flex;
   align-items: flex-end;
