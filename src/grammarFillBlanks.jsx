@@ -220,8 +220,9 @@ console.log("SELECTED:", selectedGrammar);
                   <span className="choice-prefix">
                     {index + 1}.
                   </span>
-
-                  {choice}
+                  {Array.isArray(choice)
+                    ? choice.join(" / ")
+                    : choice}
                 </button>
               );
             })}
